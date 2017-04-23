@@ -1,0 +1,2722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>772</width>
+    <height>528</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>T Y R I O N</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255)</string>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>200</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QTreeWidget" name="treeWidget">
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <column>
+          <property name="text">
+           <string>Kali Tools</string>
+          </property>
+         </column>
+         <item>
+          <property name="text">
+           <string>Information Gathering</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>acccheck</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ace-voip</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Amap</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Automater</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>bing-ip2hosts</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>braa</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CaseFile</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CDPSnarf</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>cisco-torch</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cookie Cadger</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>copy-router-config</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DMitry</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>dnmap</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>dsenum</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>dnsmap</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DNSRecon</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>dnstracer</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>dnswalk</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DotDotPwn</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>enum4linux</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>enumIAX</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Faraday</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Fierce</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Firewalk</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>fragroute</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>fragrouter</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Ghost Phisher</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GoLismero</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>goofile</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>hping3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ident-user-enum</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>InTrace</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>iSMTP</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Ibd</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Maltego Teeth</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>masscan</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Metagoofil</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Miranda</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>nbtscan-unixwiz</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nmap</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ntop</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>p0f</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Parsero</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Recon-ng</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SET</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>smtp-user-enum</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>snmp-check</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SPARTA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>sslcaudit</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SSLsplit</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>sslstrip</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SSLyze</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>THC-IPV6</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>theHarvester</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TLSSLed</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>twofi</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>URLCrazy</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Wireshark</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>WOL-E</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Xplico</string>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>Sniffing &amp; Spoofing</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>Burp Suite</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DNSChef</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>fiked</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>hamster-sidejack</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>HexInject</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>iaxflood</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>inviteflood</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>iSMTP</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>isr-evilgrade</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>mitmproxy</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ohrwurm</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>protos-sip</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>rebind</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>responder</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>rtpbreak</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>rtpinsertsound</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>rtpmixsound</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>sctpscan</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SIPArmyKnife</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SIPp</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SIPVicious</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SniffJoke</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SSLsplit</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>sslstrip</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>THC-IPV6</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>VoIPHopper</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>WebScabar</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Wifi Honey</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Wireshark</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>xspy</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Yersinia</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>zaproxy</string>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>Vulnerability Analysis</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>BBQSQL</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>BED</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>cisco-auditing-tool</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>cisco-global-exploiter</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>cisco-ocs</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>cisco-torch</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>copy-router-config</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DBPwAudit</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Doona</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DotDotPwn</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Greenbone Security Assistant</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GSD</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>HexorBase</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Inguma</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>jSQL</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Lynis</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nmap</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ohrwurm</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>openvas-adminstrator</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>openvas-scanner</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Oscanner</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>sfuzz</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SidGuesser</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SIPArmyKnife</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>sqlmap</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Sqlninja</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>sqlsus</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>THC-IPV6</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>tnscmd10g</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>unix-privesc-check</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Yersinia</string>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>Exploitation</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>Armitage</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Backdoor Factory</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>BeEF</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>cisco-auditing-tool</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>cisco-global-exploiter</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>cisco-ocs</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>cisco-torch</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Commix</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>crackle</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>jboss-autopwn</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Linux Exploit Suggester</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Maltego Teeth</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SET</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ShellNoob</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>sqlmap</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>THC-IPV6</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Yersinia</string>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>Password Attacks</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>acccheck</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Burp Suite</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CeWL</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>chnptw</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>cisco-auditing-tool</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CmosPwd</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>creddump</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>crunch</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DBPwAudit</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>findmyhash</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>gpp-decrypt</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>hash-identifier</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>HexorBase</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>THC-Hydra</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>John the Ripper</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Johnny</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>keimpx</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Maltego Teeth</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Maskprocessor</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>multiforcer</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Ncrack</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>oclgausscrack</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>PACK</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>patator</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>phrasendrescher</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>polenum</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>RainbowCrack</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>rcracki-mt</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>RSMangler</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SQLdict</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Statsprocessor</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>THC-pptp-bruter</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TrueCrack</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>WebScarab</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>wordlists</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>zaproxy</string>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>Wireless Attacks</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>Aircrack-ng</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Asleap</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Bluelog</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>BlueMaho</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Bluepot</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>BlueRanger</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Bluesnarfer</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Bully</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>coWPAtty</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>crackle</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>eapmd5pass</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Fern Wifi Cracker</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Ghost Phisher</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GISKismet</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Gqrx</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>gr-scan</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>hostapd-wpe</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>kalibrate-rtl</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>KillerBee</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Kismet</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>mdk3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>mfcuk</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>mfoc</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>mfterm</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Multimon-NG</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>PixieWPS</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Reaver</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>redfang</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>RTLSDR Scanner</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Spooftooph</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Wifi Honey</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>wifiphisher</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Wifitap</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Wifite</string>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>Forensics</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>Binwalk</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>bulk-extractor</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Capstone</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>chntpw</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cuckoo</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>dc3dd</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ddrescue</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DFF</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>diStorm3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Dumpzilla</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>extundelete</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Foremost</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Galleta</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Guymager</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>iPhone Backup Analyzer</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>p0f</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>pdf-parser</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>pdfid</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>pdgmail</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>peepdf</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>RegRipper</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Volatility</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Xplico</string>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>Maintaining Access</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>CryptCat</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cymothoa</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>dbd</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>dns2tcp</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>http-tunnel</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>HTTPTunnel</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Intersect</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>New Item</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nishang</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>polenum</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>PowerSploit</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>pwnat</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>RidEnum</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>sbd</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>U3-Pwn</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Webshells</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Weevely</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Winexe</string>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hardware Hacking</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>android-sdk</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>apktool</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Arduino</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>dex2jar</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Sakis3G</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>smali</string>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>Web Applications</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>apache-users</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Arachni</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>BBQSQL</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>BlindElephant</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Burp Suite</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CutyCapt</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DAVTest</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>deblaze</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DIRB</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DirBuster</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>fimap</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>FunkLoad</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Gobuster</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Grabber</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>jboss-autopwn</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>joomscan</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>jSQL</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Maltego Teeth</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>PadBuster</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Paros</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Parsero</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>plecost</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Powerfuzzer</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ProxyStrike</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Recon-ng</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Skipfish</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>sqlmap</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Sqlninja</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>sqlsus</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ua-tester</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Uniscan</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Vega</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>w3af</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>WebScarab</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Webshag</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>WebSlayer</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>WebSploit</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Wfuzz</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>WPScan</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>XSSer</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>zaproxy</string>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>Stress Testing</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>DHCPig</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>FunkLoad</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>iaxflood</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Inundator</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>inviteflood</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ipv6-toolkit</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>mdk3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Reaver</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>rtpflood</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SlowHTTPTest</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>t50</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Termineter</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>THC-IPV6</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>THC-SSL-DOS</string>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>Reverse Engineering</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>apktool</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>dex2jar</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>diStorm3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>edb-debugger</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>jad</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>javasnoop</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>JD-GUI</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>OllyDbg</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>smali</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Valgrind</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>YARA</string>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>Reporting</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>CaseFile</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CutyCapt</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>dos2unix</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Dradis</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>KeepNote</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>MagicTree</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Metagoofil</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nipper-ng</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>pipal</string>
+           </property>
+          </item>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+
+</string>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="welcomeTab">
+       <attribute name="title">
+        <string>Welcome</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="appNameLabel">
+          <property name="font">
+           <font>
+            <family>Desdemona</family>
+            <pointsize>72</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(20, 163, 255);</string>
+          </property>
+          <property name="text">
+           <string>T Y R I O N</string>
+          </property>
+         </widget>
+        </item>
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="versionLabel">
+          <property name="font">
+           <font>
+            <family>Desdemona</family>
+            <pointsize>20</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(20, 163, 255);</string>
+          </property>
+          <property name="text">
+           <string>V e r s i o n   1 . 0</string>
+          </property>
+         </widget>
+        </item>
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="descLabel">
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>AN ALL-IN-ONE KALI LINUX TOOL MANAGEMENT APP </string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="infoGatheringTab">
+       <attribute name="title">
+        <string>Information Gathering</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="7" column="0">
+         <widget class="QLabel" name="braaLabel">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>braa</string>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="0">
+         <widget class="QLabel" name="label_16">
+          <property name="text">
+           <string>DMitry</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_7">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>Amap</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="0">
+         <widget class="QLabel" name="label_12">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>CDPSnarf</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QLabel" name="label_25">
+          <property name="text">
+           <string>enum4linux</string>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="0">
+         <widget class="QLabel" name="label_20">
+          <property name="text">
+           <string>dsenum</string>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="1">
+         <widget class="QLabel" name="label_31">
+          <property name="text">
+           <string>Ghost Phisher</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="0">
+         <widget class="QLabel" name="label_15">
+          <property name="text">
+           <string>Cookie Cadger</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="1">
+         <widget class="QLabel" name="label_27">
+          <property name="text">
+           <string>Fierce</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLabel" name="label_21">
+          <property name="text">
+           <string>DNSRecon</string>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="1">
+         <widget class="QLabel" name="label_34">
+          <property name="text">
+           <string>hping3</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLabel" name="label_23">
+          <property name="text">
+           <string>dnstracer</string>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="1">
+         <widget class="QLabel" name="label_33">
+          <property name="text">
+           <string>goofile</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_6">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>ace-voip</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0">
+         <widget class="QLabel" name="label_11">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>CaseFile</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_8">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>Automater</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="1">
+         <widget class="QLabel" name="label_26">
+          <property name="text">
+           <string>enumIAX</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="label_9">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>bing-ip2hosts</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="1">
+         <widget class="QLabel" name="label_28">
+          <property name="text">
+           <string>Firewalk</string>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="1">
+         <widget class="QLabel" name="label_32">
+          <property name="text">
+           <string>GoLismero</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="1">
+         <widget class="QLabel" name="label_14">
+          <property name="text">
+           <string>fragrouter</string>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="0">
+         <widget class="QLabel" name="label_19">
+          <property name="text">
+           <string>dnsmap</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="1">
+         <widget class="QLabel" name="label_29">
+          <property name="text">
+           <string>fragroute</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="1">
+         <widget class="QLabel" name="label_30">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>Faraday</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="0">
+         <widget class="QLabel" name="label_17">
+          <property name="text">
+           <string>copy-router-config</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="0">
+         <widget class="QLabel" name="label_13">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>cisco-torch</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLabel" name="label_22">
+          <property name="text">
+           <string>dnswalk</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_5">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>acccheck</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLabel" name="label_24">
+          <property name="text">
+           <string>DotDotPwn</string>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="0">
+         <widget class="QLabel" name="label_18">
+          <property name="text">
+           <string>dnmap</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QLabel" name="label_35">
+          <property name="text">
+           <string>ident-user-enum</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QLabel" name="label_36">
+          <property name="text">
+           <string>InTrace</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="2">
+         <widget class="QLabel" name="label_37">
+          <property name="text">
+           <string>iSMTP</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="2">
+         <widget class="QLabel" name="label_38">
+          <property name="text">
+           <string>Ibd</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="2">
+         <widget class="QLabel" name="label_39">
+          <property name="text">
+           <string>Maltego Teeth</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="2">
+         <widget class="QLabel" name="label_40">
+          <property name="text">
+           <string>masscan</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="2">
+         <widget class="QLabel" name="label_41">
+          <property name="text">
+           <string>Metagoofil</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="2">
+         <widget class="QLabel" name="label_42">
+          <property name="text">
+           <string>Miranda</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="2">
+         <widget class="QLabel" name="label_43">
+          <property name="text">
+           <string>nbtscan-unixwiz</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="2">
+         <widget class="QLabel" name="label_44">
+          <property name="text">
+           <string>Nmap</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="2">
+         <widget class="QLabel" name="label_45">
+          <property name="text">
+           <string>ntop</string>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="2">
+         <widget class="QLabel" name="label_46">
+          <property name="text">
+           <string>p0f</string>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="2">
+         <widget class="QLabel" name="label_49">
+          <property name="text">
+           <string>Parsero</string>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="2">
+         <widget class="QLabel" name="label_48">
+          <property name="text">
+           <string>Recon-ng</string>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="2">
+         <widget class="QLabel" name="label_47">
+          <property name="text">
+           <string>SET</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="3">
+         <widget class="QLabel" name="label_50">
+          <property name="text">
+           <string>smtp-user-enum</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="3">
+         <widget class="QLabel" name="label_51">
+          <property name="text">
+           <string>snmp-check</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="3">
+         <widget class="QLabel" name="label_52">
+          <property name="text">
+           <string>SPARTA</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="3">
+         <widget class="QLabel" name="label_53">
+          <property name="text">
+           <string>sslcaudit</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="3">
+         <widget class="QLabel" name="label_54">
+          <property name="text">
+           <string>SSLsplit</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="3">
+         <widget class="QLabel" name="label_55">
+          <property name="text">
+           <string>sslstrip</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="3">
+         <widget class="QLabel" name="label_56">
+          <property name="text">
+           <string>SSLyze</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="3">
+         <widget class="QLabel" name="label_57">
+          <property name="text">
+           <string>THC-IPV6</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="3">
+         <widget class="QLabel" name="label_58">
+          <property name="text">
+           <string>theHarvester</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="3">
+         <widget class="QLabel" name="label_59">
+          <property name="text">
+           <string>TLSSLed</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="3">
+         <widget class="QLabel" name="label_60">
+          <property name="text">
+           <string>twofi</string>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="3">
+         <widget class="QLabel" name="label_61">
+          <property name="text">
+           <string>URLCrazy</string>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="3">
+         <widget class="QLabel" name="label_62">
+          <property name="text">
+           <string>Wireshark</string>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="3">
+         <widget class="QLabel" name="label_63">
+          <property name="text">
+           <string>WOL-E</string>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="3">
+         <widget class="QLabel" name="label_64">
+          <property name="text">
+           <string>Xplico</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1" rowspan="2" colspan="2" alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="label_4">
+          <property name="font">
+           <font>
+            <pointsize>24</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>Information Gathering</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+       <zorder>braaLabel</zorder>
+       <zorder>label_17</zorder>
+       <zorder>label_5</zorder>
+       <zorder>label_6</zorder>
+       <zorder>label_8</zorder>
+       <zorder>label_7</zorder>
+       <zorder>label_9</zorder>
+       <zorder>label_11</zorder>
+       <zorder>label_16</zorder>
+       <zorder>label_18</zorder>
+       <zorder>label_12</zorder>
+       <zorder>label_13</zorder>
+       <zorder>label_15</zorder>
+       <zorder>label_4</zorder>
+       <zorder>label_20</zorder>
+       <zorder>label_19</zorder>
+       <zorder>label_21</zorder>
+       <zorder>label_23</zorder>
+       <zorder>label_22</zorder>
+       <zorder>label_24</zorder>
+       <zorder>label_25</zorder>
+       <zorder>label_26</zorder>
+       <zorder>label_30</zorder>
+       <zorder>label_27</zorder>
+       <zorder>label_28</zorder>
+       <zorder>label_29</zorder>
+       <zorder>label_14</zorder>
+       <zorder>label_31</zorder>
+       <zorder>label_32</zorder>
+       <zorder>label_33</zorder>
+       <zorder>label_34</zorder>
+       <zorder>label_35</zorder>
+       <zorder>label_36</zorder>
+       <zorder>label_37</zorder>
+       <zorder>label_38</zorder>
+       <zorder>label_39</zorder>
+       <zorder>label_40</zorder>
+       <zorder>label_41</zorder>
+       <zorder>label_42</zorder>
+       <zorder>label_43</zorder>
+       <zorder>label_44</zorder>
+       <zorder>label_45</zorder>
+       <zorder>label_46</zorder>
+       <zorder>label_49</zorder>
+       <zorder>label_48</zorder>
+       <zorder>label_47</zorder>
+       <zorder>label_50</zorder>
+       <zorder>label_51</zorder>
+       <zorder>label_52</zorder>
+       <zorder>label_53</zorder>
+       <zorder>label_54</zorder>
+       <zorder>label_55</zorder>
+       <zorder>label_56</zorder>
+       <zorder>label_57</zorder>
+       <zorder>label_58</zorder>
+       <zorder>label_59</zorder>
+       <zorder>label_60</zorder>
+       <zorder>label_61</zorder>
+       <zorder>label_62</zorder>
+       <zorder>label_63</zorder>
+       <zorder>label_64</zorder>
+      </widget>
+      <widget class="QWidget" name="acccheckTab">
+       <attribute name="title">
+        <string>acccheck</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0" alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="acccheckTitle">
+          <property name="minimumSize">
+           <size>
+            <width>110</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>24</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>acccheck</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QScrollArea" name="scrollArea_2">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_2">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1551</width>
+             <height>648</height>
+            </rect>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_6">
+            <item row="8" column="0">
+             <widget class="QPushButton" name="pushButton">
+              <property name="text">
+               <string>./accheck</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="0">
+             <spacer name="verticalSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="label_65">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>RUN ON TERMINAL :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="label_68">
+              <property name="text">
+               <string>Attempt the 'Administrator' account with a [BLANK] password.
+acccheck -t 10.10.10.1
+Attempt all passwords in 'password.txt' against the 'Administrator' account.
+acccheck -t 10.10.10.1 -P password.txt
+Attempt all password in 'password.txt' against all users in 'users.txt'.
+acccehck -t 10.10.10.1 -U users.txt -P password.txt
+Attempt a single password against a single user.
+acccheck -t 10.10.10.1 -u administrator -p password </string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_66">
+              <property name="text">
+               <string>acccheck v0.2.1 - By Faiz
+The tool is designed as a password dictionary attack tool that targets windowsauthentication via the SMB protocol. It is really a wrapper script aroundthe ‘smbclient’ binary, and as a result is dependent on it for its execution.
+Attempts to connect to the IPC$ and ADMIN$ shares depending on whichflags have been chosen, and tries a combination of usernames and passwordsin the hope to identify the password to a given account via a dictionary passwordguessing attack.</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_3">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Usage:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_2">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Description:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="label_67">
+              <property name="text">
+               <string>./acccheck [optional]
+
+-t [single host IP address]
+OR
+-T [file containing target ip address(es)]
+
+Optional:
+-p [single password]
+-P [file containing passwords]
+-u [single user]
+-U [file containing usernames]
+-v [verbose mode] </string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="label_10">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Examples:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="label_69">
+              <property name="text">
+               <string>root@kali:~# acccheck.pl -T smb-ips.txt -vHost:192.168.1.201, Username:Administrator, Password:BLANK</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>772</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew_Tab"/>
+    <addaction name="actionNew_Window"/>
+    <addaction name="separator"/>
+    <addaction name="actionClose_Tab"/>
+    <addaction name="actionClose_Window"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionCut"/>
+    <addaction name="actionCopy"/>
+    <addaction name="actionPaste"/>
+    <addaction name="actionDelete"/>
+    <addaction name="actionSelect_All"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="actionEnable_Dark_Mode"/>
+   </widget>
+   <widget class="QMenu" name="menuWindow">
+    <property name="title">
+     <string>Window</string>
+    </property>
+    <addaction name="actionMinimize"/>
+    <addaction name="actionEnter_Full_Screen"/>
+    <addaction name="separator"/>
+    <addaction name="actionSelect_Next_Tab"/>
+    <addaction name="actionSelect_Previous_Tab"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionHelp"/>
+    <addaction name="separator"/>
+    <addaction name="actionDocumentation"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuView"/>
+   <addaction name="menuWindow"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionNew_Window">
+   <property name="text">
+    <string>New Window</string>
+   </property>
+  </action>
+  <action name="actionClose_Window">
+   <property name="text">
+    <string>Close Window</string>
+   </property>
+  </action>
+  <action name="actionClose_Tab">
+   <property name="text">
+    <string>Close Tab</string>
+   </property>
+  </action>
+  <action name="actionNew_Tab">
+   <property name="text">
+    <string>New Tab</string>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="text">
+    <string>Cut</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="text">
+    <string>Copy</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="text">
+    <string>Paste</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionSelect_All">
+   <property name="text">
+    <string>Select All</string>
+   </property>
+  </action>
+  <action name="actionEnable_Dark_Mode">
+   <property name="text">
+    <string>Enable Dark Mode</string>
+   </property>
+  </action>
+  <action name="actionMinimize">
+   <property name="text">
+    <string>Minimize</string>
+   </property>
+  </action>
+  <action name="actionEnter_Full_Screen">
+   <property name="text">
+    <string>Enter Full Screen</string>
+   </property>
+  </action>
+  <action name="actionSelect_Next_Tab">
+   <property name="text">
+    <string>Select Next Tab</string>
+   </property>
+  </action>
+  <action name="actionSelect_Previous_Tab">
+   <property name="text">
+    <string>Select Previous Tab</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="actionDocumentation">
+   <property name="text">
+    <string>Documentation</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
