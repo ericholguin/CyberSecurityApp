@@ -1796,7 +1796,7 @@
 </string>
       </property>
       <property name="currentIndex">
-       <number>2</number>
+       <number>3</number>
       </property>
       <widget class="QWidget" name="welcomeTab">
        <attribute name="title">
@@ -1873,14 +1873,14 @@
          </widget>
         </item>
         <item row="13" column="0">
-         <widget class="QLabel" name="label_16">
+         <widget class="QLabel" name="DMitryLabel">
           <property name="text">
            <string>DMitry</string>
           </property>
          </widget>
         </item>
         <item row="5" column="0">
-         <widget class="QLabel" name="label_7">
+         <widget class="QLabel" name="AmapLabel">
           <property name="styleSheet">
            <string notr="true"/>
           </property>
@@ -1890,7 +1890,7 @@
          </widget>
         </item>
         <item row="9" column="0">
-         <widget class="QLabel" name="label_12">
+         <widget class="QLabel" name="CDPSnarfLabel">
           <property name="styleSheet">
            <string notr="true"/>
           </property>
@@ -1900,70 +1900,70 @@
          </widget>
         </item>
         <item row="6" column="1">
-         <widget class="QLabel" name="label_25">
+         <widget class="QLabel" name="enum4linuxLabel">
           <property name="text">
            <string>enum4linux</string>
           </property>
          </widget>
         </item>
         <item row="15" column="0">
-         <widget class="QLabel" name="label_20">
+         <widget class="QLabel" name="dsenumLabel">
           <property name="text">
            <string>dsenum</string>
           </property>
          </widget>
         </item>
         <item row="13" column="1">
-         <widget class="QLabel" name="label_31">
+         <widget class="QLabel" name="GhostPhisherLabel">
           <property name="text">
            <string>Ghost Phisher</string>
           </property>
          </widget>
         </item>
         <item row="11" column="0">
-         <widget class="QLabel" name="label_15">
+         <widget class="QLabel" name="CookieCadgerLabel">
           <property name="text">
            <string>Cookie Cadger</string>
           </property>
          </widget>
         </item>
         <item row="9" column="1">
-         <widget class="QLabel" name="label_27">
+         <widget class="QLabel" name="FierceLabel">
           <property name="text">
            <string>Fierce</string>
           </property>
          </widget>
         </item>
         <item row="2" column="1">
-         <widget class="QLabel" name="label_21">
+         <widget class="QLabel" name="DNSReconLabel">
           <property name="text">
            <string>DNSRecon</string>
           </property>
          </widget>
         </item>
         <item row="16" column="1">
-         <widget class="QLabel" name="label_34">
+         <widget class="QLabel" name="hping3Label">
           <property name="text">
            <string>hping3</string>
           </property>
          </widget>
         </item>
         <item row="3" column="1">
-         <widget class="QLabel" name="label_23">
+         <widget class="QLabel" name="dnstracerLabel">
           <property name="text">
            <string>dnstracer</string>
           </property>
          </widget>
         </item>
         <item row="15" column="1">
-         <widget class="QLabel" name="label_33">
+         <widget class="QLabel" name="goofileLabel">
           <property name="text">
            <string>goofile</string>
           </property>
          </widget>
         </item>
         <item row="3" column="0">
-         <widget class="QLabel" name="label_6">
+         <widget class="QLabel" name="aceVoipLabel">
           <property name="styleSheet">
            <string notr="true"/>
           </property>
@@ -1973,7 +1973,7 @@
          </widget>
         </item>
         <item row="8" column="0">
-         <widget class="QLabel" name="label_11">
+         <widget class="QLabel" name="CaseFileLabel">
           <property name="styleSheet">
            <string notr="true"/>
           </property>
@@ -1983,7 +1983,7 @@
          </widget>
         </item>
         <item row="4" column="0">
-         <widget class="QLabel" name="label_8">
+         <widget class="QLabel" name="AutomaterLabel">
           <property name="styleSheet">
            <string notr="true"/>
           </property>
@@ -1993,14 +1993,14 @@
          </widget>
         </item>
         <item row="7" column="1">
-         <widget class="QLabel" name="label_26">
+         <widget class="QLabel" name="enumIAXLabel">
           <property name="text">
            <string>enumIAX</string>
           </property>
          </widget>
         </item>
         <item row="6" column="0">
-         <widget class="QLabel" name="label_9">
+         <widget class="QLabel" name="bingIp2hostsLabel">
           <property name="styleSheet">
            <string notr="true"/>
           </property>
@@ -2010,42 +2010,42 @@
          </widget>
         </item>
         <item row="10" column="1">
-         <widget class="QLabel" name="label_28">
+         <widget class="QLabel" name="FireWalkLabel">
           <property name="text">
            <string>Firewalk</string>
           </property>
          </widget>
         </item>
         <item row="14" column="1">
-         <widget class="QLabel" name="label_32">
+         <widget class="QLabel" name="GoLismero">
           <property name="text">
            <string>GoLismero</string>
           </property>
          </widget>
         </item>
         <item row="12" column="1">
-         <widget class="QLabel" name="label_14">
+         <widget class="QLabel" name="fragRouterLabel">
           <property name="text">
            <string>fragrouter</string>
           </property>
          </widget>
         </item>
         <item row="16" column="0">
-         <widget class="QLabel" name="label_19">
+         <widget class="QLabel" name="dnsmapLabel">
           <property name="text">
            <string>dnsmap</string>
           </property>
          </widget>
         </item>
         <item row="11" column="1">
-         <widget class="QLabel" name="label_29">
+         <widget class="QLabel" name="fragRouteLabel">
           <property name="text">
            <string>fragroute</string>
           </property>
          </widget>
         </item>
         <item row="8" column="1">
-         <widget class="QLabel" name="label_30">
+         <widget class="QLabel" name="FaradayLabel">
           <property name="styleSheet">
            <string notr="true"/>
           </property>
@@ -2055,14 +2055,14 @@
          </widget>
         </item>
         <item row="12" column="0">
-         <widget class="QLabel" name="label_17">
+         <widget class="QLabel" name="copyRouterConfigLabel">
           <property name="text">
            <string>copy-router-config</string>
           </property>
          </widget>
         </item>
         <item row="10" column="0">
-         <widget class="QLabel" name="label_13">
+         <widget class="QLabel" name="ciscoTorchLabel">
           <property name="styleSheet">
            <string notr="true"/>
           </property>
@@ -2072,14 +2072,14 @@
          </widget>
         </item>
         <item row="4" column="1">
-         <widget class="QLabel" name="label_22">
+         <widget class="QLabel" name="dnswalkLabel">
           <property name="text">
            <string>dnswalk</string>
           </property>
          </widget>
         </item>
         <item row="2" column="0">
-         <widget class="QLabel" name="label_5">
+         <widget class="QLabel" name="acccheckLabel">
           <property name="styleSheet">
            <string notr="true"/>
           </property>
@@ -2089,231 +2089,231 @@
          </widget>
         </item>
         <item row="5" column="1">
-         <widget class="QLabel" name="label_24">
+         <widget class="QLabel" name="DotDotPwnLabel">
           <property name="text">
            <string>DotDotPwn</string>
           </property>
          </widget>
         </item>
         <item row="14" column="0">
-         <widget class="QLabel" name="label_18">
+         <widget class="QLabel" name="dnmapLabel">
           <property name="text">
            <string>dnmap</string>
           </property>
          </widget>
         </item>
         <item row="2" column="2">
-         <widget class="QLabel" name="label_35">
+         <widget class="QLabel" name="identUserEnumLabel">
           <property name="text">
            <string>ident-user-enum</string>
           </property>
          </widget>
         </item>
         <item row="3" column="2">
-         <widget class="QLabel" name="label_36">
+         <widget class="QLabel" name="InTraceLabel">
           <property name="text">
            <string>InTrace</string>
           </property>
          </widget>
         </item>
         <item row="4" column="2">
-         <widget class="QLabel" name="label_37">
+         <widget class="QLabel" name="SMTPLabel">
           <property name="text">
            <string>iSMTP</string>
           </property>
          </widget>
         </item>
         <item row="5" column="2">
-         <widget class="QLabel" name="label_38">
+         <widget class="QLabel" name="IbdLabel">
           <property name="text">
            <string>Ibd</string>
           </property>
          </widget>
         </item>
         <item row="6" column="2">
-         <widget class="QLabel" name="label_39">
+         <widget class="QLabel" name="MaltegoTeethLabel">
           <property name="text">
            <string>Maltego Teeth</string>
           </property>
          </widget>
         </item>
         <item row="7" column="2">
-         <widget class="QLabel" name="label_40">
+         <widget class="QLabel" name="masscanLabel">
           <property name="text">
            <string>masscan</string>
           </property>
          </widget>
         </item>
         <item row="8" column="2">
-         <widget class="QLabel" name="label_41">
+         <widget class="QLabel" name="MetagoofilLabel">
           <property name="text">
            <string>Metagoofil</string>
           </property>
          </widget>
         </item>
         <item row="9" column="2">
-         <widget class="QLabel" name="label_42">
+         <widget class="QLabel" name="MirandaLabel">
           <property name="text">
            <string>Miranda</string>
           </property>
          </widget>
         </item>
         <item row="10" column="2">
-         <widget class="QLabel" name="label_43">
+         <widget class="QLabel" name="nbtscanUnixwizLabel">
           <property name="text">
            <string>nbtscan-unixwiz</string>
           </property>
          </widget>
         </item>
         <item row="11" column="2">
-         <widget class="QLabel" name="label_44">
+         <widget class="QLabel" name="NmapLabel">
           <property name="text">
            <string>Nmap</string>
           </property>
          </widget>
         </item>
         <item row="12" column="2">
-         <widget class="QLabel" name="label_45">
+         <widget class="QLabel" name="ntopLabel">
           <property name="text">
            <string>ntop</string>
           </property>
          </widget>
         </item>
         <item row="13" column="2">
-         <widget class="QLabel" name="label_46">
+         <widget class="QLabel" name="p0fLabel">
           <property name="text">
            <string>p0f</string>
           </property>
          </widget>
         </item>
         <item row="14" column="2">
-         <widget class="QLabel" name="label_49">
+         <widget class="QLabel" name="ParseroLabel">
           <property name="text">
            <string>Parsero</string>
           </property>
          </widget>
         </item>
         <item row="15" column="2">
-         <widget class="QLabel" name="label_48">
+         <widget class="QLabel" name="ReconNgLabel">
           <property name="text">
            <string>Recon-ng</string>
           </property>
          </widget>
         </item>
         <item row="16" column="2">
-         <widget class="QLabel" name="label_47">
+         <widget class="QLabel" name="SETLabel">
           <property name="text">
            <string>SET</string>
           </property>
          </widget>
         </item>
         <item row="2" column="3">
-         <widget class="QLabel" name="label_50">
+         <widget class="QLabel" name="smtpUserEnumLabel">
           <property name="text">
            <string>smtp-user-enum</string>
           </property>
          </widget>
         </item>
         <item row="3" column="3">
-         <widget class="QLabel" name="label_51">
+         <widget class="QLabel" name="snmpCheckLabel">
           <property name="text">
            <string>snmp-check</string>
           </property>
          </widget>
         </item>
         <item row="4" column="3">
-         <widget class="QLabel" name="label_52">
+         <widget class="QLabel" name="SPARTALabel">
           <property name="text">
            <string>SPARTA</string>
           </property>
          </widget>
         </item>
         <item row="5" column="3">
-         <widget class="QLabel" name="label_53">
+         <widget class="QLabel" name="sslcauditLabel">
           <property name="text">
            <string>sslcaudit</string>
           </property>
          </widget>
         </item>
         <item row="6" column="3">
-         <widget class="QLabel" name="label_54">
+         <widget class="QLabel" name="SSLsplitLabel">
           <property name="text">
            <string>SSLsplit</string>
           </property>
          </widget>
         </item>
         <item row="7" column="3">
-         <widget class="QLabel" name="label_55">
+         <widget class="QLabel" name="sslstripLabel">
           <property name="text">
            <string>sslstrip</string>
           </property>
          </widget>
         </item>
         <item row="8" column="3">
-         <widget class="QLabel" name="label_56">
+         <widget class="QLabel" name="SSLyzeLabel">
           <property name="text">
            <string>SSLyze</string>
           </property>
          </widget>
         </item>
         <item row="9" column="3">
-         <widget class="QLabel" name="label_57">
+         <widget class="QLabel" name="THCIPV6Label">
           <property name="text">
            <string>THC-IPV6</string>
           </property>
          </widget>
         </item>
         <item row="10" column="3">
-         <widget class="QLabel" name="label_58">
+         <widget class="QLabel" name="theHarvesterLabel">
           <property name="text">
            <string>theHarvester</string>
           </property>
          </widget>
         </item>
         <item row="11" column="3">
-         <widget class="QLabel" name="label_59">
+         <widget class="QLabel" name="TLSSLedLabel">
           <property name="text">
            <string>TLSSLed</string>
           </property>
          </widget>
         </item>
         <item row="12" column="3">
-         <widget class="QLabel" name="label_60">
+         <widget class="QLabel" name="twofiLabel">
           <property name="text">
            <string>twofi</string>
           </property>
          </widget>
         </item>
         <item row="13" column="3">
-         <widget class="QLabel" name="label_61">
+         <widget class="QLabel" name="URLCrazyLabel">
           <property name="text">
            <string>URLCrazy</string>
           </property>
          </widget>
         </item>
         <item row="14" column="3">
-         <widget class="QLabel" name="label_62">
+         <widget class="QLabel" name="WiresharkLabel">
           <property name="text">
            <string>Wireshark</string>
           </property>
          </widget>
         </item>
         <item row="15" column="3">
-         <widget class="QLabel" name="label_63">
+         <widget class="QLabel" name="WOLELabel">
           <property name="text">
            <string>WOL-E</string>
           </property>
          </widget>
         </item>
         <item row="16" column="3">
-         <widget class="QLabel" name="label_64">
+         <widget class="QLabel" name="XplicoLabel">
           <property name="text">
            <string>Xplico</string>
           </property>
          </widget>
         </item>
         <item row="0" column="1" rowspan="2" colspan="2" alignment="Qt::AlignHCenter">
-         <widget class="QLabel" name="label_4">
+         <widget class="QLabel" name="InformationGatheringTitle">
           <property name="font">
            <font>
             <pointsize>24</pointsize>
@@ -2329,66 +2329,66 @@
         </item>
        </layout>
        <zorder>braaLabel</zorder>
-       <zorder>label_17</zorder>
-       <zorder>label_5</zorder>
-       <zorder>label_6</zorder>
-       <zorder>label_8</zorder>
-       <zorder>label_7</zorder>
-       <zorder>label_9</zorder>
-       <zorder>label_11</zorder>
-       <zorder>label_16</zorder>
-       <zorder>label_18</zorder>
-       <zorder>label_12</zorder>
-       <zorder>label_13</zorder>
-       <zorder>label_15</zorder>
-       <zorder>label_4</zorder>
-       <zorder>label_20</zorder>
-       <zorder>label_19</zorder>
-       <zorder>label_21</zorder>
-       <zorder>label_23</zorder>
-       <zorder>label_22</zorder>
-       <zorder>label_24</zorder>
-       <zorder>label_25</zorder>
-       <zorder>label_26</zorder>
-       <zorder>label_30</zorder>
-       <zorder>label_27</zorder>
-       <zorder>label_28</zorder>
-       <zorder>label_29</zorder>
-       <zorder>label_14</zorder>
-       <zorder>label_31</zorder>
-       <zorder>label_32</zorder>
-       <zorder>label_33</zorder>
-       <zorder>label_34</zorder>
-       <zorder>label_35</zorder>
-       <zorder>label_36</zorder>
-       <zorder>label_37</zorder>
-       <zorder>label_38</zorder>
-       <zorder>label_39</zorder>
-       <zorder>label_40</zorder>
-       <zorder>label_41</zorder>
-       <zorder>label_42</zorder>
-       <zorder>label_43</zorder>
-       <zorder>label_44</zorder>
-       <zorder>label_45</zorder>
-       <zorder>label_46</zorder>
-       <zorder>label_49</zorder>
-       <zorder>label_48</zorder>
-       <zorder>label_47</zorder>
-       <zorder>label_50</zorder>
-       <zorder>label_51</zorder>
-       <zorder>label_52</zorder>
-       <zorder>label_53</zorder>
-       <zorder>label_54</zorder>
-       <zorder>label_55</zorder>
-       <zorder>label_56</zorder>
-       <zorder>label_57</zorder>
-       <zorder>label_58</zorder>
-       <zorder>label_59</zorder>
-       <zorder>label_60</zorder>
-       <zorder>label_61</zorder>
-       <zorder>label_62</zorder>
-       <zorder>label_63</zorder>
-       <zorder>label_64</zorder>
+       <zorder>copyRouterConfigLabel</zorder>
+       <zorder>acccheckLabel</zorder>
+       <zorder>aceVoipLabel</zorder>
+       <zorder>AutomaterLabel</zorder>
+       <zorder>AmapLabel</zorder>
+       <zorder>bingIp2hostsLabel</zorder>
+       <zorder>CaseFileLabel</zorder>
+       <zorder>DMitryLabel</zorder>
+       <zorder>dnmapLabel</zorder>
+       <zorder>CDPSnarfLabel</zorder>
+       <zorder>ciscoTorchLabel</zorder>
+       <zorder>CookieCadgerLabel</zorder>
+       <zorder>InformationGatheringTitle</zorder>
+       <zorder>dsenumLabel</zorder>
+       <zorder>dnsmapLabel</zorder>
+       <zorder>DNSReconLabel</zorder>
+       <zorder>dnstracerLabel</zorder>
+       <zorder>dnswalkLabel</zorder>
+       <zorder>DotDotPwnLabel</zorder>
+       <zorder>enum4linuxLabel</zorder>
+       <zorder>enumIAXLabel</zorder>
+       <zorder>FaradayLabel</zorder>
+       <zorder>FierceLabel</zorder>
+       <zorder>FireWalkLabel</zorder>
+       <zorder>fragRouteLabel</zorder>
+       <zorder>fragRouterLabel</zorder>
+       <zorder>GhostPhisherLabel</zorder>
+       <zorder>GoLismero</zorder>
+       <zorder>goofileLabel</zorder>
+       <zorder>hping3Label</zorder>
+       <zorder>identUserEnumLabel</zorder>
+       <zorder>InTraceLabel</zorder>
+       <zorder>SMTPLabel</zorder>
+       <zorder>IbdLabel</zorder>
+       <zorder>MaltegoTeethLabel</zorder>
+       <zorder>masscanLabel</zorder>
+       <zorder>MetagoofilLabel</zorder>
+       <zorder>MirandaLabel</zorder>
+       <zorder>nbtscanUnixwizLabel</zorder>
+       <zorder>NmapLabel</zorder>
+       <zorder>ntopLabel</zorder>
+       <zorder>p0fLabel</zorder>
+       <zorder>ParseroLabel</zorder>
+       <zorder>ReconNgLabel</zorder>
+       <zorder>SETLabel</zorder>
+       <zorder>smtpUserEnumLabel</zorder>
+       <zorder>snmpCheckLabel</zorder>
+       <zorder>SPARTALabel</zorder>
+       <zorder>sslcauditLabel</zorder>
+       <zorder>SSLsplitLabel</zorder>
+       <zorder>sslstripLabel</zorder>
+       <zorder>SSLyzeLabel</zorder>
+       <zorder>THCIPV6Label</zorder>
+       <zorder>theHarvesterLabel</zorder>
+       <zorder>TLSSLedLabel</zorder>
+       <zorder>twofiLabel</zorder>
+       <zorder>URLCrazyLabel</zorder>
+       <zorder>WiresharkLabel</zorder>
+       <zorder>WOLELabel</zorder>
+       <zorder>XplicoLabel</zorder>
       </widget>
       <widget class="QWidget" name="acccheckTab">
        <attribute name="title">
@@ -2416,7 +2416,7 @@
          </widget>
         </item>
         <item row="1" column="0">
-         <widget class="QScrollArea" name="scrollArea_2">
+         <widget class="QScrollArea" name="acccheckScrollArea">
           <property name="widgetResizable">
            <bool>true</bool>
           </property>
@@ -2425,20 +2425,20 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>1551</width>
-             <height>648</height>
+             <width>515</width>
+             <height>808</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_6">
             <item row="8" column="0">
-             <widget class="QPushButton" name="pushButton">
+             <widget class="QPushButton" name="acccheckButton">
               <property name="text">
                <string>./accheck</string>
               </property>
              </widget>
             </item>
             <item row="9" column="0">
-             <spacer name="verticalSpacer">
+             <spacer name="acccheckVSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
               </property>
@@ -2454,7 +2454,7 @@
              </spacer>
             </item>
             <item row="7" column="0">
-             <widget class="QLabel" name="label_65">
+             <widget class="QLabel" name="acccheckH4">
               <property name="font">
                <font>
                 <pointsize>24</pointsize>
@@ -2468,7 +2468,7 @@
              </widget>
             </item>
             <item row="5" column="0">
-             <widget class="QLabel" name="label_68">
+             <widget class="QLabel" name="acccheckB3">
               <property name="text">
                <string>Attempt the 'Administrator' account with a [BLANK] password.
 acccheck -t 10.10.10.1
@@ -2482,16 +2482,24 @@ acccheck -t 10.10.10.1 -u administrator -p password </string>
              </widget>
             </item>
             <item row="1" column="0">
-             <widget class="QLabel" name="label_66">
+             <widget class="QLabel" name="acccheckB1">
               <property name="text">
                <string>acccheck v0.2.1 - By Faiz
-The tool is designed as a password dictionary attack tool that targets windowsauthentication via the SMB protocol. It is really a wrapper script aroundthe ‘smbclient’ binary, and as a result is dependent on it for its execution.
-Attempts to connect to the IPC$ and ADMIN$ shares depending on whichflags have been chosen, and tries a combination of usernames and passwordsin the hope to identify the password to a given account via a dictionary passwordguessing attack.</string>
+
+The tool is designed as a password dictionary attack tool that targets windows
+authentication via the SMB protocol. It is really a wrapper script around
+the ‘smbclient’ binary, and as a result is dependent on it for its execution.
+
+Attempts to connect to the IPC$ and ADMIN$ shares depending on which
+flags have been chosen, and tries a combination of usernames and passwords
+in the hope to identify the password to a given account via a dictionary password
+guessing attack.
+</string>
               </property>
              </widget>
             </item>
             <item row="2" column="0">
-             <widget class="QLabel" name="label_3">
+             <widget class="QLabel" name="acccheckH2">
               <property name="font">
                <font>
                 <pointsize>24</pointsize>
@@ -2505,7 +2513,7 @@ acccheck -t 10.10.10.1 -u administrator -p password </string>
              </widget>
             </item>
             <item row="0" column="0">
-             <widget class="QLabel" name="label_2">
+             <widget class="QLabel" name="acccheckH1">
               <property name="font">
                <font>
                 <pointsize>24</pointsize>
@@ -2519,7 +2527,7 @@ acccheck -t 10.10.10.1 -u administrator -p password </string>
              </widget>
             </item>
             <item row="3" column="0">
-             <widget class="QLabel" name="label_67">
+             <widget class="QLabel" name="acccheckB2">
               <property name="text">
                <string>./acccheck [optional]
 
@@ -2537,7 +2545,7 @@ Optional:
              </widget>
             </item>
             <item row="4" column="0">
-             <widget class="QLabel" name="label_10">
+             <widget class="QLabel" name="acccheckH3">
               <property name="font">
                <font>
                 <pointsize>24</pointsize>
@@ -2551,9 +2559,158 @@ Optional:
              </widget>
             </item>
             <item row="6" column="0">
-             <widget class="QLabel" name="label_69">
+             <widget class="QLabel" name="acccheckB4">
               <property name="text">
-               <string>root@kali:~# acccheck.pl -T smb-ips.txt -vHost:192.168.1.201, Username:Administrator, Password:BLANK</string>
+               <string>root@kali:~# acccheck.pl -T smb-ips.txt -v
+Host:192.168.1.201, Username:Administrator, Password:BLANK
+</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="toolNameTab">
+       <attribute name="title">
+        <string>ToolName</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0" alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="ToolNameTitle">
+          <property name="font">
+           <font>
+            <pointsize>24</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>ToolName</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QScrollArea" name="toolScrollArea">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="toolScrollAreaContents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>500</width>
+             <height>352</height>
+            </rect>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_7">
+            <item row="8" column="0">
+             <widget class="QPushButton" name="toolButton">
+              <property name="text">
+               <string>Button</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="0">
+             <spacer name="toolVSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="toolH4">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>RUN ON TERMINAL :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="toolB3">
+              <property name="text">
+               <string>BODY 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="toolB1">
+              <property name="text">
+               <string>BODY 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="toolH2">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Usage:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="toolH1">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Description:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="toolB2">
+              <property name="text">
+               <string>BODY 2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="toolH3">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Examples:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="toolB4">
+              <property name="text">
+               <string>BODY4</string>
               </property>
              </widget>
             </item>
