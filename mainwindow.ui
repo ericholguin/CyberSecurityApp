@@ -1796,7 +1796,7 @@
 </string>
       </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="welcomeTab">
        <attribute name="title">
@@ -2425,8 +2425,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>515</width>
-             <height>808</height>
+             <width>508</width>
+             <height>713</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_6">
@@ -2573,6 +2573,741 @@ Host:192.168.1.201, Username:Administrator, Password:BLANK
         </item>
        </layout>
       </widget>
+      <widget class="QWidget" name="acevoipTab">
+       <attribute name="title">
+        <string>ace-voip</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0" alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="acevoipTitle">
+          <property name="font">
+           <font>
+            <pointsize>24</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>ace-voip</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QScrollArea" name="acevoipScrollArea">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_3">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>525</width>
+             <height>366</height>
+            </rect>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_7">
+            <item row="8" column="0">
+             <widget class="QPushButton" name="acevoipButton">
+              <property name="text">
+               <string>./ace</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="0">
+             <spacer name="acevoipVSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="acevoipH4">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>RUN ON TERMINAL :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="acevoipB3">
+              <property name="text">
+               <string>BODY 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="acevoipB1">
+              <property name="text">
+               <string>BODY 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="acevoipH2">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Usage:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="acevoipH1">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Description:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="acevoipB2">
+              <property name="text">
+               <string>BODY 2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="acevoipH3">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Examples:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="acevoipB4">
+              <property name="text">
+               <string>BODY4</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="amapTab">
+       <attribute name="title">
+        <string>amap</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0" alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="amapTitle">
+          <property name="font">
+           <font>
+            <pointsize>24</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Amap</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QScrollArea" name="amapScrollArea">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_4">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>525</width>
+             <height>366</height>
+            </rect>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_7">
+            <item row="8" column="0">
+             <widget class="QPushButton" name="amapButton">
+              <property name="text">
+               <string>./amap</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="0">
+             <spacer name="amapVSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="amapH4">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>RUN ON TERMINAL :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="amapB3">
+              <property name="text">
+               <string>BODY 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="amapB1">
+              <property name="text">
+               <string>BODY 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="amapH2">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Usage:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="amapH1">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Description:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="amapB2">
+              <property name="text">
+               <string>BODY 2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="amapH3">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Examples:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="amapB4">
+              <property name="text">
+               <string>BODY4</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="automaterTab">
+       <attribute name="title">
+        <string>Automater</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0" alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="automaterTitle">
+          <property name="font">
+           <font>
+            <pointsize>24</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Automater</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QScrollArea" name="automaterScrollArea">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_5">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>525</width>
+             <height>366</height>
+            </rect>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_7">
+            <item row="8" column="0">
+             <widget class="QPushButton" name="automaterButton">
+              <property name="text">
+               <string>./automater</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="0">
+             <spacer name="automaterVSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="automaterH4">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>RUN ON TERMINAL :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="automaterB3">
+              <property name="text">
+               <string>BODY 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="automaterB1">
+              <property name="text">
+               <string>BODY 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="automaterH2">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Usage:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="automaterH1">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Description:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="automaterB2">
+              <property name="text">
+               <string>BODY 2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="automaterH3">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Examples:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="automaterB4">
+              <property name="text">
+               <string>BODY4</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="bingip2hostsTab">
+       <attribute name="title">
+        <string>bing-ip2hosts</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0" alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="bingip2hostsTitle">
+          <property name="font">
+           <font>
+            <pointsize>24</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>bing-ip2hosts</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QScrollArea" name="bingip2hostsArea">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_6">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>525</width>
+             <height>366</height>
+            </rect>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_7">
+            <item row="8" column="0">
+             <widget class="QPushButton" name="bingip2hostsButton">
+              <property name="text">
+               <string>./bing-ip2hosts</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="0">
+             <spacer name="bingip2hostsVSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="bingip2hostsH4">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>RUN ON TERMINAL :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="bingip2hostsB3">
+              <property name="text">
+               <string>BODY 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="bingip2hostsB1">
+              <property name="text">
+               <string>BODY 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="bingip2hostsH2">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Usage:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="bingip2hostsH1">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Description:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="bingip2hostsB2">
+              <property name="text">
+               <string>BODY 2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="bingip2hostsH3">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Examples:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="bingip2hostsB4">
+              <property name="text">
+               <string>BODY4</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="braaTab">
+       <attribute name="title">
+        <string>braa</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0" alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="braaTitle">
+          <property name="font">
+           <font>
+            <pointsize>24</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>braa</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QScrollArea" name="braaScrollArea">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_7">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>525</width>
+             <height>366</height>
+            </rect>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_7">
+            <item row="8" column="0">
+             <widget class="QPushButton" name="braaButton">
+              <property name="text">
+               <string>./braa</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="0">
+             <spacer name="braaVSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="braaH4">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>RUN ON TERMINAL :</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="braaB3">
+              <property name="text">
+               <string>BODY 3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="braaB1">
+              <property name="text">
+               <string>BODY 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="braaH2">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Usage:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="braaH1">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Description:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="braaB2">
+              <property name="text">
+               <string>BODY 2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="braaH3">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Examples:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="braaB4">
+              <property name="text">
+               <string>BODY4</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
       <widget class="QWidget" name="toolNameTab">
        <attribute name="title">
         <string>ToolName</string>
@@ -2597,13 +3332,13 @@ Host:192.168.1.201, Username:Administrator, Password:BLANK
           <property name="widgetResizable">
            <bool>true</bool>
           </property>
-          <widget class="QWidget" name="toolScrollAreaContents">
+          <widget class="QWidget" name="scrollAreaWidgetContents_8">
            <property name="geometry">
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>500</width>
-             <height>352</height>
+             <width>525</width>
+             <height>366</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
@@ -2730,7 +3465,7 @@ Host:192.168.1.201, Username:Administrator, Password:BLANK
      <x>0</x>
      <y>0</y>
      <width>772</width>
-     <height>22</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
