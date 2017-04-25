@@ -1796,7 +1796,7 @@
 </string>
       </property>
       <property name="currentIndex">
-       <number>5</number>
+       <number>13</number>
       </property>
       <widget class="QWidget" name="welcomeTab">
        <attribute name="title">
@@ -2601,7 +2601,7 @@ Host:192.168.1.201, Username:Administrator, Password:BLANK
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>-154</y>
+             <y>0</y>
              <width>508</width>
              <height>921</height>
             </rect>
@@ -3031,7 +3031,7 @@ Usage hint: Options &quot;-bqv&quot; are recommended, add &quot;-1&quot; for fas
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>-516</y>
+             <y>0</y>
              <width>508</width>
              <height>908</height>
             </rect>
@@ -3224,8 +3224,8 @@ agent is set to Automater/version</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <width>508</width>
+             <height>895</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
@@ -3269,14 +3269,32 @@ agent is set to Automater/version</string>
             <item row="5" column="0">
              <widget class="QLabel" name="bingip2hostsB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# bing-ip2hosts -p microsoft.com
+[ 65.55.58.201 | Scraping 1 | Found 0 | / ]
+http://microsoft.com
+http://research.microsoft.com
+http://www.answers.microsoft.com
+http://www.microsoft.com
+http://www.msdn.microsoft.com
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="bingip2hostsB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>Bing.com is a search engine owned by Microsoft formerly known as MSN Search and Live 
+Search. It has a unique feature to search for websites hosted on a specific IP address. Bing-
+ip2hosts uses this feature to enumerate all hostnames which Bing has indexed for a specific IP 
+address. This technique is considered best practice during the reconnaissance phase of a 
+penetration test in order to discover a larger potential attack surface. Bing-ip2hosts is written in 
+the Bash scripting language for Linux. This uses the mobile interface and no API key is required.
+
+
+Source: http://www.morningstarsecurity.com/research/bing-ip2hosts
+
+</string>
               </property>
              </widget>
             </item>
@@ -3311,7 +3329,25 @@ agent is set to Automater/version</string>
             <item row="3" column="0">
              <widget class="QLabel" name="bingip2hostsB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# bing-ip2hosts
+bing-ip2hosts (o.4) by Andrew Horton aka urbanadventurer
+Homepage: http://www.morningstarsecurity.com/research/bing-ip2hosts
+
+Useful for web intelligence and attack surface mapping of vhosts during
+penetration tests. Find hostnames that share an IP address with your target
+which can be a hostname or an IP address. This makes use of Microsoft
+Bing.com ability to seach by IP address, e.g. &quot;IP:210.48.71.196&quot;.
+
+Usage: /usr/bin/bing-ip2hosts [OPTIONS] &amp;lt;IP|hostname&amp;gt;
+
+OPTIONS are:
+-n Turn off the progress indicator animation
+-t
+
+&lt;dir&gt;Use this directory instead of /tmp. The directory must exist.
+-i Optional CSV output. Outputs the IP and hostname on each line, separated by a comma.
+-p Optional http:// prefix output. Useful for right-clicking in the shell.
+&lt;/dir&gt;</string>
               </property>
              </widget>
             </item>
@@ -3332,7 +3368,15 @@ agent is set to Automater/version</string>
             <item row="6" column="0">
              <widget class="QLabel" name="bingip2hostsB4">
               <property name="text">
-               <string>BODY4</string>
+               <string>root@kali:~# bing-ip2hosts -p 173.194.33.80
+[ 173.194.33.80 | Scraping 60-69 of 73 | Found 41 | | ]| / ]
+http://asia.google.com
+http://desktop.google.com
+http://ejabat.google.com
+http://google.netscape.com
+http://partner-client.google.com
+http://picasa.google.com
+</string>
               </property>
              </widget>
             </item>
@@ -3371,19 +3415,19 @@ agent is set to Automater/version</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <width>562</width>
+             <height>1019</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
-            <item row="8" column="0">
+            <item row="7" column="0">
              <widget class="QPushButton" name="braaButton">
               <property name="text">
                <string>./braa</string>
               </property>
              </widget>
             </item>
-            <item row="9" column="0">
+            <item row="8" column="0">
              <spacer name="braaVSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
@@ -3399,7 +3443,7 @@ agent is set to Automater/version</string>
               </property>
              </spacer>
             </item>
-            <item row="7" column="0">
+            <item row="6" column="0">
              <widget class="QLabel" name="braaH4">
               <property name="font">
                <font>
@@ -3416,14 +3460,34 @@ agent is set to Automater/version</string>
             <item row="5" column="0">
              <widget class="QLabel" name="braaB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# braa public@192.168.1.215:.1.3.6.*
+192.168.1.215:122ms:.1.3.6.1.2.1.1.1.0:Linux redhat.biz.local 2.4.20-8 #1 Thu Mar 13 17:54:28 EST 2003 i686
+192.168.1.215:143ms:.1.3.6.1.2.1.1.2.0:.1.3.6.1.4.1.8072.3.2.10
+192.168.1.215:122ms:.1.3.6.1.2.1.1.3.0:4051218219
+192.168.1.215:122ms:.1.3.6.1.2.1.1.4.0:Root &lt;root@localhost&gt; (configure /etc/snmp/snmp.local.conf)
+192.168.1.215:143ms:.1.3.6.1.2.1.1.5.0:redhat.biz.local
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="braaB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>Braa is a mass snmp scanner. The intended usage of such a tool is of course making SNMP 
+queries – but unlike snmpget or snmpwalk from net-snmp, it is able to query dozens or hundreds 
+of hosts simultaneously, and in a single process. Thus, it consumes very few system resources 
+and does the scanning VERY fast.
+
+Braa implements its OWN snmp stack, so it does NOT need any SNMP libraries like net-snmp. 
+The implementation is very dirty, supports only several data types, and in any case cannot be 
+stated ‘standard-conforming’! It was designed to be fast, and it is fast. For this reason (well, and 
+also because of my laziness ;), there is no ASN.1 parser in braa – you HAVE to know the 
+numerical values of OID’s (for instance .1.3.6.1.2.1.1.5.0 instead of system.sysName.0).
+
+Source: braa README 
+
+</string>
               </property>
              </widget>
             </item>
@@ -3458,7 +3522,42 @@ agent is set to Automater/version</string>
             <item row="3" column="0">
              <widget class="QLabel" name="braaB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# braa -h
+braa 0.81 - Mateusz 'mteg' Golicz &lt;mtg@elsat.net.pl&gt;, 2003 - 2006
+usage: braa [options] [query1] [query2] ...
+  -h        Show this help.
+  -2        Claim to be a SNMP2C agent.
+  -v        Show short summary after doing all queries.
+  -x        Hexdump octet-strings
+  -t &lt;s&gt;    Wait &lt;s&gt; seconds for responses.
+  -d &lt;s&gt;    Wait &lt;s&gt; microseconds after sending each packet.
+  -p &lt;s&gt;    Wait &lt;s&gt; miliseconds between subsequent passes.
+  -f &lt;file&gt; Load queries from file &lt;file&gt; (one by line).
+  -a &lt;time&gt; Quit after &lt;time&gt; seconds, independent on what happens.
+  -r &lt;rc&gt;   Retry count (default: 3).
+
+Query format:
+  GET:   [community@]iprange[:port]:oid[/id]
+  WALK:  [community@]iprange[:port]:oid.*[/id]
+  SET:   [community@]iprange[:port]:oid=value[/id]
+
+Examples:
+         public@10.253.101.1:161:.1.3.6.*
+         10.253.101.1-10.253.101.255:.1.3.6.1.2.1.1.4.0=sme
+         10.253.101.1:.1.3.6.1.2.1.1.1.0/description
+
+It is also possible to specify multiple queries at once:
+         10.253.101.1-10.253.101.255:.1.3.6.1.2.1.1.4.0=sme,.1.3.6.*
+         (Will set .1.3.6.1.2.1.1.4.0 to 'me' and do a walk starting from .1.3.6)
+
+
+Values for SET queries have to be prepended with a character specifying the value type:
+  i      is INTEGER
+  a      is IPADDRESS
+  s      is OCTET STRING
+  o      is OBJECT IDENTIFIER
+If the type specifier is missing, the value type is auto-detected
+</string>
               </property>
              </widget>
             </item>
@@ -3473,13 +3572,6 @@ agent is set to Automater/version</string>
               </property>
               <property name="text">
                <string>Examples:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="0">
-             <widget class="QLabel" name="braaB4">
-              <property name="text">
-               <string>BODY4</string>
               </property>
              </widget>
             </item>
@@ -3518,8 +3610,8 @@ agent is set to Automater/version</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <width>564</width>
+             <height>804</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
@@ -3570,7 +3662,44 @@ agent is set to Automater/version</string>
             <item row="1" column="0">
              <widget class="QLabel" name="CaseFileB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>CaseFile is the little brother to Maltego. It targets a unique market of ‘offline’ analysts whose primary 
+sources of information are not gained from the open-source intelligence side or can be 
+programmatically queried. We see these people as investigators and analysts who are working ‘on the 
+ground’, getting intelligence from other people in the team and building up an information map of their 
+investigation.
+
+CaseFile gives you the ability to quickly add, link and analyze data having the same graphing flexibility 
+and performance as Maltego without the use of transforms. CaseFile is roughly a third of the price of 
+Maltego. 
+
+
+CaseFile is a visual intelligence application that can be used to determine the relationships and real 
+world links between hundreds of different types of information.
+
+It gives you the ability to quickly view second, third and n-th order relationships and find links otherwise 
+undiscoverable with other types of intelligence tools.
+
+CaseFile comes bundled with many different types of entities that are commonly used in investigations 
+allowing you to act quickly and efficiently. CaseFile also has the ability to add custom entity types 
+allowing you to extend the product to your own data sets.
+
+
+CaseFile can be used for the information gathering, analytics and intelligence phases of almost all types 
+of investigates, from IT Security, Law enforcement and any data driven work. It will save you time and 
+will allow you to work more accurately and smarter.
+
+CaseFile has the ability to visualise datasets stored in CSV, XLS and XLSX spreadsheet formats.
+
+We are not marketing people. Sorry.
+
+CaseFile aids you in your thinking process by visually demonstrating interconnected links between searched items.
+
+If access to “hidden” information determines your success, CaseFile can help you discover it.
+
+
+Source: http://paterva.com/web6/products/casefile.php
+
+</string>
               </property>
              </widget>
             </item>
@@ -3605,7 +3734,7 @@ agent is set to Automater/version</string>
             <item row="3" column="0">
              <widget class="QLabel" name="CaseFileB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# casefile</string>
               </property>
              </widget>
             </item>
@@ -3664,20 +3793,20 @@ agent is set to Automater/version</string>
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-549</y>
+             <width>508</width>
+             <height>915</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
-            <item row="8" column="0">
+            <item row="7" column="0">
              <widget class="QPushButton" name="CDPSnarfButton">
               <property name="text">
                <string>./cdpsnarf</string>
               </property>
              </widget>
             </item>
-            <item row="9" column="0">
+            <item row="8" column="0">
              <spacer name="CDPSnarfVSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
@@ -3693,7 +3822,7 @@ agent is set to Automater/version</string>
               </property>
              </spacer>
             </item>
-            <item row="7" column="0">
+            <item row="6" column="0">
              <widget class="QLabel" name="CDPSnarfH4">
               <property name="font">
                <font>
@@ -3710,14 +3839,48 @@ agent is set to Automater/version</string>
             <item row="5" column="0">
              <widget class="QLabel" name="CDPSnarfB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# cdpsnarf -i eth0 -w cdpsnarf.pcap
+CDPSnarf v0.1.6 [$Rev: 797 $] initiated.
+   Author: Tasos &quot;Zapotek&quot; Laskos
+           &lt;tasos.laskos@gmail.com&gt;
+              &lt;zapotek@segfault.gr&gt;
+   Website: http://github.com/Zapotek/cdpsnarf
+
+Reading packets from eth0.
+Waiting for a CDP packet...
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="CDPSnarfB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>CDPSnarf is a network sniffer exclusively written to extract information from CDP packets.
+
+It provides all the information a “show cdp neighbors detail” command would return on a Cisco 
+router and even more.
+
+A feature list follows:
+•	Time intervals between CDP advertisements
+•	Source MAC address
+•	CDP Version
+•	TTL
+•	Checksum
+•	Device ID
+•	Software version
+•	Platform
+•	Addresses
+•	Port ID
+•	Capabilities
+•	Duplex
+•	Save packets in PCAP dump file format
+•	Read packets from PCAP dump files
+•	Debugging information (using the “-d” flag)
+•	Tested with IPv4 and IPv6
+
+Source: https://github.com/Zapotek/cdpsnarf
+
+</string>
               </property>
              </widget>
             </item>
@@ -3752,7 +3915,20 @@ agent is set to Automater/version</string>
             <item row="3" column="0">
              <widget class="QLabel" name="CDPSnarfB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# cdpsnarf -h
+CDPSnarf v0.1.6 [$Rev: 797 $] initiated.
+   Author: Tasos &quot;Zapotek&quot; Laskos
+           &lt;tasos.laskos@gmail.com&gt;
+              &lt;zapotek@segfault.gr&gt;
+   Website: http://github.com/Zapotek/cdpsnarf
+
+cdpsnarf -i &lt;dev&gt; [-h] [-w savefile] [-r dumpfile] [-d]
+
+   -i      define the interface to sniff on
+   -w      write packets to PCAP dump file
+   -r      read packets from PCAP dump file
+   -d      show debugging information
+   -h      show help message and exit</string>
               </property>
              </widget>
             </item>
@@ -3767,13 +3943,6 @@ agent is set to Automater/version</string>
               </property>
               <property name="text">
                <string>Examples:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="0">
-             <widget class="QLabel" name="CDPSnarfB4">
-              <property name="text">
-               <string>BODY4</string>
               </property>
              </widget>
             </item>
@@ -3811,20 +3980,20 @@ agent is set to Automater/version</string>
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-1099</y>
+             <width>522</width>
+             <height>1448</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
-            <item row="8" column="0">
+            <item row="7" column="0">
              <widget class="QPushButton" name="ciscoTorchButton">
               <property name="text">
                <string>./cisco-torch</string>
               </property>
              </widget>
             </item>
-            <item row="9" column="0">
+            <item row="8" column="0">
              <spacer name="ciscoTorchVSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
@@ -3840,7 +4009,7 @@ agent is set to Automater/version</string>
               </property>
              </spacer>
             </item>
-            <item row="7" column="0">
+            <item row="6" column="0">
              <widget class="QLabel" name="ciscoTorchH4">
               <property name="font">
                <font>
@@ -3857,14 +4026,71 @@ agent is set to Automater/version</string>
             <item row="5" column="0">
              <widget class="QLabel" name="ciscoTorchB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# cisco-torch -A 192.168.99.202
+Using config file torch.conf...
+Loading include and plugin ...
+
+###############################################################
+#   Cisco Torch Mass Scanner                   #
+#   Becase we need it...                                      #
+#   http://www.arhont.com/cisco-torch.pl                      #
+###############################################################
+
+List of targets contains 1 host(s)
+8853:   Checking 192.168.99.202 ...
+HUH db not found, it should be in fingerprint.db
+Skipping Telnet fingerprint
+* Cisco by SNMP found ***
+*System Description: Cisco Internetwork Operating System Software
+IOS (tm) 3600 Software (C3640-IK9O3S-M), Version 12.3(22), RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2007 by cisco Systems, Inc.
+Compiled Wed 24-Jan-07 1
+
+Cisco-IOS Webserver found
+ HTTP/1.1 401 Unauthorized
+Date: Tue, 13 Apr 1993 00:57:07 GMT
+Server: cisco-IOS
+Accept-Ranges: none
+WWW-Authenticate: Basic realm=&quot;level_15_access&quot;
+
+401 Unauthorized
+
+
+ Cisco WWW-Authenticate webserver found
+ HTTP/1.1 401 Unauthorized
+Date: Tue, 13 Apr 1993 00:57:07 GMT
+Server: cisco-IOS
+Accept-Ranges: none
+WWW-Authenticate: Basic realm=&quot;level_15_access&quot;
+
+401 Unauthorized
+
+
+---&gt;
+- All scans done. Cisco Torch Mass Scanner  -
+---&gt; Exiting.
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="ciscoTorchB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>Cisco Torch mass scanning, fingerprinting, and exploitation tool was written while working on 
+the next edition of the “Hacking Exposed Cisco Networks”, since the tools available on the 
+market could not meet our needs. 
+
+The main feature that makes Cisco-torch different from similar tools is the extensive use of 
+forking to launch multiple scanning processes on the background for maximum scanning 
+efficiency. Also, it uses several methods of application layer fingerprinting simultaneously, if 
+needed. We wanted something fast to discover remote Cisco hosts running Telnet, SSH, Web, 
+NTP and SNMP services and launch dictionary attacks against the services discovered.
+
+Source: http://www.hackingciscoexposed.com/?link=tools
+
+</string>
               </property>
              </widget>
             </item>
@@ -3899,7 +4125,38 @@ agent is set to Automater/version</string>
             <item row="3" column="0">
              <widget class="QLabel" name="ciscoTorchB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# cisco-torch
+Using config file torch.conf...
+Loading include and plugin ...
+ version
+usage: cisco-torch &lt;options&gt; &lt;IP,hostname,network&gt;
+
+or: cisco-torch &lt;options&gt; -F &lt;hostlist&gt;
+
+Available options:
+-O &lt;output file&gt;
+-A      All fingerprint scan types combined
+-t      Cisco Telnetd scan
+-s      Cisco SSHd scan
+-u      Cisco SNMP scan
+-g      Cisco config or tftp file download
+-n      NTP fingerprinting scan
+-j      TFTP fingerprinting scan
+-l &lt;type&gt;   loglevel
+        c  critical (default)
+        v  verbose
+        d  debug
+-w      Cisco Webserver scan
+-z      Cisco IOS HTTP Authorization Vulnerability Scan
+-c      Cisco Webserver with SSL support scan
+-b      Password dictionary attack (use with -s, -u, -c, -w , -j or -t only)
+-V      Print tool version and exit
+examples:   cisco-torch -A 10.10.0.0/16
+        cisco-torch -s -b -F sshtocheck.txt
+        cisco-torch -w -z 10.10.0.0/16
+        cisco-torch -j -b -g -F tftptocheck.txt
+
+</string>
               </property>
              </widget>
             </item>
@@ -3914,13 +4171,6 @@ agent is set to Automater/version</string>
               </property>
               <property name="text">
                <string>Examples:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="0">
-             <widget class="QLabel" name="ciscoTorchB4">
-              <property name="text">
-               <string>BODY4</string>
               </property>
              </widget>
             </item>
@@ -3958,9 +4208,9 @@ agent is set to Automater/version</string>
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-386</y>
+             <width>508</width>
+             <height>752</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
@@ -4004,14 +4254,31 @@ agent is set to Automater/version</string>
             <item row="5" column="0">
              <widget class="QLabel" name="CookieCadgerB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# cookie-cadger</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="CookieCadgerB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>Cookie Cadger helps identify information leakage from applications that utilize insecure HTTP 
+GET requests.
+
+Web providers have started stepping up to the plate since Firesheep was released in 2010. Today, 
+most major websites can provide SSL/TLS during all transactions, preventing cookie data from 
+leaking over wired Ethernet or insecure Wi-Fi. But the fact remains that Firesheep was more of a 
+toy than a tool. Cookie Cadger is the first open-source pen-testing tool ever made for intercepting 
+and replaying specific insecure HTTP GET requests into a browser.
+
+Cookie Cadgers Request Enumeration Abilities
+
+Cookie Cadger is a graphical utility which harnesses the power of the Wireshark suite and Java 
+to provide a fully cross-platform, entirely open- source utility which can monitor wired Ethernet, 
+insecure Wi-Fi, or load a packet capture file for offline analysis.
+
+Source: https://www.cookiecadger.com/
+
+</string>
               </property>
              </widget>
             </item>
@@ -4046,7 +4313,23 @@ agent is set to Automater/version</string>
             <item row="3" column="0">
              <widget class="QLabel" name="CookieCadgerB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# cookie-cadger --help
+Cookie Cadger, version 1.06
+Example usage:
+java -jar CookieCadger.jar
+    --tshark=/usr/sbin/tshark
+    --headless=on
+    --interfacenum=2    (requires --headless=on)
+    --detection=on
+    --demo=on
+    --update=on
+    --dbengine=mysql    (default is 'sqlite' for local, file-based storage)
+    --dbhost=localhost  (requires --dbengine=mysql)
+    --dbuser=user       (requires --dbengine=mysql)
+    --dbpass=pass       (requires --dbengine=mysql)
+    --dbname=cadgerdata (requires --dbengine=mysql)
+    --dbrefreshrate=15  (in seconds, requires --dbengine=mysql, requires --headless=off)
+</string>
               </property>
              </widget>
             </item>
@@ -4105,9 +4388,9 @@ agent is set to Automater/version</string>
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-282</y>
+             <width>508</width>
+             <height>674</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
@@ -4151,14 +4434,16 @@ agent is set to Automater/version</string>
             <item row="5" column="0">
              <widget class="QLabel" name="copyRouterConfigB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# copy-router-config.pl 192.168.1.1 192.168.1.15 private
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="copyRouterConfigB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>Copies configuration files from Cisco devices running SNMP.
+</string>
               </property>
              </widget>
             </item>
@@ -4193,7 +4478,31 @@ agent is set to Automater/version</string>
             <item row="3" column="0">
              <widget class="QLabel" name="copyRouterConfigB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# copy-router-config.pl
+
+######################################################
+# Copy Cisco Router config  - Using SNMP
+# Hacked up by muts - muts@offensive-security.com
+#######################################################
+
+Usage : ./copy-copy-config.pl &lt;router-ip&gt; &lt;tftp-serverip&gt; &lt;community&gt;
+
+Make sure a TFTP server is set up, preferably running from /tmp !
+
+
+
+root@kali:~# merge-router-config.pl
+
+######################################################
+# Merge Cisco Router config  - Using SNMP
+# Hacked up by muts - muts@offensive-security.com
+#######################################################
+
+Usage : ./merge-copy-config.pl &lt;router-ip&gt; &lt;tftp-serverip&gt; &lt;community&gt;
+
+Make sure a TFTP server is set up, preferably running from /tmp !
+
+</string>
               </property>
              </widget>
             </item>
@@ -4214,7 +4523,8 @@ agent is set to Automater/version</string>
             <item row="6" column="0">
              <widget class="QLabel" name="copyRouterConfigB4">
               <property name="text">
-               <string>BODY4</string>
+               <string>root@kali:~# merge-router-config.pl 192.168.1.1 192.168.1.15 private
+</string>
               </property>
              </widget>
             </item>
@@ -4252,9 +4562,9 @@ agent is set to Automater/version</string>
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-568</y>
+             <width>508</width>
+             <height>934</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
@@ -4298,14 +4608,34 @@ agent is set to Automater/version</string>
             <item row="5" column="0">
              <widget class="QLabel" name="DMitryB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>Run a domain whois lookup (w), an IP whois lookup (i), retrieve Netcraft info (n), search for 
+subdomains (s), search for email addresses (e), do a TCP port scan (p), and save the output to 
+example.txt (o) for the domain example.com:
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="DMitryB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>DMitry (Deepmagic Information Gathering Tool) is a UNIX/(GNU)Linux Command Line 
+Application coded in C. DMitry has the ability to gather as much information as possible about a 
+host. Base functionality is able to gather possible subdomains, email addresses, uptime 
+information, tcp port scan, whois lookups, and more.
+
+The following is a list of the current features:
+•	An Open Source Project.
+•	Perform an Internet Number whois lookup.
+•	Retrieve possible uptime data, system and server data.
+•	Perform a SubDomain search on a target host.
+•	Perform an E-Mail address search on a target host.
+•	Perform a TCP Portscan on the host target.
+•	A Modular program allowing user specified modules
+
+Source: http://mor-pah.net/software/dmitry-deepmagic-information-gathering-tool/
+
+</string>
               </property>
              </widget>
             </item>
@@ -4340,7 +4670,24 @@ agent is set to Automater/version</string>
             <item row="3" column="0">
              <widget class="QLabel" name="DMitryB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# dmitry -h
+Deepmagic Information Gathering Tool
+&quot;There be some deep magic going on&quot;
+
+dmitry: invalid option -- 'h'
+Usage: dmitry [-winsepfb] [-t 0-9] [-o %host.txt] host
+-o Save output to %host.txt or to file specified by -o file
+-i Perform a whois lookup on the IP address of a host
+-w Perform a whois lookup on the domain name of a host
+-n Retrieve Netcraft.com information on a host
+-s Perform a search for possible subdomains
+-e Perform a search for possible email addresses
+-p Perform a TCP port scan on a host
+* -f Perform a TCP port scan on a host showing output reporting filtered ports
+* -b Read in the banner received from the scanned port
+* -t 0-9 Set the TTL in seconds when scanning a TCP port ( Default 2 )
+*Requires the -p flagged to be passed
+</string>
               </property>
              </widget>
             </item>
@@ -4361,7 +4708,17 @@ agent is set to Automater/version</string>
             <item row="6" column="0">
              <widget class="QLabel" name="DMitryB4">
               <property name="text">
-               <string>BODY4</string>
+               <string>root@kali:~# dmitry -winsepo example.txt example.com
+Deepmagic Information Gathering Tool
+&quot;There be some deep magic going on&quot;
+
+Writing output to 'example.txt'
+
+HostIP:93.184.216.119
+HostName:example.com
+
+Gathered Inet-whois information for 93.184.216.119
+---------------------------------</string>
               </property>
              </widget>
             </item>

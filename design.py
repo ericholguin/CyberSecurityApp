@@ -781,7 +781,7 @@ class Ui_MainWindow(object):
         self.acevoipScrollArea.setWidgetResizable(True)
         self.acevoipScrollArea.setObjectName("acevoipScrollArea")
         self.scrollAreaWidgetContents_3 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_3.setGeometry(QtCore.QRect(0, -154, 508, 921))
+        self.scrollAreaWidgetContents_3.setGeometry(QtCore.QRect(0, 0, 508, 921))
         self.scrollAreaWidgetContents_3.setObjectName("scrollAreaWidgetContents_3")
         self.gridLayout_7 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_3)
         self.gridLayout_7.setContentsMargins(11, 11, 11, 11)
@@ -933,7 +933,7 @@ class Ui_MainWindow(object):
         self.automaterScrollArea.setWidgetResizable(True)
         self.automaterScrollArea.setObjectName("automaterScrollArea")
         self.scrollAreaWidgetContents_5 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_5.setGeometry(QtCore.QRect(0, -516, 508, 908))
+        self.scrollAreaWidgetContents_5.setGeometry(QtCore.QRect(0, 0, 508, 908))
         self.scrollAreaWidgetContents_5.setObjectName("scrollAreaWidgetContents_5")
         self.gridLayout_72 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_5)
         self.gridLayout_72.setContentsMargins(11, 11, 11, 11)
@@ -1009,7 +1009,7 @@ class Ui_MainWindow(object):
         self.bingip2hostsArea.setWidgetResizable(True)
         self.bingip2hostsArea.setObjectName("bingip2hostsArea")
         self.scrollAreaWidgetContents_6 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_6.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_6.setGeometry(QtCore.QRect(0, 0, 508, 895))
         self.scrollAreaWidgetContents_6.setObjectName("scrollAreaWidgetContents_6")
         self.gridLayout_73 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_6)
         self.gridLayout_73.setContentsMargins(11, 11, 11, 11)
@@ -1085,7 +1085,7 @@ class Ui_MainWindow(object):
         self.braaScrollArea.setWidgetResizable(True)
         self.braaScrollArea.setObjectName("braaScrollArea")
         self.scrollAreaWidgetContents_7 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_7.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_7.setGeometry(QtCore.QRect(0, 0, 562, 1019))
         self.scrollAreaWidgetContents_7.setObjectName("scrollAreaWidgetContents_7")
         self.gridLayout_74 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_7)
         self.gridLayout_74.setContentsMargins(11, 11, 11, 11)
@@ -1093,9 +1093,9 @@ class Ui_MainWindow(object):
         self.gridLayout_74.setObjectName("gridLayout_74")
         self.braaButton = QtWidgets.QPushButton(self.scrollAreaWidgetContents_7)
         self.braaButton.setObjectName("braaButton")
-        self.gridLayout_74.addWidget(self.braaButton, 8, 0, 1, 1)
+        self.gridLayout_74.addWidget(self.braaButton, 7, 0, 1, 1)
         spacerItem5 = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
-        self.gridLayout_74.addItem(spacerItem5, 9, 0, 1, 1)
+        self.gridLayout_74.addItem(spacerItem5, 8, 0, 1, 1)
         self.braaH4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_7)
         font = QtGui.QFont()
         font.setPointSize(24)
@@ -1103,7 +1103,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.braaH4.setFont(font)
         self.braaH4.setObjectName("braaH4")
-        self.gridLayout_74.addWidget(self.braaH4, 7, 0, 1, 1)
+        self.gridLayout_74.addWidget(self.braaH4, 6, 0, 1, 1)
         self.braaB3 = QtWidgets.QLabel(self.scrollAreaWidgetContents_7)
         self.braaB3.setObjectName("braaB3")
         self.gridLayout_74.addWidget(self.braaB3, 5, 0, 1, 1)
@@ -1137,9 +1137,6 @@ class Ui_MainWindow(object):
         self.braaH3.setFont(font)
         self.braaH3.setObjectName("braaH3")
         self.gridLayout_74.addWidget(self.braaH3, 4, 0, 1, 1)
-        self.braaB4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_7)
-        self.braaB4.setObjectName("braaB4")
-        self.gridLayout_74.addWidget(self.braaB4, 6, 0, 1, 1)
         self.braaScrollArea.setWidget(self.scrollAreaWidgetContents_7)
         self.gridLayout_54.addWidget(self.braaScrollArea, 1, 0, 1, 1)
         self.tabWidget.addTab(self.braaTab, "")
@@ -1161,7 +1158,7 @@ class Ui_MainWindow(object):
         self.CaseFileScrollArea.setWidgetResizable(True)
         self.CaseFileScrollArea.setObjectName("CaseFileScrollArea")
         self.scrollAreaWidgetContents_8 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_8.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_8.setGeometry(QtCore.QRect(0, 0, 564, 804))
         self.scrollAreaWidgetContents_8.setObjectName("scrollAreaWidgetContents_8")
         self.gridLayout_75 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_8)
         self.gridLayout_75.setContentsMargins(11, 11, 11, 11)
@@ -1237,7 +1234,7 @@ class Ui_MainWindow(object):
         self.CDPSnarfScrollArea.setWidgetResizable(True)
         self.CDPSnarfScrollArea.setObjectName("CDPSnarfScrollArea")
         self.scrollAreaWidgetContents_81 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_81.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_81.setGeometry(QtCore.QRect(0, -549, 508, 915))
         self.scrollAreaWidgetContents_81.setObjectName("scrollAreaWidgetContents_81")
         self.gridLayout_76 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_81)
         self.gridLayout_76.setContentsMargins(11, 11, 11, 11)
@@ -1245,9 +1242,9 @@ class Ui_MainWindow(object):
         self.gridLayout_76.setObjectName("gridLayout_76")
         self.CDPSnarfButton = QtWidgets.QPushButton(self.scrollAreaWidgetContents_81)
         self.CDPSnarfButton.setObjectName("CDPSnarfButton")
-        self.gridLayout_76.addWidget(self.CDPSnarfButton, 8, 0, 1, 1)
+        self.gridLayout_76.addWidget(self.CDPSnarfButton, 7, 0, 1, 1)
         spacerItem7 = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
-        self.gridLayout_76.addItem(spacerItem7, 9, 0, 1, 1)
+        self.gridLayout_76.addItem(spacerItem7, 8, 0, 1, 1)
         self.CDPSnarfH4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_81)
         font = QtGui.QFont()
         font.setPointSize(24)
@@ -1255,7 +1252,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.CDPSnarfH4.setFont(font)
         self.CDPSnarfH4.setObjectName("CDPSnarfH4")
-        self.gridLayout_76.addWidget(self.CDPSnarfH4, 7, 0, 1, 1)
+        self.gridLayout_76.addWidget(self.CDPSnarfH4, 6, 0, 1, 1)
         self.CDPSnarfB3 = QtWidgets.QLabel(self.scrollAreaWidgetContents_81)
         self.CDPSnarfB3.setObjectName("CDPSnarfB3")
         self.gridLayout_76.addWidget(self.CDPSnarfB3, 5, 0, 1, 1)
@@ -1289,9 +1286,6 @@ class Ui_MainWindow(object):
         self.CDPSnarfH3.setFont(font)
         self.CDPSnarfH3.setObjectName("CDPSnarfH3")
         self.gridLayout_76.addWidget(self.CDPSnarfH3, 4, 0, 1, 1)
-        self.CDPSnarfB4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_81)
-        self.CDPSnarfB4.setObjectName("CDPSnarfB4")
-        self.gridLayout_76.addWidget(self.CDPSnarfB4, 6, 0, 1, 1)
         self.CDPSnarfScrollArea.setWidget(self.scrollAreaWidgetContents_81)
         self.gridLayout_56.addWidget(self.CDPSnarfScrollArea, 1, 0, 1, 1)
         self.tabWidget.addTab(self.CDPSnarfTab, "")
@@ -1313,7 +1307,7 @@ class Ui_MainWindow(object):
         self.ciscoTorchScrollArea.setWidgetResizable(True)
         self.ciscoTorchScrollArea.setObjectName("ciscoTorchScrollArea")
         self.scrollAreaWidgetContents_82 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_82.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_82.setGeometry(QtCore.QRect(0, -1099, 522, 1448))
         self.scrollAreaWidgetContents_82.setObjectName("scrollAreaWidgetContents_82")
         self.gridLayout_77 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_82)
         self.gridLayout_77.setContentsMargins(11, 11, 11, 11)
@@ -1321,9 +1315,9 @@ class Ui_MainWindow(object):
         self.gridLayout_77.setObjectName("gridLayout_77")
         self.ciscoTorchButton = QtWidgets.QPushButton(self.scrollAreaWidgetContents_82)
         self.ciscoTorchButton.setObjectName("ciscoTorchButton")
-        self.gridLayout_77.addWidget(self.ciscoTorchButton, 8, 0, 1, 1)
+        self.gridLayout_77.addWidget(self.ciscoTorchButton, 7, 0, 1, 1)
         spacerItem8 = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
-        self.gridLayout_77.addItem(spacerItem8, 9, 0, 1, 1)
+        self.gridLayout_77.addItem(spacerItem8, 8, 0, 1, 1)
         self.ciscoTorchH4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_82)
         font = QtGui.QFont()
         font.setPointSize(24)
@@ -1331,7 +1325,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.ciscoTorchH4.setFont(font)
         self.ciscoTorchH4.setObjectName("ciscoTorchH4")
-        self.gridLayout_77.addWidget(self.ciscoTorchH4, 7, 0, 1, 1)
+        self.gridLayout_77.addWidget(self.ciscoTorchH4, 6, 0, 1, 1)
         self.ciscoTorchB3 = QtWidgets.QLabel(self.scrollAreaWidgetContents_82)
         self.ciscoTorchB3.setObjectName("ciscoTorchB3")
         self.gridLayout_77.addWidget(self.ciscoTorchB3, 5, 0, 1, 1)
@@ -1365,9 +1359,6 @@ class Ui_MainWindow(object):
         self.ciscoTorchH3.setFont(font)
         self.ciscoTorchH3.setObjectName("ciscoTorchH3")
         self.gridLayout_77.addWidget(self.ciscoTorchH3, 4, 0, 1, 1)
-        self.ciscoTorchB4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_82)
-        self.ciscoTorchB4.setObjectName("ciscoTorchB4")
-        self.gridLayout_77.addWidget(self.ciscoTorchB4, 6, 0, 1, 1)
         self.ciscoTorchScrollArea.setWidget(self.scrollAreaWidgetContents_82)
         self.gridLayout_57.addWidget(self.ciscoTorchScrollArea, 1, 0, 1, 1)
         self.tabWidget.addTab(self.ciscoTorchTab, "")
@@ -1389,7 +1380,7 @@ class Ui_MainWindow(object):
         self.CookieCadgerScrollArea.setWidgetResizable(True)
         self.CookieCadgerScrollArea.setObjectName("CookieCadgerScrollArea")
         self.scrollAreaWidgetContents_83 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_83.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_83.setGeometry(QtCore.QRect(0, -386, 508, 752))
         self.scrollAreaWidgetContents_83.setObjectName("scrollAreaWidgetContents_83")
         self.gridLayout_78 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_83)
         self.gridLayout_78.setContentsMargins(11, 11, 11, 11)
@@ -1465,7 +1456,7 @@ class Ui_MainWindow(object):
         self.copyRouterConfigScrollArea.setWidgetResizable(True)
         self.copyRouterConfigScrollArea.setObjectName("copyRouterConfigScrollArea")
         self.scrollAreaWidgetContents_84 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_84.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_84.setGeometry(QtCore.QRect(0, -282, 508, 674))
         self.scrollAreaWidgetContents_84.setObjectName("scrollAreaWidgetContents_84")
         self.gridLayout_79 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_84)
         self.gridLayout_79.setContentsMargins(11, 11, 11, 11)
@@ -1541,7 +1532,7 @@ class Ui_MainWindow(object):
         self.DMitryScrollArea.setWidgetResizable(True)
         self.DMitryScrollArea.setObjectName("DMitryScrollArea")
         self.scrollAreaWidgetContents_85 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_85.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_85.setGeometry(QtCore.QRect(0, -568, 508, 934))
         self.scrollAreaWidgetContents_85.setObjectName("scrollAreaWidgetContents_85")
         self.gridLayout_710 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_85)
         self.gridLayout_710.setContentsMargins(11, 11, 11, 11)
@@ -3123,7 +3114,7 @@ class Ui_MainWindow(object):
         self.menuBar.addAction(self.menuHelp.menuAction())
 
         self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(5)
+        self.tabWidget.setCurrentIndex(13)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -3802,90 +3793,465 @@ class Ui_MainWindow(object):
         self.bingip2hostsTitle.setText(_translate("MainWindow", "bing-ip2hosts"))
         self.bingip2hostsButton.setText(_translate("MainWindow", "./bing-ip2hosts"))
         self.bingip2hostsH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.bingip2hostsB3.setText(_translate("MainWindow", "BODY 3"))
-        self.bingip2hostsB1.setText(_translate("MainWindow", "BODY 1"))
+        self.bingip2hostsB3.setText(_translate("MainWindow", "root@kali:~# bing-ip2hosts -p microsoft.com\n"
+"[ 65.55.58.201 | Scraping 1 | Found 0 | / ]\n"
+"http://microsoft.com\n"
+"http://research.microsoft.com\n"
+"http://www.answers.microsoft.com\n"
+"http://www.microsoft.com\n"
+"http://www.msdn.microsoft.com\n"
+"\n"
+""))
+        self.bingip2hostsB1.setText(_translate("MainWindow", "Bing.com is a search engine owned by Microsoft formerly known as MSN Search and Live \n"
+"Search. It has a unique feature to search for websites hosted on a specific IP address. Bing-\n"
+"ip2hosts uses this feature to enumerate all hostnames which Bing has indexed for a specific IP \n"
+"address. This technique is considered best practice during the reconnaissance phase of a \n"
+"penetration test in order to discover a larger potential attack surface. Bing-ip2hosts is written in \n"
+"the Bash scripting language for Linux. This uses the mobile interface and no API key is required.\n"
+"\n"
+"\n"
+"Source: http://www.morningstarsecurity.com/research/bing-ip2hosts\n"
+"\n"
+""))
         self.bingip2hostsH2.setText(_translate("MainWindow", "Usage:"))
         self.bingip2hostsH1.setText(_translate("MainWindow", "Description:"))
-        self.bingip2hostsB2.setText(_translate("MainWindow", "BODY 2"))
+        self.bingip2hostsB2.setText(_translate("MainWindow", "root@kali:~# bing-ip2hosts\n"
+"bing-ip2hosts (o.4) by Andrew Horton aka urbanadventurer\n"
+"Homepage: http://www.morningstarsecurity.com/research/bing-ip2hosts\n"
+"\n"
+"Useful for web intelligence and attack surface mapping of vhosts during\n"
+"penetration tests. Find hostnames that share an IP address with your target\n"
+"which can be a hostname or an IP address. This makes use of Microsoft\n"
+"Bing.com ability to seach by IP address, e.g. \"IP:210.48.71.196\".\n"
+"\n"
+"Usage: /usr/bin/bing-ip2hosts [OPTIONS] &lt;IP|hostname&gt;\n"
+"\n"
+"OPTIONS are:\n"
+"-n Turn off the progress indicator animation\n"
+"-t\n"
+"\n"
+"<dir>Use this directory instead of /tmp. The directory must exist.\n"
+"-i Optional CSV output. Outputs the IP and hostname on each line, separated by a comma.\n"
+"-p Optional http:// prefix output. Useful for right-clicking in the shell.\n"
+"</dir>"))
         self.bingip2hostsH3.setText(_translate("MainWindow", "Examples:"))
-        self.bingip2hostsB4.setText(_translate("MainWindow", "BODY4"))
+        self.bingip2hostsB4.setText(_translate("MainWindow", "root@kali:~# bing-ip2hosts -p 173.194.33.80\n"
+"[ 173.194.33.80 | Scraping 60-69 of 73 | Found 41 | | ]| / ]\n"
+"http://asia.google.com\n"
+"http://desktop.google.com\n"
+"http://ejabat.google.com\n"
+"http://google.netscape.com\n"
+"http://partner-client.google.com\n"
+"http://picasa.google.com\n"
+""))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.bingip2hostsTab), _translate("MainWindow", "bing-ip2hosts"))
         self.braaTitle.setText(_translate("MainWindow", "braa"))
         self.braaButton.setText(_translate("MainWindow", "./braa"))
         self.braaH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.braaB3.setText(_translate("MainWindow", "BODY 3"))
-        self.braaB1.setText(_translate("MainWindow", "BODY 1"))
+        self.braaB3.setText(_translate("MainWindow", "root@kali:~# braa public@192.168.1.215:.1.3.6.*\n"
+"192.168.1.215:122ms:.1.3.6.1.2.1.1.1.0:Linux redhat.biz.local 2.4.20-8 #1 Thu Mar 13 17:54:28 EST 2003 i686\n"
+"192.168.1.215:143ms:.1.3.6.1.2.1.1.2.0:.1.3.6.1.4.1.8072.3.2.10\n"
+"192.168.1.215:122ms:.1.3.6.1.2.1.1.3.0:4051218219\n"
+"192.168.1.215:122ms:.1.3.6.1.2.1.1.4.0:Root <root@localhost> (configure /etc/snmp/snmp.local.conf)\n"
+"192.168.1.215:143ms:.1.3.6.1.2.1.1.5.0:redhat.biz.local\n"
+"\n"
+""))
+        self.braaB1.setText(_translate("MainWindow", "Braa is a mass snmp scanner. The intended usage of such a tool is of course making SNMP \n"
+"queries – but unlike snmpget or snmpwalk from net-snmp, it is able to query dozens or hundreds \n"
+"of hosts simultaneously, and in a single process. Thus, it consumes very few system resources \n"
+"and does the scanning VERY fast.\n"
+"\n"
+"Braa implements its OWN snmp stack, so it does NOT need any SNMP libraries like net-snmp. \n"
+"The implementation is very dirty, supports only several data types, and in any case cannot be \n"
+"stated ‘standard-conforming’! It was designed to be fast, and it is fast. For this reason (well, and \n"
+"also because of my laziness ;), there is no ASN.1 parser in braa – you HAVE to know the \n"
+"numerical values of OID’s (for instance .1.3.6.1.2.1.1.5.0 instead of system.sysName.0).\n"
+"\n"
+"Source: braa README \n"
+"\n"
+""))
         self.braaH2.setText(_translate("MainWindow", "Usage:"))
         self.braaH1.setText(_translate("MainWindow", "Description:"))
-        self.braaB2.setText(_translate("MainWindow", "BODY 2"))
+        self.braaB2.setText(_translate("MainWindow", "root@kali:~# braa -h\n"
+"braa 0.81 - Mateusz \'mteg\' Golicz <mtg@elsat.net.pl>, 2003 - 2006\n"
+"usage: braa [options] [query1] [query2] ...\n"
+"  -h        Show this help.\n"
+"  -2        Claim to be a SNMP2C agent.\n"
+"  -v        Show short summary after doing all queries.\n"
+"  -x        Hexdump octet-strings\n"
+"  -t <s>    Wait <s> seconds for responses.\n"
+"  -d <s>    Wait <s> microseconds after sending each packet.\n"
+"  -p <s>    Wait <s> miliseconds between subsequent passes.\n"
+"  -f <file> Load queries from file <file> (one by line).\n"
+"  -a <time> Quit after <time> seconds, independent on what happens.\n"
+"  -r <rc>   Retry count (default: 3).\n"
+"\n"
+"Query format:\n"
+"  GET:   [community@]iprange[:port]:oid[/id]\n"
+"  WALK:  [community@]iprange[:port]:oid.*[/id]\n"
+"  SET:   [community@]iprange[:port]:oid=value[/id]\n"
+"\n"
+"Examples:\n"
+"         public@10.253.101.1:161:.1.3.6.*\n"
+"         10.253.101.1-10.253.101.255:.1.3.6.1.2.1.1.4.0=sme\n"
+"         10.253.101.1:.1.3.6.1.2.1.1.1.0/description\n"
+"\n"
+"It is also possible to specify multiple queries at once:\n"
+"         10.253.101.1-10.253.101.255:.1.3.6.1.2.1.1.4.0=sme,.1.3.6.*\n"
+"         (Will set .1.3.6.1.2.1.1.4.0 to \'me\' and do a walk starting from .1.3.6)\n"
+"\n"
+"\n"
+"Values for SET queries have to be prepended with a character specifying the value type:\n"
+"  i      is INTEGER\n"
+"  a      is IPADDRESS\n"
+"  s      is OCTET STRING\n"
+"  o      is OBJECT IDENTIFIER\n"
+"If the type specifier is missing, the value type is auto-detected\n"
+""))
         self.braaH3.setText(_translate("MainWindow", "Examples:"))
-        self.braaB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.braaTab), _translate("MainWindow", "braa"))
         self.CaseFileTitle.setText(_translate("MainWindow", "CaseFile"))
         self.CaseFileButton.setText(_translate("MainWindow", "./casefile"))
         self.CaseFileH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
         self.CaseFileB3.setText(_translate("MainWindow", "BODY 3"))
-        self.CaseFileB1.setText(_translate("MainWindow", "BODY 1"))
+        self.CaseFileB1.setText(_translate("MainWindow", "CaseFile is the little brother to Maltego. It targets a unique market of ‘offline’ analysts whose primary \n"
+"sources of information are not gained from the open-source intelligence side or can be \n"
+"programmatically queried. We see these people as investigators and analysts who are working ‘on the \n"
+"ground’, getting intelligence from other people in the team and building up an information map of their \n"
+"investigation.\n"
+"\n"
+"CaseFile gives you the ability to quickly add, link and analyze data having the same graphing flexibility \n"
+"and performance as Maltego without the use of transforms. CaseFile is roughly a third of the price of \n"
+"Maltego. \n"
+"\n"
+"\n"
+"CaseFile is a visual intelligence application that can be used to determine the relationships and real \n"
+"world links between hundreds of different types of information.\n"
+"\n"
+"It gives you the ability to quickly view second, third and n-th order relationships and find links otherwise \n"
+"undiscoverable with other types of intelligence tools.\n"
+"\n"
+"CaseFile comes bundled with many different types of entities that are commonly used in investigations \n"
+"allowing you to act quickly and efficiently. CaseFile also has the ability to add custom entity types \n"
+"allowing you to extend the product to your own data sets.\n"
+"\n"
+"\n"
+"CaseFile can be used for the information gathering, analytics and intelligence phases of almost all types \n"
+"of investigates, from IT Security, Law enforcement and any data driven work. It will save you time and \n"
+"will allow you to work more accurately and smarter.\n"
+"\n"
+"CaseFile has the ability to visualise datasets stored in CSV, XLS and XLSX spreadsheet formats.\n"
+"\n"
+"We are not marketing people. Sorry.\n"
+"\n"
+"CaseFile aids you in your thinking process by visually demonstrating interconnected links between searched items.\n"
+"\n"
+"If access to “hidden” information determines your success, CaseFile can help you discover it.\n"
+"\n"
+"\n"
+"Source: http://paterva.com/web6/products/casefile.php\n"
+"\n"
+""))
         self.CaseFileH2.setText(_translate("MainWindow", "Usage:"))
         self.CaseFileH1.setText(_translate("MainWindow", "Description:"))
-        self.CaseFileB2.setText(_translate("MainWindow", "BODY 2"))
+        self.CaseFileB2.setText(_translate("MainWindow", "root@kali:~# casefile"))
         self.CaseFileH3.setText(_translate("MainWindow", "Examples:"))
         self.CaseFileB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.CaseFileTab), _translate("MainWindow", "CaseFile"))
         self.CDPSnarfTitle.setText(_translate("MainWindow", "CDPSnarf"))
         self.CDPSnarfButton.setText(_translate("MainWindow", "./cdpsnarf"))
         self.CDPSnarfH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.CDPSnarfB3.setText(_translate("MainWindow", "BODY 3"))
-        self.CDPSnarfB1.setText(_translate("MainWindow", "BODY 1"))
+        self.CDPSnarfB3.setText(_translate("MainWindow", "root@kali:~# cdpsnarf -i eth0 -w cdpsnarf.pcap\n"
+"CDPSnarf v0.1.6 [$Rev: 797 $] initiated.\n"
+"   Author: Tasos \"Zapotek\" Laskos\n"
+"           <tasos.laskos@gmail.com>\n"
+"              <zapotek@segfault.gr>\n"
+"   Website: http://github.com/Zapotek/cdpsnarf\n"
+"\n"
+"Reading packets from eth0.\n"
+"Waiting for a CDP packet...\n"
+""))
+        self.CDPSnarfB1.setText(_translate("MainWindow", "CDPSnarf is a network sniffer exclusively written to extract information from CDP packets.\n"
+"\n"
+"It provides all the information a “show cdp neighbors detail” command would return on a Cisco \n"
+"router and even more.\n"
+"\n"
+"A feature list follows:\n"
+"•    Time intervals between CDP advertisements\n"
+"•    Source MAC address\n"
+"•    CDP Version\n"
+"•    TTL\n"
+"•    Checksum\n"
+"•    Device ID\n"
+"•    Software version\n"
+"•    Platform\n"
+"•    Addresses\n"
+"•    Port ID\n"
+"•    Capabilities\n"
+"•    Duplex\n"
+"•    Save packets in PCAP dump file format\n"
+"•    Read packets from PCAP dump files\n"
+"•    Debugging information (using the “-d” flag)\n"
+"•    Tested with IPv4 and IPv6\n"
+"\n"
+"Source: https://github.com/Zapotek/cdpsnarf\n"
+"\n"
+""))
         self.CDPSnarfH2.setText(_translate("MainWindow", "Usage:"))
         self.CDPSnarfH1.setText(_translate("MainWindow", "Description:"))
-        self.CDPSnarfB2.setText(_translate("MainWindow", "BODY 2"))
+        self.CDPSnarfB2.setText(_translate("MainWindow", "root@kali:~# cdpsnarf -h\n"
+"CDPSnarf v0.1.6 [$Rev: 797 $] initiated.\n"
+"   Author: Tasos \"Zapotek\" Laskos\n"
+"           <tasos.laskos@gmail.com>\n"
+"              <zapotek@segfault.gr>\n"
+"   Website: http://github.com/Zapotek/cdpsnarf\n"
+"\n"
+"cdpsnarf -i <dev> [-h] [-w savefile] [-r dumpfile] [-d]\n"
+"\n"
+"   -i      define the interface to sniff on\n"
+"   -w      write packets to PCAP dump file\n"
+"   -r      read packets from PCAP dump file\n"
+"   -d      show debugging information\n"
+"   -h      show help message and exit"))
         self.CDPSnarfH3.setText(_translate("MainWindow", "Examples:"))
-        self.CDPSnarfB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.CDPSnarfTab), _translate("MainWindow", "CDPSnarf"))
         self.ciscoTorchTitle.setText(_translate("MainWindow", "cisco-torch"))
         self.ciscoTorchButton.setText(_translate("MainWindow", "./cisco-torch"))
         self.ciscoTorchH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.ciscoTorchB3.setText(_translate("MainWindow", "BODY 3"))
-        self.ciscoTorchB1.setText(_translate("MainWindow", "BODY 1"))
+        self.ciscoTorchB3.setText(_translate("MainWindow", "root@kali:~# cisco-torch -A 192.168.99.202\n"
+"Using config file torch.conf...\n"
+"Loading include and plugin ...\n"
+"\n"
+"###############################################################\n"
+"#   Cisco Torch Mass Scanner                   #\n"
+"#   Becase we need it...                                      #\n"
+"#   http://www.arhont.com/cisco-torch.pl                      #\n"
+"###############################################################\n"
+"\n"
+"List of targets contains 1 host(s)\n"
+"8853:   Checking 192.168.99.202 ...\n"
+"HUH db not found, it should be in fingerprint.db\n"
+"Skipping Telnet fingerprint\n"
+"* Cisco by SNMP found ***\n"
+"*System Description: Cisco Internetwork Operating System Software\n"
+"IOS (tm) 3600 Software (C3640-IK9O3S-M), Version 12.3(22), RELEASE SOFTWARE (fc2)\n"
+"Technical Support: http://www.cisco.com/techsupport\n"
+"Copyright (c) 1986-2007 by cisco Systems, Inc.\n"
+"Compiled Wed 24-Jan-07 1\n"
+"\n"
+"Cisco-IOS Webserver found\n"
+" HTTP/1.1 401 Unauthorized\n"
+"Date: Tue, 13 Apr 1993 00:57:07 GMT\n"
+"Server: cisco-IOS\n"
+"Accept-Ranges: none\n"
+"WWW-Authenticate: Basic realm=\"level_15_access\"\n"
+"\n"
+"401 Unauthorized\n"
+"\n"
+"\n"
+" Cisco WWW-Authenticate webserver found\n"
+" HTTP/1.1 401 Unauthorized\n"
+"Date: Tue, 13 Apr 1993 00:57:07 GMT\n"
+"Server: cisco-IOS\n"
+"Accept-Ranges: none\n"
+"WWW-Authenticate: Basic realm=\"level_15_access\"\n"
+"\n"
+"401 Unauthorized\n"
+"\n"
+"\n"
+"--->\n"
+"- All scans done. Cisco Torch Mass Scanner  -\n"
+"---> Exiting.\n"
+"\n"
+""))
+        self.ciscoTorchB1.setText(_translate("MainWindow", "Cisco Torch mass scanning, fingerprinting, and exploitation tool was written while working on \n"
+"the next edition of the “Hacking Exposed Cisco Networks”, since the tools available on the \n"
+"market could not meet our needs. \n"
+"\n"
+"The main feature that makes Cisco-torch different from similar tools is the extensive use of \n"
+"forking to launch multiple scanning processes on the background for maximum scanning \n"
+"efficiency. Also, it uses several methods of application layer fingerprinting simultaneously, if \n"
+"needed. We wanted something fast to discover remote Cisco hosts running Telnet, SSH, Web, \n"
+"NTP and SNMP services and launch dictionary attacks against the services discovered.\n"
+"\n"
+"Source: http://www.hackingciscoexposed.com/?link=tools\n"
+"\n"
+""))
         self.ciscoTorchH2.setText(_translate("MainWindow", "Usage:"))
         self.ciscoTorchH1.setText(_translate("MainWindow", "Description:"))
-        self.ciscoTorchB2.setText(_translate("MainWindow", "BODY 2"))
+        self.ciscoTorchB2.setText(_translate("MainWindow", "root@kali:~# cisco-torch\n"
+"Using config file torch.conf...\n"
+"Loading include and plugin ...\n"
+" version\n"
+"usage: cisco-torch <options> <IP,hostname,network>\n"
+"\n"
+"or: cisco-torch <options> -F <hostlist>\n"
+"\n"
+"Available options:\n"
+"-O <output file>\n"
+"-A      All fingerprint scan types combined\n"
+"-t      Cisco Telnetd scan\n"
+"-s      Cisco SSHd scan\n"
+"-u      Cisco SNMP scan\n"
+"-g      Cisco config or tftp file download\n"
+"-n      NTP fingerprinting scan\n"
+"-j      TFTP fingerprinting scan\n"
+"-l <type>   loglevel\n"
+"        c  critical (default)\n"
+"        v  verbose\n"
+"        d  debug\n"
+"-w      Cisco Webserver scan\n"
+"-z      Cisco IOS HTTP Authorization Vulnerability Scan\n"
+"-c      Cisco Webserver with SSL support scan\n"
+"-b      Password dictionary attack (use with -s, -u, -c, -w , -j or -t only)\n"
+"-V      Print tool version and exit\n"
+"examples:   cisco-torch -A 10.10.0.0/16\n"
+"        cisco-torch -s -b -F sshtocheck.txt\n"
+"        cisco-torch -w -z 10.10.0.0/16\n"
+"        cisco-torch -j -b -g -F tftptocheck.txt\n"
+"\n"
+""))
         self.ciscoTorchH3.setText(_translate("MainWindow", "Examples:"))
-        self.ciscoTorchB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.ciscoTorchTab), _translate("MainWindow", "cisco-torch"))
         self.CookieCadgerTitle.setText(_translate("MainWindow", "Cookie Cadger"))
         self.CookieCadgerButton.setText(_translate("MainWindow", "./cookie-cadger"))
         self.CookieCadgerH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.CookieCadgerB3.setText(_translate("MainWindow", "BODY 3"))
-        self.CookieCadgerB1.setText(_translate("MainWindow", "BODY 1"))
+        self.CookieCadgerB3.setText(_translate("MainWindow", "root@kali:~# cookie-cadger"))
+        self.CookieCadgerB1.setText(_translate("MainWindow", "Cookie Cadger helps identify information leakage from applications that utilize insecure HTTP \n"
+"GET requests.\n"
+"\n"
+"Web providers have started stepping up to the plate since Firesheep was released in 2010. Today, \n"
+"most major websites can provide SSL/TLS during all transactions, preventing cookie data from \n"
+"leaking over wired Ethernet or insecure Wi-Fi. But the fact remains that Firesheep was more of a \n"
+"toy than a tool. Cookie Cadger is the first open-source pen-testing tool ever made for intercepting \n"
+"and replaying specific insecure HTTP GET requests into a browser.\n"
+"\n"
+"Cookie Cadgers Request Enumeration Abilities\n"
+"\n"
+"Cookie Cadger is a graphical utility which harnesses the power of the Wireshark suite and Java \n"
+"to provide a fully cross-platform, entirely open- source utility which can monitor wired Ethernet, \n"
+"insecure Wi-Fi, or load a packet capture file for offline analysis.\n"
+"\n"
+"Source: https://www.cookiecadger.com/\n"
+"\n"
+""))
         self.CookieCadgerH2.setText(_translate("MainWindow", "Usage:"))
         self.CookieCadgerH1.setText(_translate("MainWindow", "Description:"))
-        self.CookieCadgerB2.setText(_translate("MainWindow", "BODY 2"))
+        self.CookieCadgerB2.setText(_translate("MainWindow", "root@kali:~# cookie-cadger --help\n"
+"Cookie Cadger, version 1.06\n"
+"Example usage:\n"
+"java -jar CookieCadger.jar\n"
+"    --tshark=/usr/sbin/tshark\n"
+"    --headless=on\n"
+"    --interfacenum=2    (requires --headless=on)\n"
+"    --detection=on\n"
+"    --demo=on\n"
+"    --update=on\n"
+"    --dbengine=mysql    (default is \'sqlite\' for local, file-based storage)\n"
+"    --dbhost=localhost  (requires --dbengine=mysql)\n"
+"    --dbuser=user       (requires --dbengine=mysql)\n"
+"    --dbpass=pass       (requires --dbengine=mysql)\n"
+"    --dbname=cadgerdata (requires --dbengine=mysql)\n"
+"    --dbrefreshrate=15  (in seconds, requires --dbengine=mysql, requires --headless=off)\n"
+""))
         self.CookieCadgerH3.setText(_translate("MainWindow", "Examples:"))
         self.CookieCadgerB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.CookieCadgerTab), _translate("MainWindow", "Cookie Cadger"))
         self.copyRouterConfigTitle.setText(_translate("MainWindow", "copy-router-config"))
         self.copyRouterConfigButton.setText(_translate("MainWindow", "./copy-router-config"))
         self.copyRouterConfigH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.copyRouterConfigB3.setText(_translate("MainWindow", "BODY 3"))
-        self.copyRouterConfigB1.setText(_translate("MainWindow", "BODY 1"))
+        self.copyRouterConfigB3.setText(_translate("MainWindow", "root@kali:~# copy-router-config.pl 192.168.1.1 192.168.1.15 private\n"
+""))
+        self.copyRouterConfigB1.setText(_translate("MainWindow", "Copies configuration files from Cisco devices running SNMP.\n"
+""))
         self.copyRouterConfigH2.setText(_translate("MainWindow", "Usage:"))
         self.copyRouterConfigH1.setText(_translate("MainWindow", "Description:"))
-        self.copyRouterConfigB2.setText(_translate("MainWindow", "BODY 2"))
+        self.copyRouterConfigB2.setText(_translate("MainWindow", "root@kali:~# copy-router-config.pl\n"
+"\n"
+"######################################################\n"
+"# Copy Cisco Router config  - Using SNMP\n"
+"# Hacked up by muts - muts@offensive-security.com\n"
+"#######################################################\n"
+"\n"
+"Usage : ./copy-copy-config.pl <router-ip> <tftp-serverip> <community>\n"
+"\n"
+"Make sure a TFTP server is set up, preferably running from /tmp !\n"
+"\n"
+"\n"
+"\n"
+"root@kali:~# merge-router-config.pl\n"
+"\n"
+"######################################################\n"
+"# Merge Cisco Router config  - Using SNMP\n"
+"# Hacked up by muts - muts@offensive-security.com\n"
+"#######################################################\n"
+"\n"
+"Usage : ./merge-copy-config.pl <router-ip> <tftp-serverip> <community>\n"
+"\n"
+"Make sure a TFTP server is set up, preferably running from /tmp !\n"
+"\n"
+""))
         self.copyRouterConfigH3.setText(_translate("MainWindow", "Examples:"))
-        self.copyRouterConfigB4.setText(_translate("MainWindow", "BODY4"))
+        self.copyRouterConfigB4.setText(_translate("MainWindow", "root@kali:~# merge-router-config.pl 192.168.1.1 192.168.1.15 private\n"
+""))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.copyRouterConfigTab), _translate("MainWindow", "copy-router-config"))
         self.DMitryTitle.setText(_translate("MainWindow", "DMitry"))
         self.DMitryButton.setText(_translate("MainWindow", "./dmitry"))
         self.DMitryH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.DMitryB3.setText(_translate("MainWindow", "BODY 3"))
-        self.DMitryB1.setText(_translate("MainWindow", "BODY 1"))
+        self.DMitryB3.setText(_translate("MainWindow", "Run a domain whois lookup (w), an IP whois lookup (i), retrieve Netcraft info (n), search for \n"
+"subdomains (s), search for email addresses (e), do a TCP port scan (p), and save the output to \n"
+"example.txt (o) for the domain example.com:\n"
+"\n"
+""))
+        self.DMitryB1.setText(_translate("MainWindow", "DMitry (Deepmagic Information Gathering Tool) is a UNIX/(GNU)Linux Command Line \n"
+"Application coded in C. DMitry has the ability to gather as much information as possible about a \n"
+"host. Base functionality is able to gather possible subdomains, email addresses, uptime \n"
+"information, tcp port scan, whois lookups, and more.\n"
+"\n"
+"The following is a list of the current features:\n"
+"•    An Open Source Project.\n"
+"•    Perform an Internet Number whois lookup.\n"
+"•    Retrieve possible uptime data, system and server data.\n"
+"•    Perform a SubDomain search on a target host.\n"
+"•    Perform an E-Mail address search on a target host.\n"
+"•    Perform a TCP Portscan on the host target.\n"
+"•    A Modular program allowing user specified modules\n"
+"\n"
+"Source: http://mor-pah.net/software/dmitry-deepmagic-information-gathering-tool/\n"
+"\n"
+""))
         self.DMitryH2.setText(_translate("MainWindow", "Usage:"))
         self.DMitryH1.setText(_translate("MainWindow", "Description:"))
-        self.DMitryB2.setText(_translate("MainWindow", "BODY 2"))
+        self.DMitryB2.setText(_translate("MainWindow", "root@kali:~# dmitry -h\n"
+"Deepmagic Information Gathering Tool\n"
+"\"There be some deep magic going on\"\n"
+"\n"
+"dmitry: invalid option -- \'h\'\n"
+"Usage: dmitry [-winsepfb] [-t 0-9] [-o %host.txt] host\n"
+"-o Save output to %host.txt or to file specified by -o file\n"
+"-i Perform a whois lookup on the IP address of a host\n"
+"-w Perform a whois lookup on the domain name of a host\n"
+"-n Retrieve Netcraft.com information on a host\n"
+"-s Perform a search for possible subdomains\n"
+"-e Perform a search for possible email addresses\n"
+"-p Perform a TCP port scan on a host\n"
+"* -f Perform a TCP port scan on a host showing output reporting filtered ports\n"
+"* -b Read in the banner received from the scanned port\n"
+"* -t 0-9 Set the TTL in seconds when scanning a TCP port ( Default 2 )\n"
+"*Requires the -p flagged to be passed\n"
+""))
         self.DMitryH3.setText(_translate("MainWindow", "Examples:"))
-        self.DMitryB4.setText(_translate("MainWindow", "BODY4"))
+        self.DMitryB4.setText(_translate("MainWindow", "root@kali:~# dmitry -winsepo example.txt example.com\n"
+"Deepmagic Information Gathering Tool\n"
+"\"There be some deep magic going on\"\n"
+"\n"
+"Writing output to \'example.txt\'\n"
+"\n"
+"HostIP:93.184.216.119\n"
+"HostName:example.com\n"
+"\n"
+"Gathered Inet-whois information for 93.184.216.119\n"
+"---------------------------------"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.DMitryTab), _translate("MainWindow", "DMitry"))
         self.dnmapTitle.setText(_translate("MainWindow", "dnmap"))
         self.dnmapButton.setText(_translate("MainWindow", "./dnmap_client"))
