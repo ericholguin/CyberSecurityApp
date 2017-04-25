@@ -1796,7 +1796,7 @@
 </string>
       </property>
       <property name="currentIndex">
-       <number>31</number>
+       <number>5</number>
       </property>
       <widget class="QWidget" name="welcomeTab">
        <attribute name="title">
@@ -2601,9 +2601,9 @@ Host:192.168.1.201, Username:Administrator, Password:BLANK
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-154</y>
+             <width>508</width>
+             <height>921</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
@@ -2647,14 +2647,48 @@ Host:192.168.1.201, Username:Administrator, Password:BLANK
             <item row="5" column="0">
              <widget class="QLabel" name="acevoipB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>Usage requires MAC Address of IP Phone supplied with -m option
+Usage: ace -t -m
+
+Mode to automatically discover TFTP Server IP via DHCP Option 150 (-m)
+Example: ace -i eth0 -m 00:1E:F7:28:9C:8e
+
+Mode to specify IP Address of TFTP Server
+Example: ace -i eth0 -t 192.168.10.150 -m 00:1E:F7:28:9C:8e
+
+Mode to specify the Voice VLAN ID
+Example: ace -i eth0 -v 96 -m 00:1E:F7:28:9C:8E
+
+Verbose mode
+Example: ace -i eth0 -v 96 -m 00:1E:F7:28:9C:8E -d
+
+Mode to remove vlan interface
+Example: ace -r eth0.96
+
+Mode to auto-discover voice vlan ID in the listening mode for CDP
+Example: ace -i eth0 -c 0 -m 00:1E:F7:28:9C:8E
+
+Mode to auto-discover voice vlan ID in the spoofing mode for CDP
+Example: ace -i eth0 -c 1 -m 00:1E:F7:28:9C:8E
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="acevoipB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>ACE (Automated Corporate Enumerator) is a simple yet powerful VoIP Corporate Directory 
+enumeration tool that mimics the behavior of an IP Phone in order to download the name and 
+extension entries that a given phone can display on its screen interface. In the same way that the 
+“corporate directory” feature of VoIP hardphones enables users to easily dial by name via their 
+VoIP handsets, ACE was developed as a research idea born from “VoIP Hopper” to automate
+VoIP attacks that can be targeted against names in an enterprise Directory. The concept is that in 
+the future, attacks will be carried out against users based on their name, rather than targeting 
+VoIP traffic against random RTP audio streams or IP addresses. ACE works by using DHCP, 
+TFTP, and HTTP in order to download the VoIP corporate directory. It then outputs the directory 
+to a text file, which can be used as input to other VoIP assessment tools.
+
+Source: http://ucsniff.sourceforge.net/ace.html</string>
               </property>
              </widget>
             </item>
@@ -2689,7 +2723,19 @@ Host:192.168.1.201, Username:Administrator, Password:BLANK
             <item row="3" column="0">
              <widget class="QLabel" name="acevoipB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# ace
+ACE v1.10: Automated Corporate (Data) Enumerator
+Usage: ace [-i interface] [ -m mac address ] [ -t tftp server ip address | -c cdp mode | 
+-v voice vlan id | -r vlan interface | -d verbose mode ]
+
+-i (Mandatory) Interface for sniffing/sending packets
+-m (Mandatory) MAC address of the victim IP phone
+-t (Optional) tftp server ip address
+-c (Optional) 0 CDP sniff mode, 1 CDP spoof mode
+-v (Optional) Enter the voice vlan ID
+-r (Optional) Removes the VLAN interface
+-d (Optional) Verbose | debug mode
+</string>
               </property>
              </widget>
             </item>
@@ -2710,7 +2756,7 @@ Host:192.168.1.201, Username:Administrator, Password:BLANK
             <item row="6" column="0">
              <widget class="QLabel" name="acevoipB4">
               <property name="text">
-               <string>BODY4</string>
+               <string>root@kali:~# coming soon</string>
               </property>
              </widget>
             </item>
@@ -2749,8 +2795,8 @@ Host:192.168.1.201, Username:Administrator, Password:BLANK
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <width>508</width>
+             <height>1493</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
@@ -2794,14 +2840,71 @@ Host:192.168.1.201, Username:Administrator, Password:BLANK
             <item row="5" column="0">
              <widget class="QLabel" name="amapB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# amap -bqv 192.168.1.15 80
+Using trigger file /etc/amap/appdefs.trig ... loaded 30 triggers
+Using response file /etc/amap/appdefs.resp ... loaded 346 responses
+Using trigger file /etc/amap/appdefs.rpc ... loaded 450 triggers
+
+amap v5.4 (www.thc.org/thc-amap) started at 2014-05-13 19:07:16 - APPLICATION MAPPING mode
+
+Total amount of tasks to perform in plain connect mode: 23
+Protocol on 192.168.1.15:80/tcp (by trigger ssl) matches http - banner: 
+
+501 Method Not Implemented
+
+
+&lt;h1&gt;Method Not Implemented&lt;/h1&gt;
+
+
+
+to /index.html not supported.
+
+
+
+
+
+
+&lt;hr /&gt;
+
+
+
+
+&lt;address&gt;Apache/2.2.22 (Debian) Server at 12
+Protocol on 192.168.1.15:80/tcp (by trigger ssl) matches http-apache-2 - banner: 
+
+501 Method Not Implemented
+
+&lt;/address&gt;
+&lt;h1&gt;Method Not Implemented&lt;/h1&gt;
+
+
+
+to /index.html not supported.
+
+
+
+
+
+
+&lt;hr /&gt;
+
+
+
+
+&lt;address&gt;Apache/2.2.22 (Debian) Server at 12
+Waiting for timeout on 19 connections ...&lt;/address&gt;amap v5.4 finished at 2014-05-13 19:07:22</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="amapB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>Amap was the first next-generation scanning tool for pentesters. It attempts to identify 
+applications even if they are running on a different port than normal.
+It also identifies non-ascii based applications. This is achieved by sending trigger packets, and 
+looking up the responses in a list of response strings.
+
+Source: https://www.thc.org/thc-amap/</string>
               </property>
              </widget>
             </item>
@@ -2836,7 +2939,40 @@ Host:192.168.1.201, Username:Administrator, Password:BLANK
             <item row="3" column="0">
              <widget class="QLabel" name="amapB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# amap
+amap v5.4 (c) 2011 by van Hauser &amp;lt;vh@thc.org&amp;gt; www.thc.org/thc-amap
+Syntax: amap [-A|-B|-P|-W] [-1buSRHUdqv] [[-m] -o ] [-D ] [-t/-T sec] [-c cons] 
+[-C retries] [-p proto] [-i ] [target port [port] ...]
+
+Modes:
+-A Map applications: send triggers and analyse responses (default)
+-B Just grab banners, do not send triggers
+-P No banner or application stuff - be a (full connect) port scanner
+Options:
+-1 Only send triggers to a port until 1st identification. Speeeeed!
+-6 Use IPv6 instead of IPv4
+-b Print ascii banner of responses
+-i FILE Nmap machine readable outputfile to read ports from
+-u Ports specified on commandline are UDP (default is TCP)
+-R Do NOT identify RPC service
+-H Do NOT send application triggers marked as potentially harmful
+-U Do NOT dump unrecognised responses (better for scripting)
+-d Dump all responses
+-v Verbose mode, use twice (or more!) for debug (not recommended :-)
+-q Do not report closed ports, and do not print them as unidentified
+-o FILE [-m] Write output to file FILE, -m creates machine readable output
+-c CONS Amount of parallel connections to make (default 32, max 256)
+-C RETRIES Number of reconnects on connect timeouts (see -T) (default 3)
+-T SEC Connect timeout on connection attempts in seconds (default 5)
+-t SEC Response wait timeout in seconds (default 5)
+-p PROTO Only send triggers for this protocol (e.g. ftp)
+TARGET PORT The target address and port(s) to scan (additional to -i)
+
+amap is a tool to identify application protocols on target ports.
+
+Note: this version was NOT compiled with SSL support!
+Usage hint: Options &quot;-bqv&quot; are recommended, add &quot;-1&quot; for fast/rush checks.
+</string>
               </property>
              </widget>
             </item>
@@ -2895,9 +3031,9 @@ Host:192.168.1.201, Username:Administrator, Password:BLANK
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-516</y>
+             <width>508</width>
+             <height>908</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
@@ -2941,14 +3077,23 @@ Host:192.168.1.201, Username:Administrator, Password:BLANK
             <item row="5" column="0">
              <widget class="QLabel" name="automaterB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# automater -s robtex 50.116.53.73
+[*] Checking http://api.tekdefense.com/robtex/rob.php?q=50.116.53.73</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="automaterB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>Automater is a URL/Domain, IP Address, and Md5 Hash OSINT tool aimed at making the 
+analysis process easier for intrusion Analysts. Given a target (URL, IP, or HASH) or a file full of 
+targets Automater will return relevant results from sources like the following: IPvoid.com, 
+Robtex.com, Fortiguard.com, unshorten.me, Urlvoid.com, Labs.alienvault.com, ThreatExpert, 
+VxVault, and VirusTotal.
+
+Source: http://www.tekdefense.com/automater/
+
+</string>
               </property>
              </widget>
             </item>
@@ -2983,7 +3128,42 @@ Host:192.168.1.201, Username:Administrator, Password:BLANK
             <item row="3" column="0">
              <widget class="QLabel" name="automaterB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# automater -h
+usage: Automater.py [-h] [-o OUTPUT] [-w WEB] [-c CSV] [-d DELAY] [-s SOURCE]
+[--p] [--proxy PROXY] [-a USERAGENT]
+target
+
+IP, URL, and Hash Passive Analysis tool
+
+positional arguments:
+target List one IP Address (CIDR or dash notation accepted),
+URL or Hash to query or pass the filename of a file
+containing IP Address info, URL or Hash to query each
+separated by a newline.
+
+optional arguments:
+-h, --help show this help message and exit
+-o OUTPUT, --output OUTPUT
+This option will output the results to a file.
+-w WEB, --web WEB This option will output the results to an HTML file.
+-c CSV, --csv CSV This option will output the results to a CSV file.
+-d DELAY, --delay DELAY
+This will change the delay to the inputted seconds.
+Default is 2.
+-s SOURCE, --source SOURCE
+This option will only run the target against a
+specific source engine to pull associated domains.
+Options are defined in the name attribute of the site
+element in the XML configuration file
+--p, --post This option tells the program to post information to
+sites that allow posting. By default the program will
+NOT post to sites that require a post.
+--proxy PROXY This option will set a proxy to use (eg.
+proxy.example.com:8080)
+-a USERAGENT, --useragent USERAGENT
+This option allows the user to set the user-agent seen
+by web servers being utilized. By default, the user-
+agent is set to Automater/version</string>
               </property>
              </widget>
             </item>
@@ -3004,7 +3184,8 @@ Host:192.168.1.201, Username:Administrator, Password:BLANK
             <item row="6" column="0">
              <widget class="QLabel" name="automaterB4">
               <property name="text">
-               <string>BODY4</string>
+               <string>____________________ Results found for: 50.116.53.73 ____________________
+[+] A records from Robtex.com: www.kali.org</string>
               </property>
              </widget>
             </item>
@@ -6557,7 +6738,7 @@ Host:192.168.1.201, Username:Administrator, Password:BLANK
            </font>
           </property>
           <property name="text">
-           <string>ToolName</string>
+           <string>goofile</string>
           </property>
          </widget>
         </item>

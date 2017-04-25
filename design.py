@@ -781,7 +781,7 @@ class Ui_MainWindow(object):
         self.acevoipScrollArea.setWidgetResizable(True)
         self.acevoipScrollArea.setObjectName("acevoipScrollArea")
         self.scrollAreaWidgetContents_3 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_3.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_3.setGeometry(QtCore.QRect(0, -154, 508, 921))
         self.scrollAreaWidgetContents_3.setObjectName("scrollAreaWidgetContents_3")
         self.gridLayout_7 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_3)
         self.gridLayout_7.setContentsMargins(11, 11, 11, 11)
@@ -857,7 +857,7 @@ class Ui_MainWindow(object):
         self.amapScrollArea.setWidgetResizable(True)
         self.amapScrollArea.setObjectName("amapScrollArea")
         self.scrollAreaWidgetContents_4 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_4.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_4.setGeometry(QtCore.QRect(0, 0, 508, 1493))
         self.scrollAreaWidgetContents_4.setObjectName("scrollAreaWidgetContents_4")
         self.gridLayout_71 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_4)
         self.gridLayout_71.setContentsMargins(11, 11, 11, 11)
@@ -933,7 +933,7 @@ class Ui_MainWindow(object):
         self.automaterScrollArea.setWidgetResizable(True)
         self.automaterScrollArea.setObjectName("automaterScrollArea")
         self.scrollAreaWidgetContents_5 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_5.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_5.setGeometry(QtCore.QRect(0, -516, 508, 908))
         self.scrollAreaWidgetContents_5.setObjectName("scrollAreaWidgetContents_5")
         self.gridLayout_72 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_5)
         self.gridLayout_72.setContentsMargins(11, 11, 11, 11)
@@ -3123,7 +3123,7 @@ class Ui_MainWindow(object):
         self.menuBar.addAction(self.menuHelp.menuAction())
 
         self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(31)
+        self.tabWidget.setCurrentIndex(5)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -3588,35 +3588,216 @@ class Ui_MainWindow(object):
         self.acevoipTitle.setText(_translate("MainWindow", "ace-voip"))
         self.acevoipButton.setText(_translate("MainWindow", "./ace"))
         self.acevoipH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.acevoipB3.setText(_translate("MainWindow", "BODY 3"))
-        self.acevoipB1.setText(_translate("MainWindow", "BODY 1"))
+        self.acevoipB3.setText(_translate("MainWindow", "Usage requires MAC Address of IP Phone supplied with -m option\n"
+"Usage: ace -t -m\n"
+"\n"
+"Mode to automatically discover TFTP Server IP via DHCP Option 150 (-m)\n"
+"Example: ace -i eth0 -m 00:1E:F7:28:9C:8e\n"
+"\n"
+"Mode to specify IP Address of TFTP Server\n"
+"Example: ace -i eth0 -t 192.168.10.150 -m 00:1E:F7:28:9C:8e\n"
+"\n"
+"Mode to specify the Voice VLAN ID\n"
+"Example: ace -i eth0 -v 96 -m 00:1E:F7:28:9C:8E\n"
+"\n"
+"Verbose mode\n"
+"Example: ace -i eth0 -v 96 -m 00:1E:F7:28:9C:8E -d\n"
+"\n"
+"Mode to remove vlan interface\n"
+"Example: ace -r eth0.96\n"
+"\n"
+"Mode to auto-discover voice vlan ID in the listening mode for CDP\n"
+"Example: ace -i eth0 -c 0 -m 00:1E:F7:28:9C:8E\n"
+"\n"
+"Mode to auto-discover voice vlan ID in the spoofing mode for CDP\n"
+"Example: ace -i eth0 -c 1 -m 00:1E:F7:28:9C:8E\n"
+""))
+        self.acevoipB1.setText(_translate("MainWindow", "ACE (Automated Corporate Enumerator) is a simple yet powerful VoIP Corporate Directory \n"
+"enumeration tool that mimics the behavior of an IP Phone in order to download the name and \n"
+"extension entries that a given phone can display on its screen interface. In the same way that the \n"
+"“corporate directory” feature of VoIP hardphones enables users to easily dial by name via their \n"
+"VoIP handsets, ACE was developed as a research idea born from “VoIP Hopper” to automate\n"
+"VoIP attacks that can be targeted against names in an enterprise Directory. The concept is that in \n"
+"the future, attacks will be carried out against users based on their name, rather than targeting \n"
+"VoIP traffic against random RTP audio streams or IP addresses. ACE works by using DHCP, \n"
+"TFTP, and HTTP in order to download the VoIP corporate directory. It then outputs the directory \n"
+"to a text file, which can be used as input to other VoIP assessment tools.\n"
+"\n"
+"Source: http://ucsniff.sourceforge.net/ace.html"))
         self.acevoipH2.setText(_translate("MainWindow", "Usage:"))
         self.acevoipH1.setText(_translate("MainWindow", "Description:"))
-        self.acevoipB2.setText(_translate("MainWindow", "BODY 2"))
+        self.acevoipB2.setText(_translate("MainWindow", "root@kali:~# ace\n"
+"ACE v1.10: Automated Corporate (Data) Enumerator\n"
+"Usage: ace [-i interface] [ -m mac address ] [ -t tftp server ip address | -c cdp mode | \n"
+"-v voice vlan id | -r vlan interface | -d verbose mode ]\n"
+"\n"
+"-i (Mandatory) Interface for sniffing/sending packets\n"
+"-m (Mandatory) MAC address of the victim IP phone\n"
+"-t (Optional) tftp server ip address\n"
+"-c (Optional) 0 CDP sniff mode, 1 CDP spoof mode\n"
+"-v (Optional) Enter the voice vlan ID\n"
+"-r (Optional) Removes the VLAN interface\n"
+"-d (Optional) Verbose | debug mode\n"
+""))
         self.acevoipH3.setText(_translate("MainWindow", "Examples:"))
-        self.acevoipB4.setText(_translate("MainWindow", "BODY4"))
+        self.acevoipB4.setText(_translate("MainWindow", "root@kali:~# coming soon"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.acevoipTab), _translate("MainWindow", "ace-voip"))
         self.amapTitle.setText(_translate("MainWindow", "Amap"))
         self.amapButton.setText(_translate("MainWindow", "./amap"))
         self.amapH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.amapB3.setText(_translate("MainWindow", "BODY 3"))
-        self.amapB1.setText(_translate("MainWindow", "BODY 1"))
+        self.amapB3.setText(_translate("MainWindow", "root@kali:~# amap -bqv 192.168.1.15 80\n"
+"Using trigger file /etc/amap/appdefs.trig ... loaded 30 triggers\n"
+"Using response file /etc/amap/appdefs.resp ... loaded 346 responses\n"
+"Using trigger file /etc/amap/appdefs.rpc ... loaded 450 triggers\n"
+"\n"
+"amap v5.4 (www.thc.org/thc-amap) started at 2014-05-13 19:07:16 - APPLICATION MAPPING mode\n"
+"\n"
+"Total amount of tasks to perform in plain connect mode: 23\n"
+"Protocol on 192.168.1.15:80/tcp (by trigger ssl) matches http - banner: \n"
+"\n"
+"501 Method Not Implemented\n"
+"\n"
+"\n"
+"<h1>Method Not Implemented</h1>\n"
+"\n"
+"\n"
+"\n"
+"to /index.html not supported.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"<hr />\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"<address>Apache/2.2.22 (Debian) Server at 12\n"
+"Protocol on 192.168.1.15:80/tcp (by trigger ssl) matches http-apache-2 - banner: \n"
+"\n"
+"501 Method Not Implemented\n"
+"\n"
+"</address>\n"
+"<h1>Method Not Implemented</h1>\n"
+"\n"
+"\n"
+"\n"
+"to /index.html not supported.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"<hr />\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"<address>Apache/2.2.22 (Debian) Server at 12\n"
+"Waiting for timeout on 19 connections ...</address>amap v5.4 finished at 2014-05-13 19:07:22"))
+        self.amapB1.setText(_translate("MainWindow", "Amap was the first next-generation scanning tool for pentesters. It attempts to identify \n"
+"applications even if they are running on a different port than normal.\n"
+"It also identifies non-ascii based applications. This is achieved by sending trigger packets, and \n"
+"looking up the responses in a list of response strings.\n"
+"\n"
+"Source: https://www.thc.org/thc-amap/"))
         self.amapH2.setText(_translate("MainWindow", "Usage:"))
         self.amapH1.setText(_translate("MainWindow", "Description:"))
-        self.amapB2.setText(_translate("MainWindow", "BODY 2"))
+        self.amapB2.setText(_translate("MainWindow", "root@kali:~# amap\n"
+"amap v5.4 (c) 2011 by van Hauser &lt;vh@thc.org&gt; www.thc.org/thc-amap\n"
+"Syntax: amap [-A|-B|-P|-W] [-1buSRHUdqv] [[-m] -o ] [-D ] [-t/-T sec] [-c cons] \n"
+"[-C retries] [-p proto] [-i ] [target port [port] ...]\n"
+"\n"
+"Modes:\n"
+"-A Map applications: send triggers and analyse responses (default)\n"
+"-B Just grab banners, do not send triggers\n"
+"-P No banner or application stuff - be a (full connect) port scanner\n"
+"Options:\n"
+"-1 Only send triggers to a port until 1st identification. Speeeeed!\n"
+"-6 Use IPv6 instead of IPv4\n"
+"-b Print ascii banner of responses\n"
+"-i FILE Nmap machine readable outputfile to read ports from\n"
+"-u Ports specified on commandline are UDP (default is TCP)\n"
+"-R Do NOT identify RPC service\n"
+"-H Do NOT send application triggers marked as potentially harmful\n"
+"-U Do NOT dump unrecognised responses (better for scripting)\n"
+"-d Dump all responses\n"
+"-v Verbose mode, use twice (or more!) for debug (not recommended :-)\n"
+"-q Do not report closed ports, and do not print them as unidentified\n"
+"-o FILE [-m] Write output to file FILE, -m creates machine readable output\n"
+"-c CONS Amount of parallel connections to make (default 32, max 256)\n"
+"-C RETRIES Number of reconnects on connect timeouts (see -T) (default 3)\n"
+"-T SEC Connect timeout on connection attempts in seconds (default 5)\n"
+"-t SEC Response wait timeout in seconds (default 5)\n"
+"-p PROTO Only send triggers for this protocol (e.g. ftp)\n"
+"TARGET PORT The target address and port(s) to scan (additional to -i)\n"
+"\n"
+"amap is a tool to identify application protocols on target ports.\n"
+"\n"
+"Note: this version was NOT compiled with SSL support!\n"
+"Usage hint: Options \"-bqv\" are recommended, add \"-1\" for fast/rush checks.\n"
+""))
         self.amapH3.setText(_translate("MainWindow", "Examples:"))
         self.amapB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.amapTab), _translate("MainWindow", "amap"))
         self.automaterTitle.setText(_translate("MainWindow", "Automater"))
         self.automaterButton.setText(_translate("MainWindow", "./automater"))
         self.automaterH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.automaterB3.setText(_translate("MainWindow", "BODY 3"))
-        self.automaterB1.setText(_translate("MainWindow", "BODY 1"))
+        self.automaterB3.setText(_translate("MainWindow", "root@kali:~# automater -s robtex 50.116.53.73\n"
+"[*] Checking http://api.tekdefense.com/robtex/rob.php?q=50.116.53.73"))
+        self.automaterB1.setText(_translate("MainWindow", "Automater is a URL/Domain, IP Address, and Md5 Hash OSINT tool aimed at making the \n"
+"analysis process easier for intrusion Analysts. Given a target (URL, IP, or HASH) or a file full of \n"
+"targets Automater will return relevant results from sources like the following: IPvoid.com, \n"
+"Robtex.com, Fortiguard.com, unshorten.me, Urlvoid.com, Labs.alienvault.com, ThreatExpert, \n"
+"VxVault, and VirusTotal.\n"
+"\n"
+"Source: http://www.tekdefense.com/automater/\n"
+"\n"
+""))
         self.automaterH2.setText(_translate("MainWindow", "Usage:"))
         self.automaterH1.setText(_translate("MainWindow", "Description:"))
-        self.automaterB2.setText(_translate("MainWindow", "BODY 2"))
+        self.automaterB2.setText(_translate("MainWindow", "root@kali:~# automater -h\n"
+"usage: Automater.py [-h] [-o OUTPUT] [-w WEB] [-c CSV] [-d DELAY] [-s SOURCE]\n"
+"[--p] [--proxy PROXY] [-a USERAGENT]\n"
+"target\n"
+"\n"
+"IP, URL, and Hash Passive Analysis tool\n"
+"\n"
+"positional arguments:\n"
+"target List one IP Address (CIDR or dash notation accepted),\n"
+"URL or Hash to query or pass the filename of a file\n"
+"containing IP Address info, URL or Hash to query each\n"
+"separated by a newline.\n"
+"\n"
+"optional arguments:\n"
+"-h, --help show this help message and exit\n"
+"-o OUTPUT, --output OUTPUT\n"
+"This option will output the results to a file.\n"
+"-w WEB, --web WEB This option will output the results to an HTML file.\n"
+"-c CSV, --csv CSV This option will output the results to a CSV file.\n"
+"-d DELAY, --delay DELAY\n"
+"This will change the delay to the inputted seconds.\n"
+"Default is 2.\n"
+"-s SOURCE, --source SOURCE\n"
+"This option will only run the target against a\n"
+"specific source engine to pull associated domains.\n"
+"Options are defined in the name attribute of the site\n"
+"element in the XML configuration file\n"
+"--p, --post This option tells the program to post information to\n"
+"sites that allow posting. By default the program will\n"
+"NOT post to sites that require a post.\n"
+"--proxy PROXY This option will set a proxy to use (eg.\n"
+"proxy.example.com:8080)\n"
+"-a USERAGENT, --useragent USERAGENT\n"
+"This option allows the user to set the user-agent seen\n"
+"by web servers being utilized. By default, the user-\n"
+"agent is set to Automater/version"))
         self.automaterH3.setText(_translate("MainWindow", "Examples:"))
-        self.automaterB4.setText(_translate("MainWindow", "BODY4"))
+        self.automaterB4.setText(_translate("MainWindow", "____________________ Results found for: 50.116.53.73 ____________________\n"
+"[+] A records from Robtex.com: www.kali.org"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.automaterTab), _translate("MainWindow", "Automater"))
         self.bingip2hostsTitle.setText(_translate("MainWindow", "bing-ip2hosts"))
         self.bingip2hostsButton.setText(_translate("MainWindow", "./bing-ip2hosts"))
@@ -3882,7 +4063,7 @@ class Ui_MainWindow(object):
         self.GoLismeroH3.setText(_translate("MainWindow", "Examples:"))
         self.GoLismeroB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.GoLismeroTab), _translate("MainWindow", "GoLismero"))
-        self.goofileTitle.setText(_translate("MainWindow", "ToolName"))
+        self.goofileTitle.setText(_translate("MainWindow", "goofile"))
         self.goofileButton.setText(_translate("MainWindow", "./goofile"))
         self.goofileH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
         self.goofileB3.setText(_translate("MainWindow", "BODY 3"))
