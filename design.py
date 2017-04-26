@@ -1234,7 +1234,7 @@ class Ui_MainWindow(object):
         self.CDPSnarfScrollArea.setWidgetResizable(True)
         self.CDPSnarfScrollArea.setObjectName("CDPSnarfScrollArea")
         self.scrollAreaWidgetContents_81 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_81.setGeometry(QtCore.QRect(0, -549, 508, 915))
+        self.scrollAreaWidgetContents_81.setGeometry(QtCore.QRect(0, 0, 508, 915))
         self.scrollAreaWidgetContents_81.setObjectName("scrollAreaWidgetContents_81")
         self.gridLayout_76 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_81)
         self.gridLayout_76.setContentsMargins(11, 11, 11, 11)
@@ -1307,7 +1307,7 @@ class Ui_MainWindow(object):
         self.ciscoTorchScrollArea.setWidgetResizable(True)
         self.ciscoTorchScrollArea.setObjectName("ciscoTorchScrollArea")
         self.scrollAreaWidgetContents_82 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_82.setGeometry(QtCore.QRect(0, -1099, 522, 1448))
+        self.scrollAreaWidgetContents_82.setGeometry(QtCore.QRect(0, 0, 522, 1448))
         self.scrollAreaWidgetContents_82.setObjectName("scrollAreaWidgetContents_82")
         self.gridLayout_77 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_82)
         self.gridLayout_77.setContentsMargins(11, 11, 11, 11)
@@ -1380,7 +1380,7 @@ class Ui_MainWindow(object):
         self.CookieCadgerScrollArea.setWidgetResizable(True)
         self.CookieCadgerScrollArea.setObjectName("CookieCadgerScrollArea")
         self.scrollAreaWidgetContents_83 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_83.setGeometry(QtCore.QRect(0, -386, 508, 752))
+        self.scrollAreaWidgetContents_83.setGeometry(QtCore.QRect(0, 0, 508, 752))
         self.scrollAreaWidgetContents_83.setObjectName("scrollAreaWidgetContents_83")
         self.gridLayout_78 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_83)
         self.gridLayout_78.setContentsMargins(11, 11, 11, 11)
@@ -1456,7 +1456,7 @@ class Ui_MainWindow(object):
         self.copyRouterConfigScrollArea.setWidgetResizable(True)
         self.copyRouterConfigScrollArea.setObjectName("copyRouterConfigScrollArea")
         self.scrollAreaWidgetContents_84 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_84.setGeometry(QtCore.QRect(0, -282, 508, 674))
+        self.scrollAreaWidgetContents_84.setGeometry(QtCore.QRect(0, 0, 508, 674))
         self.scrollAreaWidgetContents_84.setObjectName("scrollAreaWidgetContents_84")
         self.gridLayout_79 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_84)
         self.gridLayout_79.setContentsMargins(11, 11, 11, 11)
@@ -1532,7 +1532,7 @@ class Ui_MainWindow(object):
         self.DMitryScrollArea.setWidgetResizable(True)
         self.DMitryScrollArea.setObjectName("DMitryScrollArea")
         self.scrollAreaWidgetContents_85 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_85.setGeometry(QtCore.QRect(0, -568, 508, 934))
+        self.scrollAreaWidgetContents_85.setGeometry(QtCore.QRect(0, 0, 508, 934))
         self.scrollAreaWidgetContents_85.setObjectName("scrollAreaWidgetContents_85")
         self.gridLayout_710 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_85)
         self.gridLayout_710.setContentsMargins(11, 11, 11, 11)
@@ -1608,7 +1608,7 @@ class Ui_MainWindow(object):
         self.dnmapScrollArea.setWidgetResizable(True)
         self.dnmapScrollArea.setObjectName("dnmapScrollArea")
         self.scrollAreaWidgetContents_86 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_86.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_86.setGeometry(QtCore.QRect(0, -159, 820, 1571))
         self.scrollAreaWidgetContents_86.setObjectName("scrollAreaWidgetContents_86")
         self.gridLayout_711 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_86)
         self.gridLayout_711.setContentsMargins(11, 11, 11, 11)
@@ -1684,7 +1684,7 @@ class Ui_MainWindow(object):
         self.dnsenumScrollArea.setWidgetResizable(True)
         self.dnsenumScrollArea.setObjectName("dnsenumScrollArea")
         self.scrollAreaWidgetContents_87 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_87.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_87.setGeometry(QtCore.QRect(0, -895, 638, 1253))
         self.scrollAreaWidgetContents_87.setObjectName("scrollAreaWidgetContents_87")
         self.gridLayout_712 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_87)
         self.gridLayout_712.setContentsMargins(11, 11, 11, 11)
@@ -1692,9 +1692,9 @@ class Ui_MainWindow(object):
         self.gridLayout_712.setObjectName("gridLayout_712")
         self.dnsenumButton = QtWidgets.QPushButton(self.scrollAreaWidgetContents_87)
         self.dnsenumButton.setObjectName("dnsenumButton")
-        self.gridLayout_712.addWidget(self.dnsenumButton, 8, 0, 1, 1)
+        self.gridLayout_712.addWidget(self.dnsenumButton, 7, 0, 1, 1)
         spacerItem13 = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
-        self.gridLayout_712.addItem(spacerItem13, 9, 0, 1, 1)
+        self.gridLayout_712.addItem(spacerItem13, 8, 0, 1, 1)
         self.dnsenumH4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_87)
         font = QtGui.QFont()
         font.setPointSize(24)
@@ -1702,7 +1702,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.dnsenumH4.setFont(font)
         self.dnsenumH4.setObjectName("dnsenumH4")
-        self.gridLayout_712.addWidget(self.dnsenumH4, 7, 0, 1, 1)
+        self.gridLayout_712.addWidget(self.dnsenumH4, 6, 0, 1, 1)
         self.dnsenumB3 = QtWidgets.QLabel(self.scrollAreaWidgetContents_87)
         self.dnsenumB3.setObjectName("dnsenumB3")
         self.gridLayout_712.addWidget(self.dnsenumB3, 5, 0, 1, 1)
@@ -1736,9 +1736,6 @@ class Ui_MainWindow(object):
         self.dnsenumH3.setFont(font)
         self.dnsenumH3.setObjectName("dnsenumH3")
         self.gridLayout_712.addWidget(self.dnsenumH3, 4, 0, 1, 1)
-        self.dnsenumB4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_87)
-        self.dnsenumB4.setObjectName("dnsenumB4")
-        self.gridLayout_712.addWidget(self.dnsenumB4, 6, 0, 1, 1)
         self.dnsenumScrollArea.setWidget(self.scrollAreaWidgetContents_87)
         self.gridLayout_512.addWidget(self.dnsenumScrollArea, 1, 0, 1, 1)
         self.tabWidget.addTab(self.dnsenumTab, "")
@@ -1760,7 +1757,7 @@ class Ui_MainWindow(object):
         self.dnsmapScrollArea.setWidgetResizable(True)
         self.dnsmapScrollArea.setObjectName("dnsmapScrollArea")
         self.scrollAreaWidgetContents_88 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_88.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_88.setGeometry(QtCore.QRect(0, 0, 508, 999))
         self.scrollAreaWidgetContents_88.setObjectName("scrollAreaWidgetContents_88")
         self.gridLayout_713 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_88)
         self.gridLayout_713.setContentsMargins(11, 11, 11, 11)
@@ -1836,7 +1833,7 @@ class Ui_MainWindow(object):
         self.DNSReconScrollArea.setWidgetResizable(True)
         self.DNSReconScrollArea.setObjectName("DNSReconScrollArea")
         self.scrollAreaWidgetContents_89 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_89.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_89.setGeometry(QtCore.QRect(0, -898, 652, 1305))
         self.scrollAreaWidgetContents_89.setObjectName("scrollAreaWidgetContents_89")
         self.gridLayout_714 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_89)
         self.gridLayout_714.setContentsMargins(11, 11, 11, 11)
@@ -1844,9 +1841,9 @@ class Ui_MainWindow(object):
         self.gridLayout_714.setObjectName("gridLayout_714")
         self.DNSReconButton = QtWidgets.QPushButton(self.scrollAreaWidgetContents_89)
         self.DNSReconButton.setObjectName("DNSReconButton")
-        self.gridLayout_714.addWidget(self.DNSReconButton, 8, 0, 1, 1)
+        self.gridLayout_714.addWidget(self.DNSReconButton, 7, 0, 1, 1)
         spacerItem15 = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
-        self.gridLayout_714.addItem(spacerItem15, 9, 0, 1, 1)
+        self.gridLayout_714.addItem(spacerItem15, 8, 0, 1, 1)
         self.DNSReconH4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_89)
         font = QtGui.QFont()
         font.setPointSize(24)
@@ -1854,7 +1851,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.DNSReconH4.setFont(font)
         self.DNSReconH4.setObjectName("DNSReconH4")
-        self.gridLayout_714.addWidget(self.DNSReconH4, 7, 0, 1, 1)
+        self.gridLayout_714.addWidget(self.DNSReconH4, 6, 0, 1, 1)
         self.DNSReconB3 = QtWidgets.QLabel(self.scrollAreaWidgetContents_89)
         self.DNSReconB3.setObjectName("DNSReconB3")
         self.gridLayout_714.addWidget(self.DNSReconB3, 5, 0, 1, 1)
@@ -1888,9 +1885,6 @@ class Ui_MainWindow(object):
         self.DNSReconH3.setFont(font)
         self.DNSReconH3.setObjectName("DNSReconH3")
         self.gridLayout_714.addWidget(self.DNSReconH3, 4, 0, 1, 1)
-        self.DNSReconB4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_89)
-        self.DNSReconB4.setObjectName("DNSReconB4")
-        self.gridLayout_714.addWidget(self.DNSReconB4, 6, 0, 1, 1)
         self.DNSReconScrollArea.setWidget(self.scrollAreaWidgetContents_89)
         self.gridLayout_514.addWidget(self.DNSReconScrollArea, 1, 0, 1, 1)
         self.tabWidget.addTab(self.DNSReconTab, "")
@@ -1912,7 +1906,7 @@ class Ui_MainWindow(object):
         self.dnstracerScrollArea.setWidgetResizable(True)
         self.dnstracerScrollArea.setObjectName("dnstracerScrollArea")
         self.scrollAreaWidgetContents_810 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_810.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_810.setGeometry(QtCore.QRect(0, -230, 508, 655))
         self.scrollAreaWidgetContents_810.setObjectName("scrollAreaWidgetContents_810")
         self.gridLayout_715 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_810)
         self.gridLayout_715.setContentsMargins(11, 11, 11, 11)
@@ -1920,9 +1914,9 @@ class Ui_MainWindow(object):
         self.gridLayout_715.setObjectName("gridLayout_715")
         self.dnstracerButton = QtWidgets.QPushButton(self.scrollAreaWidgetContents_810)
         self.dnstracerButton.setObjectName("dnstracerButton")
-        self.gridLayout_715.addWidget(self.dnstracerButton, 8, 0, 1, 1)
+        self.gridLayout_715.addWidget(self.dnstracerButton, 7, 0, 1, 1)
         spacerItem16 = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
-        self.gridLayout_715.addItem(spacerItem16, 9, 0, 1, 1)
+        self.gridLayout_715.addItem(spacerItem16, 8, 0, 1, 1)
         self.dnstracerH4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_810)
         font = QtGui.QFont()
         font.setPointSize(24)
@@ -1930,7 +1924,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.dnstracerH4.setFont(font)
         self.dnstracerH4.setObjectName("dnstracerH4")
-        self.gridLayout_715.addWidget(self.dnstracerH4, 7, 0, 1, 1)
+        self.gridLayout_715.addWidget(self.dnstracerH4, 6, 0, 1, 1)
         self.dnstracerB3 = QtWidgets.QLabel(self.scrollAreaWidgetContents_810)
         self.dnstracerB3.setObjectName("dnstracerB3")
         self.gridLayout_715.addWidget(self.dnstracerB3, 5, 0, 1, 1)
@@ -1964,9 +1958,6 @@ class Ui_MainWindow(object):
         self.dnstracerH3.setFont(font)
         self.dnstracerH3.setObjectName("dnstracerH3")
         self.gridLayout_715.addWidget(self.dnstracerH3, 4, 0, 1, 1)
-        self.dnstracerB4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_810)
-        self.dnstracerB4.setObjectName("dnstracerB4")
-        self.gridLayout_715.addWidget(self.dnstracerB4, 6, 0, 1, 1)
         self.dnstracerScrollArea.setWidget(self.scrollAreaWidgetContents_810)
         self.gridLayout_515.addWidget(self.dnstracerScrollArea, 1, 0, 1, 1)
         self.tabWidget.addTab(self.dnstracerTab, "")
@@ -1988,7 +1979,7 @@ class Ui_MainWindow(object):
         self.dnswalkScrollArea.setWidgetResizable(True)
         self.dnswalkScrollArea.setObjectName("dnswalkScrollArea")
         self.scrollAreaWidgetContents_811 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_811.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_811.setGeometry(QtCore.QRect(0, -455, 768, 804))
         self.scrollAreaWidgetContents_811.setObjectName("scrollAreaWidgetContents_811")
         self.gridLayout_716 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_811)
         self.gridLayout_716.setContentsMargins(11, 11, 11, 11)
@@ -2064,7 +2055,7 @@ class Ui_MainWindow(object):
         self.DotDotPwnScrollArea.setWidgetResizable(True)
         self.DotDotPwnScrollArea.setObjectName("DotDotPwnScrollArea")
         self.scrollAreaWidgetContents_812 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_812.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_812.setGeometry(QtCore.QRect(0, -1411, 666, 1760))
         self.scrollAreaWidgetContents_812.setObjectName("scrollAreaWidgetContents_812")
         self.gridLayout_717 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_812)
         self.gridLayout_717.setContentsMargins(11, 11, 11, 11)
@@ -2072,9 +2063,9 @@ class Ui_MainWindow(object):
         self.gridLayout_717.setObjectName("gridLayout_717")
         self.DotDotPwnButton = QtWidgets.QPushButton(self.scrollAreaWidgetContents_812)
         self.DotDotPwnButton.setObjectName("DotDotPwnButton")
-        self.gridLayout_717.addWidget(self.DotDotPwnButton, 8, 0, 1, 1)
+        self.gridLayout_717.addWidget(self.DotDotPwnButton, 7, 0, 1, 1)
         spacerItem18 = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
-        self.gridLayout_717.addItem(spacerItem18, 9, 0, 1, 1)
+        self.gridLayout_717.addItem(spacerItem18, 8, 0, 1, 1)
         self.DotDotPwnH4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_812)
         font = QtGui.QFont()
         font.setPointSize(24)
@@ -2082,7 +2073,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.DotDotPwnH4.setFont(font)
         self.DotDotPwnH4.setObjectName("DotDotPwnH4")
-        self.gridLayout_717.addWidget(self.DotDotPwnH4, 7, 0, 1, 1)
+        self.gridLayout_717.addWidget(self.DotDotPwnH4, 6, 0, 1, 1)
         self.DotDotPwnB3 = QtWidgets.QLabel(self.scrollAreaWidgetContents_812)
         self.DotDotPwnB3.setObjectName("DotDotPwnB3")
         self.gridLayout_717.addWidget(self.DotDotPwnB3, 5, 0, 1, 1)
@@ -2116,9 +2107,6 @@ class Ui_MainWindow(object):
         self.DotDotPwnH3.setFont(font)
         self.DotDotPwnH3.setObjectName("DotDotPwnH3")
         self.gridLayout_717.addWidget(self.DotDotPwnH3, 4, 0, 1, 1)
-        self.DotDotPwnB4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_812)
-        self.DotDotPwnB4.setObjectName("DotDotPwnB4")
-        self.gridLayout_717.addWidget(self.DotDotPwnB4, 6, 0, 1, 1)
         self.DotDotPwnScrollArea.setWidget(self.scrollAreaWidgetContents_812)
         self.gridLayout_517.addWidget(self.DotDotPwnScrollArea, 1, 0, 1, 1)
         self.tabWidget.addTab(self.DotDotPwnTab, "")
@@ -2140,7 +2128,7 @@ class Ui_MainWindow(object):
         self.enum4linuxScrollArea.setWidgetResizable(True)
         self.enum4linuxScrollArea.setObjectName("enum4linuxScrollArea")
         self.scrollAreaWidgetContents_813 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_813.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_813.setGeometry(QtCore.QRect(0, -1090, 573, 1552))
         self.scrollAreaWidgetContents_813.setObjectName("scrollAreaWidgetContents_813")
         self.gridLayout_718 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_813)
         self.gridLayout_718.setContentsMargins(11, 11, 11, 11)
@@ -2148,9 +2136,9 @@ class Ui_MainWindow(object):
         self.gridLayout_718.setObjectName("gridLayout_718")
         self.enum4linuxButton = QtWidgets.QPushButton(self.scrollAreaWidgetContents_813)
         self.enum4linuxButton.setObjectName("enum4linuxButton")
-        self.gridLayout_718.addWidget(self.enum4linuxButton, 8, 0, 1, 1)
+        self.gridLayout_718.addWidget(self.enum4linuxButton, 7, 0, 1, 1)
         spacerItem19 = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
-        self.gridLayout_718.addItem(spacerItem19, 9, 0, 1, 1)
+        self.gridLayout_718.addItem(spacerItem19, 8, 0, 1, 1)
         self.enum4linuxH4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_813)
         font = QtGui.QFont()
         font.setPointSize(24)
@@ -2158,7 +2146,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.enum4linuxH4.setFont(font)
         self.enum4linuxH4.setObjectName("enum4linuxH4")
-        self.gridLayout_718.addWidget(self.enum4linuxH4, 7, 0, 1, 1)
+        self.gridLayout_718.addWidget(self.enum4linuxH4, 6, 0, 1, 1)
         self.enum4linuxB3 = QtWidgets.QLabel(self.scrollAreaWidgetContents_813)
         self.enum4linuxB3.setObjectName("enum4linuxB3")
         self.gridLayout_718.addWidget(self.enum4linuxB3, 5, 0, 1, 1)
@@ -2192,9 +2180,6 @@ class Ui_MainWindow(object):
         self.enum4linuxH3.setFont(font)
         self.enum4linuxH3.setObjectName("enum4linuxH3")
         self.gridLayout_718.addWidget(self.enum4linuxH3, 4, 0, 1, 1)
-        self.enum4linuxB4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_813)
-        self.enum4linuxB4.setObjectName("enum4linuxB4")
-        self.gridLayout_718.addWidget(self.enum4linuxB4, 6, 0, 1, 1)
         self.enum4linuxScrollArea.setWidget(self.scrollAreaWidgetContents_813)
         self.gridLayout_518.addWidget(self.enum4linuxScrollArea, 1, 0, 1, 1)
         self.tabWidget.addTab(self.enum4linuxTab, "")
@@ -2216,7 +2201,7 @@ class Ui_MainWindow(object):
         self.enumIAXScrollArea.setWidgetResizable(True)
         self.enumIAXScrollArea.setObjectName("enumIAXScrollArea")
         self.scrollAreaWidgetContents_814 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_814.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_814.setGeometry(QtCore.QRect(0, -243, 508, 616))
         self.scrollAreaWidgetContents_814.setObjectName("scrollAreaWidgetContents_814")
         self.gridLayout_719 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_814)
         self.gridLayout_719.setContentsMargins(11, 11, 11, 11)
@@ -2224,9 +2209,9 @@ class Ui_MainWindow(object):
         self.gridLayout_719.setObjectName("gridLayout_719")
         self.enumIAXButton = QtWidgets.QPushButton(self.scrollAreaWidgetContents_814)
         self.enumIAXButton.setObjectName("enumIAXButton")
-        self.gridLayout_719.addWidget(self.enumIAXButton, 8, 0, 1, 1)
+        self.gridLayout_719.addWidget(self.enumIAXButton, 7, 0, 1, 1)
         spacerItem20 = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
-        self.gridLayout_719.addItem(spacerItem20, 9, 0, 1, 1)
+        self.gridLayout_719.addItem(spacerItem20, 8, 0, 1, 1)
         self.enumIAXH4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_814)
         font = QtGui.QFont()
         font.setPointSize(24)
@@ -2234,7 +2219,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.enumIAXH4.setFont(font)
         self.enumIAXH4.setObjectName("enumIAXH4")
-        self.gridLayout_719.addWidget(self.enumIAXH4, 7, 0, 1, 1)
+        self.gridLayout_719.addWidget(self.enumIAXH4, 6, 0, 1, 1)
         self.enumIAXB3 = QtWidgets.QLabel(self.scrollAreaWidgetContents_814)
         self.enumIAXB3.setObjectName("enumIAXB3")
         self.gridLayout_719.addWidget(self.enumIAXB3, 5, 0, 1, 1)
@@ -2268,9 +2253,6 @@ class Ui_MainWindow(object):
         self.enumIAXH3.setFont(font)
         self.enumIAXH3.setObjectName("enumIAXH3")
         self.gridLayout_719.addWidget(self.enumIAXH3, 4, 0, 1, 1)
-        self.enumIAXB4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_814)
-        self.enumIAXB4.setObjectName("enumIAXB4")
-        self.gridLayout_719.addWidget(self.enumIAXB4, 6, 0, 1, 1)
         self.enumIAXScrollArea.setWidget(self.scrollAreaWidgetContents_814)
         self.gridLayout_519.addWidget(self.enumIAXScrollArea, 1, 0, 1, 1)
         self.tabWidget.addTab(self.enumIAXTab, "")
@@ -2292,7 +2274,7 @@ class Ui_MainWindow(object):
         self.FaradayScrollArea.setWidgetResizable(True)
         self.FaradayScrollArea.setObjectName("FaradayScrollArea")
         self.scrollAreaWidgetContents_815 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_815.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_815.setGeometry(QtCore.QRect(0, -1989, 818, 2338))
         self.scrollAreaWidgetContents_815.setObjectName("scrollAreaWidgetContents_815")
         self.gridLayout_720 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_815)
         self.gridLayout_720.setContentsMargins(11, 11, 11, 11)
@@ -2368,7 +2350,7 @@ class Ui_MainWindow(object):
         self.FierceScrollArea.setWidgetResizable(True)
         self.FierceScrollArea.setObjectName("FierceScrollArea")
         self.scrollAreaWidgetContents_816 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_816.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_816.setGeometry(QtCore.QRect(0, -1243, 508, 1786))
         self.scrollAreaWidgetContents_816.setObjectName("scrollAreaWidgetContents_816")
         self.gridLayout_721 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_816)
         self.gridLayout_721.setContentsMargins(11, 11, 11, 11)
@@ -2376,9 +2358,9 @@ class Ui_MainWindow(object):
         self.gridLayout_721.setObjectName("gridLayout_721")
         self.FierceButton = QtWidgets.QPushButton(self.scrollAreaWidgetContents_816)
         self.FierceButton.setObjectName("FierceButton")
-        self.gridLayout_721.addWidget(self.FierceButton, 8, 0, 1, 1)
+        self.gridLayout_721.addWidget(self.FierceButton, 7, 0, 1, 1)
         spacerItem22 = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
-        self.gridLayout_721.addItem(spacerItem22, 9, 0, 1, 1)
+        self.gridLayout_721.addItem(spacerItem22, 8, 0, 1, 1)
         self.FierceH4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_816)
         font = QtGui.QFont()
         font.setPointSize(24)
@@ -2386,7 +2368,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.FierceH4.setFont(font)
         self.FierceH4.setObjectName("FierceH4")
-        self.gridLayout_721.addWidget(self.FierceH4, 7, 0, 1, 1)
+        self.gridLayout_721.addWidget(self.FierceH4, 6, 0, 1, 1)
         self.FierceB3 = QtWidgets.QLabel(self.scrollAreaWidgetContents_816)
         self.FierceB3.setObjectName("FierceB3")
         self.gridLayout_721.addWidget(self.FierceB3, 5, 0, 1, 1)
@@ -2420,9 +2402,6 @@ class Ui_MainWindow(object):
         self.FierceH3.setFont(font)
         self.FierceH3.setObjectName("FierceH3")
         self.gridLayout_721.addWidget(self.FierceH3, 4, 0, 1, 1)
-        self.FierceB4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_816)
-        self.FierceB4.setObjectName("FierceB4")
-        self.gridLayout_721.addWidget(self.FierceB4, 6, 0, 1, 1)
         self.FierceScrollArea.setWidget(self.scrollAreaWidgetContents_816)
         self.gridLayout_521.addWidget(self.FierceScrollArea, 1, 0, 1, 1)
         self.tabWidget.addTab(self.FierceTab, "")
@@ -2444,7 +2423,7 @@ class Ui_MainWindow(object):
         self.FireWalkScrollArea.setWidgetResizable(True)
         self.FireWalkScrollArea.setObjectName("FireWalkScrollArea")
         self.scrollAreaWidgetContents_817 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_817.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_817.setGeometry(QtCore.QRect(0, -744, 508, 1110))
         self.scrollAreaWidgetContents_817.setObjectName("scrollAreaWidgetContents_817")
         self.gridLayout_722 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_817)
         self.gridLayout_722.setContentsMargins(11, 11, 11, 11)
@@ -2452,9 +2431,9 @@ class Ui_MainWindow(object):
         self.gridLayout_722.setObjectName("gridLayout_722")
         self.FireWalkButton = QtWidgets.QPushButton(self.scrollAreaWidgetContents_817)
         self.FireWalkButton.setObjectName("FireWalkButton")
-        self.gridLayout_722.addWidget(self.FireWalkButton, 8, 0, 1, 1)
+        self.gridLayout_722.addWidget(self.FireWalkButton, 7, 0, 1, 1)
         spacerItem23 = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
-        self.gridLayout_722.addItem(spacerItem23, 9, 0, 1, 1)
+        self.gridLayout_722.addItem(spacerItem23, 8, 0, 1, 1)
         self.FireWalkH4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_817)
         font = QtGui.QFont()
         font.setPointSize(24)
@@ -2462,7 +2441,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.FireWalkH4.setFont(font)
         self.FireWalkH4.setObjectName("FireWalkH4")
-        self.gridLayout_722.addWidget(self.FireWalkH4, 7, 0, 1, 1)
+        self.gridLayout_722.addWidget(self.FireWalkH4, 6, 0, 1, 1)
         self.FireWalkB3 = QtWidgets.QLabel(self.scrollAreaWidgetContents_817)
         self.FireWalkB3.setObjectName("FireWalkB3")
         self.gridLayout_722.addWidget(self.FireWalkB3, 5, 0, 1, 1)
@@ -2496,9 +2475,6 @@ class Ui_MainWindow(object):
         self.FireWalkH3.setFont(font)
         self.FireWalkH3.setObjectName("FireWalkH3")
         self.gridLayout_722.addWidget(self.FireWalkH3, 4, 0, 1, 1)
-        self.FireWalkB4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_817)
-        self.FireWalkB4.setObjectName("FireWalkB4")
-        self.gridLayout_722.addWidget(self.FireWalkB4, 6, 0, 1, 1)
         self.FireWalkScrollArea.setWidget(self.scrollAreaWidgetContents_817)
         self.gridLayout_522.addWidget(self.FireWalkScrollArea, 1, 0, 1, 1)
         self.tabWidget.addTab(self.FireWalkTab, "")
@@ -2520,7 +2496,7 @@ class Ui_MainWindow(object):
         self.fragRouteScrollArea.setWidgetResizable(True)
         self.fragRouteScrollArea.setObjectName("fragRouteScrollArea")
         self.scrollAreaWidgetContents_818 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_818.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_818.setGeometry(QtCore.QRect(0, -672, 508, 1038))
         self.scrollAreaWidgetContents_818.setObjectName("scrollAreaWidgetContents_818")
         self.gridLayout_723 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_818)
         self.gridLayout_723.setContentsMargins(11, 11, 11, 11)
@@ -2596,7 +2572,7 @@ class Ui_MainWindow(object):
         self.fragRouterScrollArea.setWidgetResizable(True)
         self.fragRouterScrollArea.setObjectName("fragRouterScrollArea")
         self.scrollAreaWidgetContents_819 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_819.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_819.setGeometry(QtCore.QRect(0, -529, 508, 928))
         self.scrollAreaWidgetContents_819.setObjectName("scrollAreaWidgetContents_819")
         self.gridLayout_724 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_819)
         self.gridLayout_724.setContentsMargins(11, 11, 11, 11)
@@ -2604,9 +2580,9 @@ class Ui_MainWindow(object):
         self.gridLayout_724.setObjectName("gridLayout_724")
         self.fragRouterButton = QtWidgets.QPushButton(self.scrollAreaWidgetContents_819)
         self.fragRouterButton.setObjectName("fragRouterButton")
-        self.gridLayout_724.addWidget(self.fragRouterButton, 8, 0, 1, 1)
+        self.gridLayout_724.addWidget(self.fragRouterButton, 7, 0, 1, 1)
         spacerItem25 = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
-        self.gridLayout_724.addItem(spacerItem25, 9, 0, 1, 1)
+        self.gridLayout_724.addItem(spacerItem25, 8, 0, 1, 1)
         self.fragRouterH4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_819)
         font = QtGui.QFont()
         font.setPointSize(24)
@@ -2614,7 +2590,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.fragRouterH4.setFont(font)
         self.fragRouterH4.setObjectName("fragRouterH4")
-        self.gridLayout_724.addWidget(self.fragRouterH4, 7, 0, 1, 1)
+        self.gridLayout_724.addWidget(self.fragRouterH4, 6, 0, 1, 1)
         self.fragRouterB3 = QtWidgets.QLabel(self.scrollAreaWidgetContents_819)
         self.fragRouterB3.setObjectName("fragRouterB3")
         self.gridLayout_724.addWidget(self.fragRouterB3, 5, 0, 1, 1)
@@ -2648,9 +2624,6 @@ class Ui_MainWindow(object):
         self.fragRouterH3.setFont(font)
         self.fragRouterH3.setObjectName("fragRouterH3")
         self.gridLayout_724.addWidget(self.fragRouterH3, 4, 0, 1, 1)
-        self.fragRouterB4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_819)
-        self.fragRouterB4.setObjectName("fragRouterB4")
-        self.gridLayout_724.addWidget(self.fragRouterB4, 6, 0, 1, 1)
         self.fragRouterScrollArea.setWidget(self.scrollAreaWidgetContents_819)
         self.gridLayout_524.addWidget(self.fragRouterScrollArea, 1, 0, 1, 1)
         self.tabWidget.addTab(self.fragRouterTab, "")
@@ -2672,7 +2645,7 @@ class Ui_MainWindow(object):
         self.GhostPhisherScrollArea.setWidgetResizable(True)
         self.GhostPhisherScrollArea.setObjectName("GhostPhisherScrollArea")
         self.scrollAreaWidgetContents_820 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_820.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_820.setGeometry(QtCore.QRect(0, -152, 508, 583))
         self.scrollAreaWidgetContents_820.setObjectName("scrollAreaWidgetContents_820")
         self.gridLayout_725 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_820)
         self.gridLayout_725.setContentsMargins(11, 11, 11, 11)
@@ -2748,7 +2721,7 @@ class Ui_MainWindow(object):
         self.GoLismeroScrollArea.setWidgetResizable(True)
         self.GoLismeroScrollArea.setObjectName("GoLismeroScrollArea")
         self.scrollAreaWidgetContents_821 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_821.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_821.setGeometry(QtCore.QRect(0, -1079, 643, 1448))
         self.scrollAreaWidgetContents_821.setObjectName("scrollAreaWidgetContents_821")
         self.gridLayout_726 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_821)
         self.gridLayout_726.setContentsMargins(11, 11, 11, 11)
@@ -2756,9 +2729,9 @@ class Ui_MainWindow(object):
         self.gridLayout_726.setObjectName("gridLayout_726")
         self.GoLismeroButton = QtWidgets.QPushButton(self.scrollAreaWidgetContents_821)
         self.GoLismeroButton.setObjectName("GoLismeroButton")
-        self.gridLayout_726.addWidget(self.GoLismeroButton, 8, 0, 1, 1)
+        self.gridLayout_726.addWidget(self.GoLismeroButton, 7, 0, 1, 1)
         spacerItem27 = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
-        self.gridLayout_726.addItem(spacerItem27, 9, 0, 1, 1)
+        self.gridLayout_726.addItem(spacerItem27, 8, 0, 1, 1)
         self.GoLismeroH4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_821)
         font = QtGui.QFont()
         font.setPointSize(24)
@@ -2766,7 +2739,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.GoLismeroH4.setFont(font)
         self.GoLismeroH4.setObjectName("GoLismeroH4")
-        self.gridLayout_726.addWidget(self.GoLismeroH4, 7, 0, 1, 1)
+        self.gridLayout_726.addWidget(self.GoLismeroH4, 6, 0, 1, 1)
         self.GoLismeroB3 = QtWidgets.QLabel(self.scrollAreaWidgetContents_821)
         self.GoLismeroB3.setObjectName("GoLismeroB3")
         self.gridLayout_726.addWidget(self.GoLismeroB3, 5, 0, 1, 1)
@@ -2800,9 +2773,6 @@ class Ui_MainWindow(object):
         self.GoLismeroH3.setFont(font)
         self.GoLismeroH3.setObjectName("GoLismeroH3")
         self.gridLayout_726.addWidget(self.GoLismeroH3, 4, 0, 1, 1)
-        self.GoLismeroB4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_821)
-        self.GoLismeroB4.setObjectName("GoLismeroB4")
-        self.gridLayout_726.addWidget(self.GoLismeroB4, 6, 0, 1, 1)
         self.GoLismeroScrollArea.setWidget(self.scrollAreaWidgetContents_821)
         self.gridLayout_526.addWidget(self.GoLismeroScrollArea, 1, 0, 1, 1)
         self.tabWidget.addTab(self.GoLismeroTab, "")
@@ -2824,7 +2794,7 @@ class Ui_MainWindow(object):
         self.goofileScrollArea.setWidgetResizable(True)
         self.goofileScrollArea.setObjectName("goofileScrollArea")
         self.scrollAreaWidgetContents_822 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_822.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_822.setGeometry(QtCore.QRect(0, -679, 508, 1045))
         self.scrollAreaWidgetContents_822.setObjectName("scrollAreaWidgetContents_822")
         self.gridLayout_727 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_822)
         self.gridLayout_727.setContentsMargins(11, 11, 11, 11)
@@ -2832,9 +2802,9 @@ class Ui_MainWindow(object):
         self.gridLayout_727.setObjectName("gridLayout_727")
         self.goofileButton = QtWidgets.QPushButton(self.scrollAreaWidgetContents_822)
         self.goofileButton.setObjectName("goofileButton")
-        self.gridLayout_727.addWidget(self.goofileButton, 8, 0, 1, 1)
+        self.gridLayout_727.addWidget(self.goofileButton, 7, 0, 1, 1)
         spacerItem28 = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
-        self.gridLayout_727.addItem(spacerItem28, 9, 0, 1, 1)
+        self.gridLayout_727.addItem(spacerItem28, 8, 0, 1, 1)
         self.goofileH4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_822)
         font = QtGui.QFont()
         font.setPointSize(24)
@@ -2842,7 +2812,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.goofileH4.setFont(font)
         self.goofileH4.setObjectName("goofileH4")
-        self.gridLayout_727.addWidget(self.goofileH4, 7, 0, 1, 1)
+        self.gridLayout_727.addWidget(self.goofileH4, 6, 0, 1, 1)
         self.goofileB3 = QtWidgets.QLabel(self.scrollAreaWidgetContents_822)
         self.goofileB3.setObjectName("goofileB3")
         self.gridLayout_727.addWidget(self.goofileB3, 5, 0, 1, 1)
@@ -2876,9 +2846,6 @@ class Ui_MainWindow(object):
         self.goofileH3.setFont(font)
         self.goofileH3.setObjectName("goofileH3")
         self.gridLayout_727.addWidget(self.goofileH3, 4, 0, 1, 1)
-        self.goofileB4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_822)
-        self.goofileB4.setObjectName("goofileB4")
-        self.gridLayout_727.addWidget(self.goofileB4, 6, 0, 1, 1)
         self.goofileScrollArea.setWidget(self.scrollAreaWidgetContents_822)
         self.gridLayout_527.addWidget(self.goofileScrollArea, 1, 0, 1, 1)
         self.tabWidget.addTab(self.goofileTab, "")
@@ -2900,7 +2867,7 @@ class Ui_MainWindow(object):
         self.hping3ScrollArea.setWidgetResizable(True)
         self.hping3ScrollArea.setObjectName("hping3ScrollArea")
         self.scrollAreaWidgetContents_823 = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents_823.setGeometry(QtCore.QRect(0, 0, 525, 366))
+        self.scrollAreaWidgetContents_823.setGeometry(QtCore.QRect(0, -6, 508, 1877))
         self.scrollAreaWidgetContents_823.setObjectName("scrollAreaWidgetContents_823")
         self.gridLayout_728 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_823)
         self.gridLayout_728.setContentsMargins(11, 11, 11, 11)
@@ -2908,9 +2875,9 @@ class Ui_MainWindow(object):
         self.gridLayout_728.setObjectName("gridLayout_728")
         self.hping3Button = QtWidgets.QPushButton(self.scrollAreaWidgetContents_823)
         self.hping3Button.setObjectName("hping3Button")
-        self.gridLayout_728.addWidget(self.hping3Button, 8, 0, 1, 1)
+        self.gridLayout_728.addWidget(self.hping3Button, 7, 0, 1, 1)
         spacerItem29 = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
-        self.gridLayout_728.addItem(spacerItem29, 9, 0, 1, 1)
+        self.gridLayout_728.addItem(spacerItem29, 8, 0, 1, 1)
         self.hping3H4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_823)
         font = QtGui.QFont()
         font.setPointSize(24)
@@ -2918,7 +2885,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.hping3H4.setFont(font)
         self.hping3H4.setObjectName("hping3H4")
-        self.gridLayout_728.addWidget(self.hping3H4, 7, 0, 1, 1)
+        self.gridLayout_728.addWidget(self.hping3H4, 6, 0, 1, 1)
         self.hping3B3 = QtWidgets.QLabel(self.scrollAreaWidgetContents_823)
         self.hping3B3.setObjectName("hping3B3")
         self.gridLayout_728.addWidget(self.hping3B3, 5, 0, 1, 1)
@@ -2952,9 +2919,6 @@ class Ui_MainWindow(object):
         self.hping3H3.setFont(font)
         self.hping3H3.setObjectName("hping3H3")
         self.gridLayout_728.addWidget(self.hping3H3, 4, 0, 1, 1)
-        self.hping3B4 = QtWidgets.QLabel(self.scrollAreaWidgetContents_823)
-        self.hping3B4.setObjectName("hping3B4")
-        self.gridLayout_728.addWidget(self.hping3B4, 6, 0, 1, 1)
         self.hping3ScrollArea.setWidget(self.scrollAreaWidgetContents_823)
         self.gridLayout_528.addWidget(self.hping3ScrollArea, 1, 0, 1, 1)
         self.tabWidget.addTab(self.hping3Tab, "")
@@ -3114,7 +3078,7 @@ class Ui_MainWindow(object):
         self.menuBar.addAction(self.menuHelp.menuAction())
 
         self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(13)
+        self.tabWidget.setCurrentIndex(31)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -4256,200 +4220,1502 @@ class Ui_MainWindow(object):
         self.dnmapTitle.setText(_translate("MainWindow", "dnmap"))
         self.dnmapButton.setText(_translate("MainWindow", "./dnmap_client"))
         self.dnmapH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.dnmapB3.setText(_translate("MainWindow", "BODY 3"))
-        self.dnmapB1.setText(_translate("MainWindow", "BODY 1"))
+        self.dnmapB3.setText(_translate("MainWindow", "root@kali:~# echo \"nmap -F 192.168.1.0/24 -v -n -oA sub1\" >> dnmap.txt\n"
+"root@kali:~# echo \"nmap -F 192.168.0.0/24 -v -n -oA sub0\" >> dnmap.txt\n"
+"root@kali:~# dnmap_server -f dnmap.txt\n"
+"+-----------------------------------------------------------------------------------------------+\n"
+"| dnmap_server Version 0.6                        |\n"
+"| This program is free software; you can redistribute it and/or modify         |\n"
+"| it under the terms of the GNU General Public License as published by     |\n"
+"| the Free Software Foundation; either version 2 of the License, or            |\n"
+"| (at your option) any later version.                                              |\n"
+"|                                                                                      |\n"
+"| Author: Garcia Sebastian, eldraco@gmail.com                                  |\n"
+"| www.mateslab.com.ar                                                              |\n"
+"+-----------------------------------------------------------------------------------------------+\n"
+"\n"
+"=| MET:0:00:00.000544 | Amount of Online clients: 0 |=\n"
+"\n"
+"\n"
+""))
+        self.dnmapB1.setText(_translate("MainWindow", "dnmap is a framework to distribute nmap scans among several clients. It reads an already created \n"
+"file with nmap commands and send those commands to each client connected to it.\n"
+"\n"
+"The framework use a client/server architecture. The server knows what to do and the clients do \n"
+"it. All the logic and statistics are managed in the server. Nmap output is stored on both server and \n"
+"client. \n"
+"\n"
+"Usually you would want this if you have to scan a large group of hosts and you have several \n"
+"different internet connections (or friends that want to help you).\n"
+"\n"
+"Source: http://mateslab.weebly.com/dnmap-the-distributed-nmap.html\n"
+"\n"
+""))
         self.dnmapH2.setText(_translate("MainWindow", "Usage:"))
         self.dnmapH1.setText(_translate("MainWindow", "Description:"))
-        self.dnmapB2.setText(_translate("MainWindow", "BODY 2"))
+        self.dnmapB2.setText(_translate("MainWindow", "root@kali:~# dnmap_client -h\n"
+"\n"
+"+-----------------------------------------------------------------------------------------------+\n"
+"| dnmap Client Version 0.6                        |\n"
+"| This program is free software; you can redistribute it and/or modify        |\n"
+"| it under the terms of the GNU General Public License as published by        |\n"
+"| the Free Software Foundation; either version 2 of the License, or        |\n"
+"| (at your option) any later version.                    |\n"
+"|                                |\n"
+"| Author: Garcia Sebastian, eldraco@gmail.com                |\n"
+"| www.mateslab.com.ar                        |\n"
+"+-----------------------------------------------------------------------------------------------+\n"
+"\n"
+"usage: /usr/bin/dnmap_client <options>\n"
+"options:\n"
+"  -s, --server-ip        IP address of dnmap server.\n"
+"  -p, --server-port      Port of dnmap server. Dnmap port defaults to 46001\n"
+"  -a, --alias      Your name alias so we can give credit to you for your help. Optional\n"
+"  -d, --debug      Debuging.\n"
+"  -m, --max-rate      Force nmaps commands to use at most this rate. Useful to slow nmap down. \n"
+"Adds the --max-rate parameter.\n"
+"\n"
+"\n"
+"\n"
+"root@kali:~# dnmap_server -h\n"
+"+-----------------------------------------------------------------------------------------------+\n"
+"| dnmap_server Version 0.6                                                       |\n"
+"| This program is free software; you can redistribute it and/or modify         |\n"
+"| it under the terms of the GNU General Public License as published by     |\n"
+"| the Free Software Foundation; either version 2 of the License, or            |\n"
+"| (at your option) any later version.                                              |\n"
+"|                                                                                      |\n"
+"| Author: Garcia Sebastian, eldraco@gmail.com                                  |\n"
+"| www.mateslab.com.ar                                                              |\n"
+"+-----------------------------------------------------------------------------------------------+\n"
+"\n"
+"usage: /usr/bin/dnmap_server <options>\n"
+"options:\n"
+"  -f, --nmap-commands        Nmap commands file\n"
+"  -p, --port        TCP port where we listen for connections.\n"
+"  -L, --log-file        Log file. Defaults to /var/log/dnmap_server.conf.\n"
+"  -l, --log-level       Log level. Defaults to info.\n"
+"  -v, --verbose_level         Verbose level. Give a number between 1 and 5. Defaults to 1. Level 0 means be quiet.\n"
+"  -t, --client-timeout         How many time should we wait before marking a client Offline. We still remember its values just in case it cames back.\n"
+"  -s, --sort            Field to sort the statical value. You can choose from: Alias, #Commands, UpTime, RunCmdXMin, AvrCmdXMin, Status\n"
+"  -P, --pem-file         pem file to use for TLS connection. By default we use the server.pem file provided with the server in the current directory.\n"
+"\n"
+"dnmap_server uses a \'<nmap-commands-file-name>.dnmaptrace\' file to know where it must continue reading the nmap commands file. If you want to start over again,\n"
+"just delete the \'<nmap-commands-file-name>.dnmaptrace\' file\n"
+""))
         self.dnmapH3.setText(_translate("MainWindow", "Examples:"))
-        self.dnmapB4.setText(_translate("MainWindow", "BODY4"))
+        self.dnmapB4.setText(_translate("MainWindow", "root@kali:~# dnmap_client -s 192.168.1.15 -a dnmap-client1\n"
+"+----------------------------------------------------------------------------------------------+\n"
+"| dnmap Client Version 0.6                                                         |\n"
+"| This program is free software; you can redistribute it and/or modify         |\n"
+"| it under the terms of the GNU General Public License as published by     |\n"
+"| the Free Software Foundation; either version 2 of the License, or            |\n"
+"| (at your option) any later version.                                              |\n"
+"|                                                                                      |\n"
+"| Author: Garcia Sebastian, eldraco@gmail.com                                  |\n"
+"| www.mateslab.com.ar                                                              |\n"
+"+----------------------------------------------------------------------------------------------+\n"
+"\n"
+"Client Started...\n"
+"Nmap output files stored in \'nmap_output\' directory...\n"
+"Starting connection...\n"
+"Client connected succesfully...\n"
+"Waiting for more commands....\n"
+"        Command Executed: nmap -F 192.168.1.0/24 -v -n -oA sub1\n"
+""))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.dnmapTab), _translate("MainWindow", "dnmap"))
         self.dnsenumTitle.setText(_translate("MainWindow", "dnsenum"))
         self.dnsenumButton.setText(_translate("MainWindow", "./dnsenum"))
         self.dnsenumH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.dnsenumB3.setText(_translate("MainWindow", "BODY 3"))
-        self.dnsenumB1.setText(_translate("MainWindow", "BODY 1"))
+        self.dnsenumB3.setText(_translate("MainWindow", "root@kali:~# dnsenum --noreverse -o mydomain.xml example.com\n"
+"dnsenum.pl VERSION:1.2.3\n"
+"\n"
+"-----   example.com   -----\n"
+"\n"
+"\n"
+"Host\'s addresses:\n"
+"__________________\n"
+"\n"
+"example.com.                             392      IN    A        93.184.216.119\n"
+"\n"
+"\n"
+"Name Servers:\n"
+"______________\n"
+"\n"
+"b.iana-servers.net.                      122      IN    A        199.43.133.53\n"
+"a.iana-servers.net.                      122      IN    A        199.43.132.53\n"
+"\n"
+"\n"
+"Mail (MX) Servers:\n"
+"___________________"))
+        self.dnsenumB1.setText(_translate("MainWindow", "Multithreaded perl script to enumerate DNS information of a domain and to discover non-\n"
+"contiguous ip blocks.\n"
+"\n"
+"OPERATIONS:\n"
+"•    Get the host’s addresse (A record).\n"
+"•    Get the namservers (threaded).\n"
+"•    Get the MX record (threaded).\n"
+"•    Perform axfr queries on nameservers and get BIND VERSION (threaded).\n"
+"•    Get extra names and subdomains via google scraping (google query = “allinurl: -www site:domain”).\n"
+"•    Brute force subdomains from file, can also perform recursion on subdomain that have NS records (all threaded).\n"
+"•    Calculate C class domain network ranges and perform whois queries on them (threaded).\n"
+"•    Perform reverse lookups on netranges ( C class or/and whois netranges) (threaded).\n"
+"•    Write to domain_ips.txt file ip-blocks.\n"
+"\n"
+"Source: https://github.com/fwaeytens/dnsenum\n"
+"\n"
+""))
         self.dnsenumH2.setText(_translate("MainWindow", "Usage:"))
         self.dnsenumH1.setText(_translate("MainWindow", "Description:"))
-        self.dnsenumB2.setText(_translate("MainWindow", "BODY 2"))
+        self.dnsenumB2.setText(_translate("MainWindow", "root@kali:~# dnsenum -h\n"
+"dnsenum.pl VERSION:1.2.3\n"
+"Usage: dnsenum.pl [Options] <domain>\n"
+"[Options]:\n"
+"Note: the brute force -f switch is obligatory.\n"
+"GENERAL OPTIONS:\n"
+"  --dnsserver   <server>\n"
+"            Use this DNS server for A, NS and MX queries.\n"
+"  --enum        Shortcut option equivalent to --threads 5 -s 15 -w.\n"
+"  -h, --help        Print this help message.\n"
+"  --noreverse       Skip the reverse lookup operations.\n"
+"  --private     Show and save private ips at the end of the file domain_ips.txt.\n"
+"  --subfile <file>  Write all valid subdomains to this file.\n"
+"  -t, --timeout <value> The tcp and udp timeout values in seconds (default: 10s).\n"
+"  --threads <value> The number of threads that will perform different queries.\n"
+"  -v, --verbose     Be verbose: show all the progress and all the error messages.\n"
+"GOOGLE SCRAPING OPTIONS:\n"
+"  -p, --pages <value>   The number of google search pages to process when scraping names,\n"
+"            the default is 5 pages, the -s switch must be specified.\n"
+"  -s, --scrap <value>   The maximum number of subdomains that will be scraped from Google (default 15).\n"
+"BRUTE FORCE OPTIONS:\n"
+"  -f, --file <file> Read subdomains from this file to perform brute force.\n"
+"  -u, --update  <a|g|r|z>\n"
+"            Update the file specified with the -f switch with valid subdomains.\n"
+"    a (all)     Update using all results.\n"
+"    g       Update using only google scraping results.\n"
+"    r       Update using only reverse lookup results.\n"
+"    z       Update using only zonetransfer results.\n"
+"  -r, --recursion   Recursion on subdomains, brute force all discovred subdomains that have an NS record.\n"
+"WHOIS NETRANGE OPTIONS:\n"
+"  -d, --delay <value>   The maximum value of seconds to wait between whois queries, the value is defined randomly, default: 3s.\n"
+"  -w, --whois       Perform the whois queries on c class network ranges.\n"
+"             **Warning**: this can generate very large netranges and it will take lot of time to performe reverse lookups.\n"
+"REVERSE LOOKUP OPTIONS:\n"
+"  -e, --exclude <regexp>\n"
+"            Exclude PTR records that match the regexp expression from reverse lookup results, useful on invalid hostnames.\n"
+"OUTPUT OPTIONS:\n"
+"  -o --output <file>    Output in XML format. Can be imported in MagicTree (www.gremwell.com)"))
         self.dnsenumH3.setText(_translate("MainWindow", "Examples:"))
-        self.dnsenumB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.dnsenumTab), _translate("MainWindow", "dnsenum"))
         self.dnsmapTitle.setText(_translate("MainWindow", "dnsmap"))
         self.dnsmapButton.setText(_translate("MainWindow", "./dnsmap"))
         self.dnsmapH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.dnsmapB3.setText(_translate("MainWindow", "BODY 3"))
-        self.dnsmapB1.setText(_translate("MainWindow", "BODY 1"))
+        self.dnsmapB3.setText(_translate("MainWindow", "root@kali:~# dnsmap example.com -w /usr/share/wordlists/dnsmap.txt\n"
+"dnsmap 0.30 - DNS Network Mapper by pagvac (gnucitizen.org)\n"
+"\n"
+"[+] searching (sub)domains for example.com using /usr/share/wordlists/dnsmap.txt\n"
+"[+] using maximum random delay of 10 millisecond(s) between requests\n"
+"\n"
+""))
+        self.dnsmapB1.setText(_translate("MainWindow", "dnsmap was originally released back in 2006 and was inspired by the fictional story “The Thief \n"
+"No One Saw” by Paul Craig, which can be found in the book “Stealing the Network – How to \n"
+"0wn the Box”.\n"
+"\n"
+"dnsmap is mainly meant to be used by pentesters during the information gathering/enumeration \n"
+"phase of infrastructure security assessments. During the enumeration stage, the security \n"
+"consultant would typically discover the target company’s IP netblocks, domain names, phone \n"
+"numbers, etc …\n"
+"\n"
+"Subdomain brute-forcing is another technique that should be used in the enumeration stage, as \n"
+"it’s especially useful when other domain enumeration techniques such as zone transfers don’t \n"
+"work (I rarely see zone transfers being publicly allowed these days by the way).\n"
+"\n"
+"Source: http://code.google.com/p/dnsmap/\n"
+"\n"
+""))
         self.dnsmapH2.setText(_translate("MainWindow", "Usage:"))
         self.dnsmapH1.setText(_translate("MainWindow", "Description:"))
-        self.dnsmapB2.setText(_translate("MainWindow", "BODY 2"))
+        self.dnsmapB2.setText(_translate("MainWindow", "root@kali:~# dnsmap\n"
+"dnsmap 0.30 - DNS Network Mapper by pagvac (gnucitizen.org)\n"
+"\n"
+"usage: dnsmap <target-domain> [options]\n"
+"options:\n"
+"-w <wordlist-file>\n"
+"-r <regular-results-file>\n"
+"-c <csv-results-file>\n"
+"-d <delay-millisecs>\n"
+"-i <ips-to-ignore> (useful if you\'re obtaining false positives)\n"
+"\n"
+"e.g.:\n"
+"dnsmap target-domain.foo\n"
+"dnsmap target-domain.foo -w yourwordlist.txt -r /tmp/domainbf_results.txt\n"
+"dnsmap target-fomain.foo -r /tmp/ -d 3000\n"
+"dnsmap target-fomain.foo -r ./domainbf_results.txt\n"
+"\n"
+"\n"
+"root@kali:~# dnsmap-bulk.sh\n"
+"usage: dnsmap-bulk.sh <domains-file> [results-path]\n"
+"e.g.:\n"
+"dnsmap-bulk.sh domains.txt\n"
+"dnsmap-bulk.sh domains.txt /tmp/\n"
+""))
         self.dnsmapH3.setText(_translate("MainWindow", "Examples:"))
-        self.dnsmapB4.setText(_translate("MainWindow", "BODY4"))
+        self.dnsmapB4.setText(_translate("MainWindow", "root@kali:~# echo \"example.com\" >> domains.txt\n"
+"root@kali:~# echo \"example.org\" >> domains.txt\n"
+"root@kali:~# dnsmap-bulk.sh domains.txt\n"
+"dnsmap 0.30 - DNS Network Mapper by pagvac (gnucitizen.org)\n"
+"\n"
+"[+] searching (sub)domains for example.com using built-in wordlist\n"
+"[+] using maximum random delay of 10 millisecond(s) between requests\n"
+"\n"
+""))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.dnsmapTab), _translate("MainWindow", "dnsmap"))
         self.DNSReconTitle.setText(_translate("MainWindow", "DNSRecon"))
         self.DNSReconButton.setText(_translate("MainWindow", "./dnsrecon"))
         self.DNSReconH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.DNSReconB3.setText(_translate("MainWindow", "BODY 3"))
-        self.DNSReconB1.setText(_translate("MainWindow", "BODY 1"))
+        self.DNSReconB3.setText(_translate("MainWindow", "root@kali:~# dnsrecon -d example.com -D /usr/share/wordlists/dnsmap.txt -t std --xml dnsrecon.xml\n"
+"[*] Performing General Enumeration of Domain:\n"
+"[*] DNSSEC is configured for example.com\n"
+"[*] DNSKEYs:\n"
+""))
+        self.DNSReconB1.setText(_translate("MainWindow", "DNSRecon provides the ability to perform:\n"
+"\n"
+"•    Check all NS Records for Zone Transfers\n"
+"•    Enumerate General DNS Records for a given Domain (MX, SOA, NS, A, AAAA, SPF and TXT)\n"
+"•    Perform common SRV Record Enumeration. Top Level Domain (TLD) Expansion\n"
+"•    Check for Wildcard Resolution\n"
+"•    Brute Force subdomain and host A and AAAA records given a domain and a wordlist\n"
+"•    Perform a PTR Record lookup for a given IP Range or CIDR\n"
+"•    Check a DNS Server Cached records for A, AAAA and CNAME Records provided a list of host records in a text file to check\n"
+"•    Enumerate Common mDNS records in the Local Network Enumerate Hosts and Subdomains using Google\n"
+"\n"
+"Source: DNSRecon README\n"
+"\n"
+"\n"
+""))
         self.DNSReconH2.setText(_translate("MainWindow", "Usage:"))
         self.DNSReconH1.setText(_translate("MainWindow", "Description:"))
-        self.DNSReconB2.setText(_translate("MainWindow", "BODY 2"))
+        self.DNSReconB2.setText(_translate("MainWindow", "root@kali:~# dnsrecon -h\n"
+"Version: 0.8.7\n"
+"Usage: dnsrecon.py\n"
+"\n"
+"Options:\n"
+"-h, --help Show this help message and exit\n"
+"-d, --domain Domain to Target for enumeration.\n"
+"-r, --range IP Range for reverse look-up brute force in formats (first-last)\n"
+"or in (range/bitmask).\n"
+"-n, --name_server Domain server to use, if none is given the SOA of the\n"
+"target will be used\n"
+"-D, --dictionary Dictionary file of sub-domain and hostnames to use for\n"
+"brute force.\n"
+"-f Filter out of Brute Force Domain lookup records that resolve to\n"
+"the wildcard defined IP Address when saving records.\n"
+"-t, --type Specify the type of enumeration to perform:\n"
+"std To Enumerate general record types, enumerates.\n"
+"SOA, NS, A, AAAA, MX and SRV if AXRF on the\n"
+"NS Servers fail.\n"
+"\n"
+"rvl To Reverse Look Up a given CIDR IP range.\n"
+"\n"
+"brt To Brute force Domains and Hosts using a given\n"
+"dictionary.\n"
+"\n"
+"srv To Enumerate common SRV Records for a given\n"
+"\n"
+"domain.\n"
+"\n"
+"axfr Test all NS Servers in a domain for misconfigured\n"
+"zone transfers.\n"
+"\n"
+"goo Perform Google search for sub-domains and hosts.\n"
+"\n"
+"snoop To Perform a Cache Snooping against all NS\n"
+"servers for a given domain, testing all with\n"
+"file containing the domains, file given with -D\n"
+"option.\n"
+"\n"
+"tld Will remove the TLD of given domain and test against\n"
+"all TLD\'s registered in IANA\n"
+"\n"
+"zonewalk Will perform a DNSSEC Zone Walk using NSEC Records.\n"
+"\n"
+"-a Perform AXFR with the standard enumeration.\n"
+"-s Perform Reverse Look-up of ipv4 ranges in the SPF Record of the\n"
+"targeted domain with the standard enumeration.\n"
+"-g Perform Google enumeration with the standard enumeration.\n"
+"-w Do deep whois record analysis and reverse look-up of IP\n"
+"ranges found thru whois when doing standard query.\n"
+"-z Performs a DNSSEC Zone Walk with the standard enumeration.\n"
+"--threads Number of threads to use in Range Reverse Look-up, Forward\n"
+"Look-up Brute force and SRV Record Enumeration\n"
+"--lifetime Time to wait for a server to response to a query.\n"
+"--db SQLite 3 file to save found records.\n"
+"--xml XML File to save found records.\n"
+"--iw Continua bruteforcing a domain even if a wildcard record resolution is discovered.\n"
+"-c, --csv Comma separated value file.\n"
+"-v Show attempts in the bruteforce modes.\n"
+""))
         self.DNSReconH3.setText(_translate("MainWindow", "Examples:"))
-        self.DNSReconB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.DNSReconTab), _translate("MainWindow", "DNSRecon"))
         self.dnstracerTitle.setText(_translate("MainWindow", "dnstracer"))
         self.dnstracerButton.setText(_translate("MainWindow", "./dnstracer"))
         self.dnstracerH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.dnstracerB3.setText(_translate("MainWindow", "BODY 3"))
-        self.dnstracerB1.setText(_translate("MainWindow", "BODY 1"))
+        self.dnstracerB3.setText(_translate("MainWindow", "root@kali:~# dnstracer -r 3 -v example.com\n"
+"Tracing to example.com[a] via 192.168.1.1, maximum of 3 retries\n"
+"192.168.1.1 (192.168.1.1) IP HEADER\n"
+"- Destination address:  192.168.1.1\n"
+"DNS HEADER (send)\n"
+"\n"
+""))
+        self.dnstracerB1.setText(_translate("MainWindow", "dnstracer determines where a given Domain Name Server (DNS) gets its information from for a \n"
+"given hostname, and follows the chain of DNS servers back to the authoritative answer.\n"
+"\n"
+"Source: http://www.mavetju.org/unix/general.php\n"
+"\n"
+"\n"
+""))
         self.dnstracerH2.setText(_translate("MainWindow", "Usage:"))
         self.dnstracerH1.setText(_translate("MainWindow", "Description:"))
-        self.dnstracerB2.setText(_translate("MainWindow", "BODY 2"))
+        self.dnstracerB2.setText(_translate("MainWindow", "root@kali:~# dnstracer\n"
+"DNSTRACER version 1.8.1 - (c) Edwin Groothuis - http://www.mavetju.org\n"
+"Usage: dnstracer [options] [host]\n"
+"    -c: disable local caching, default enabled\n"
+"    -C: enable negative caching, default disabled\n"
+"    -o: enable overview of received answers, default disabled\n"
+"    -q <querytype>: query-type to use for the DNS requests, default A\n"
+"    -r <retries>: amount of retries for DNS requests, default 3\n"
+"    -s <server>: use this server for the initial request, default localhost\n"
+"                 If . is specified, A.ROOT-SERVERS.NET will be used.\n"
+"    -t <maximum timeout>: Limit time to wait per try\n"
+"    -v: verbose\n"
+"    -S <ip address>: use this source address.\n"
+"    -4: don\'t query IPv6 servers\n"
+"\n"
+""))
         self.dnstracerH3.setText(_translate("MainWindow", "Examples:"))
-        self.dnstracerB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.dnstracerTab), _translate("MainWindow", "dnstracer"))
         self.dnswalkTitle.setText(_translate("MainWindow", "dnswalk"))
         self.dnswalkButton.setText(_translate("MainWindow", "./dnswalk"))
         self.dnswalkH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.dnswalkB3.setText(_translate("MainWindow", "BODY 3"))
-        self.dnswalkB1.setText(_translate("MainWindow", "BODY 1"))
+        self.dnswalkB3.setText(_translate("MainWindow", "root@kali:~# dnswalk example.com.\n"
+"Checking example.com.\n"
+"\n"
+""))
+        self.dnswalkB1.setText(_translate("MainWindow", "dnswalk is a DNS debugger. It performs zone transfers of specified domains, and checks the \n"
+"database in numerous ways for internal consistency, as well as accuracy.\n"
+"\n"
+"Source: http://sourceforge.net/projects/dnswalk/\n"
+"\n"
+"\n"
+""))
         self.dnswalkH2.setText(_translate("MainWindow", "Usage:"))
         self.dnswalkH1.setText(_translate("MainWindow", "Description:"))
-        self.dnswalkB2.setText(_translate("MainWindow", "BODY 2"))
+        self.dnswalkB2.setText(_translate("MainWindow", "root@kali:~# dnswalk --help\n"
+"\n"
+"Usage: dnswalk [-OPTIONS [-MORE_OPTIONS]] [--] [PROGRAM_ARG1 ...]\n"
+"\n"
+"The following single-character options are accepted:\n"
+"With arguments: -D\n"
+"Boolean (without arguments): -r -f -i -a -d -m -F -l\n"
+"\n"
+"Options may be merged together. -- stops processing of options.\n"
+"Space is not required between options and their arguments.\n"
+"[Now continuing due to backward compatibility and excessive paranoia.\n"
+"See ``perldoc Getopt::Std\'\' about $Getopt::Std::STANDARD_HELP_VERSION.]\n"
+"Usage: dnswalk domain\n"
+"domain MUST end with a \'.\'\n"
+"\n"
+"\n"
+"-r     Recursively descend sub-domains of the specified domain.\n"
+"-a     Turn on warning of duplicate A records.\n"
+"-d     Print debugging and \'status\' information to stderr.  (Use only if redirecting stdout).\n"
+"-m     Perform checks only if the zone has been modified since the previous run.\n"
+"-F     Perform  \"fascist\"  checking.  When checking an A record, compare the PTR name for each IP address with the forward name and report mismatches.\n"
+"-i     Suppress check for invalid characters in a domain name.\n"
+"-l     Perform  \"lame  delegation\"  checking.   For every NS record, check to see that the listed host is  indeed returning authoritative answers for this domain.\n"
+"\n"
+"\n"
+""))
         self.dnswalkH3.setText(_translate("MainWindow", "Examples:"))
-        self.dnswalkB4.setText(_translate("MainWindow", "BODY4"))
+        self.dnswalkB4.setText(_translate("MainWindow", "root@kali:~# dnswalk -r -d example.com.\n"
+"Checking example.com.\n"
+"\n"
+""))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.dnswalkTab), _translate("MainWindow", "dnswalk"))
         self.DotDotPwnTitle.setText(_translate("MainWindow", "DotDotPwn"))
         self.DotDotPwnButton.setText(_translate("MainWindow", "./dotdotpwn.pl"))
         self.DotDotPwnH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.DotDotPwnB3.setText(_translate("MainWindow", "BODY 3"))
-        self.DotDotPwnB1.setText(_translate("MainWindow", "BODY 1"))
+        self.DotDotPwnB3.setText(_translate("MainWindow", "root@kali:~# dotdotpwn.pl -m http -h 192.168.1.1 -M GET\n"
+"#################################################################################\n"
+"#                                                                               #\n"
+"#  CubilFelino                                                       Chatsubo   #\n"
+"#  Security Research Lab              and            [(in)Security Dark] Labs   #\n"
+"#  chr1x.sectester.net                             chatsubo-labs.blogspot.com   #\n"
+"#                                                                               #\n"
+"#                               pr0udly present:                                #\n"
+"#                                                                               #\n"
+"#  ________            __  ________            __  __________                   #\n"
+"#  ______     ____ _/  |_______     ____ _/  |_______   __  _  __ ____    #\n"
+"#   |    |    /  _ \\   __|    |    /  _ \\   __|     ___/ / / //       #\n"
+"#   |    `   (  <_> )|  |  |    `   (  <_> )|  |  |    |          /|   |    #\n"
+"#  /_______  / ____/ |__| /_______  / ____/ |__|  |____|      /_/ |___|  /  #\n"
+"#          /                      /                                      /   #\n"
+"#                               - DotDotPwn v3.0 -                              #\n"
+"#                         The Directory Traversal Fuzzer                        #\n"
+"#                         http://dotdotpwn.sectester.net                        #\n"
+"#                            dotdotpwn@sectester.net                            #\n"
+"#                                                                               #\n"
+"#                               by chr1x & nitr0us                              #\n"
+"#################################################################################\n"
+"\n"
+"[+] Report name: Reports/192.168.1.1_05-20-2014_08-41.txt\n"
+"\n"
+"[========== TARGET INFORMATION ==========]\n"
+"[+] Hostname: 192.168.1.1\n"
+"[+] Protocol: http\n"
+"[+] Port: 80\n"
+"\n"
+"[=========== TRAVERSAL ENGINE ===========]\n"
+"[+] Creating Traversal patterns (mix of dots and slashes)\n"
+"[+] Multiplying 6 times the traversal patterns (-d switch)\n"
+"[+] Creating the Special Traversal patterns\n"
+"[+] Translating (back)slashes in the filenames\n"
+"[+] Adapting the filenames according to the OS type detected (generic)\n"
+"[+] Including Special sufixes\n"
+"[+] Traversal Engine DONE ! - Total traversal tests created: 19680\n"
+"\n"
+"[=========== TESTING RESULTS ============]\n"
+"[+] Ready to launch 3.33 traversals per second\n"
+"[+] Press Enter to start the testing (You can stop it pressing Ctrl + C)\n"
+"\n"
+""))
+        self.DotDotPwnB1.setText(_translate("MainWindow", "It’s a very flexible intelligent fuzzer to discover traversal directory vulnerabilities in software \n"
+"such as HTTP/FTP/TFTP servers, Web platforms such as CMSs, ERPs, Blogs, etc. \n"
+"\n"
+"Also, it has a protocol-independent module to send the desired payload to the host and port \n"
+"specified. On the other hand, it also could be used in a scripting way using the STDOUT module.\n"
+"\n"
+"It’s written in perl programming language and can be run either under *NIX or Windows \n"
+"platforms. It’s the first Mexican tool included in BackTrack Linux (BT4 R2).\n"
+"\n"
+"Fuzzing modules supported in this version: \n"
+"•    HTTP\n"
+"•    HTTP URL\n"
+"•    FTP\n"
+"•    TFTP\n"
+"•    Payload (Protocol independent)\n"
+"•    STDOUT\n"
+"\n"
+"Source: https://github.com/wireghoul/dotdotpwn\n"
+"\n"
+"\n"
+"\n"
+""))
         self.DotDotPwnH2.setText(_translate("MainWindow", "Usage:"))
         self.DotDotPwnH1.setText(_translate("MainWindow", "Description:"))
-        self.DotDotPwnB2.setText(_translate("MainWindow", "BODY 2"))
+        self.DotDotPwnB2.setText(_translate("MainWindow", "root@kali:~# dotdotpwn.pl\n"
+"#################################################################################\n"
+"#                                                                               #\n"
+"#  CubilFelino                                                       Chatsubo   #\n"
+"#  Security Research Lab              and            [(in)Security Dark] Labs   #\n"
+"#  chr1x.sectester.net                             chatsubo-labs.blogspot.com   #\n"
+"#                                                                               #\n"
+"#                               pr0udly present:                                #\n"
+"#                                                                               #\n"
+"#  ________            __  ________            __  __________                   #\n"
+"#  ______     ____ _/  |_______     ____ _/  |_______   __  _  __ ____    #\n"
+"#   |    |    /  _ \\   __|    |    /  _ \\   __|     ___/ / / //       #\n"
+"#   |    `   (  <_> )|  |  |    `   (  <_> )|  |  |    |          /|   |    #\n"
+"#  /_______  / ____/ |__| /_______  / ____/ |__|  |____|      /_/ |___|  /  #\n"
+"#          /                      /                                      /   #\n"
+"#                               - DotDotPwn v3.0 -                              #\n"
+"#                         The Directory Traversal Fuzzer                        #\n"
+"#                         http://dotdotpwn.sectester.net                        #\n"
+"#                            dotdotpwn@sectester.net                            #\n"
+"#                                                                               #\n"
+"#                               by chr1x & nitr0us                              #\n"
+"#################################################################################\n"
+"\n"
+"Usage: ./dotdotpwn.pl -m <module> -h <host> [OPTIONS]\n"
+"    Available options:\n"
+"    -m  Module [http | http-url | ftp | tftp | payload | stdout]\n"
+"    -h  Hostname\n"
+"    -O  Operating System detection for intelligent fuzzing (nmap)\n"
+"    -o  Operating System type if known (\"windows\", \"unix\" or \"generic\")\n"
+"    -s  Service version detection (banner grabber)\n"
+"    -d  Depth of traversals (e.g. deepness 3 equals to ../../../; default: 6)\n"
+"    -f  Specific filename (e.g. /etc/motd; default: according to OS detected, defaults in TraversalEngine.pm)\n"
+"    -E  Add @Extra_files in TraversalEngine.pm (e.g. web.config, httpd.conf, etc.)\n"
+"    -S  Use SSL - for HTTP and Payload module (use https:// for in url for http-uri)\n"
+"    -u  URL with the part to be fuzzed marked as TRAVERSAL (e.g. http://foo:8080/id.php?x=TRAVERSAL&y=31337)\n"
+"    -k  Text pattern to match in the response (http-url & payload modules - e.g. \"root:\" if trying /etc/passwd)\n"
+"    -p  Filename with the payload to be sent and the part to be fuzzed marked with the TRAVERSAL keyword\n"
+"    -x  Port to connect (default: HTTP=80; FTP=21; TFTP=69)\n"
+"    -t  Time in milliseconds between each test (default: 300 (.3 second))\n"
+"    -X  Use the Bisection Algorithm to detect the exact deepness once a vulnerability has been found\n"
+"    -e  File extension appended at the end of each fuzz string (e.g. \".php\", \".jpg\", \".inc\")\n"
+"    -U  Username (default: \'anonymous\')\n"
+"    -P  Password (default: \'dot@dot.pwn\')\n"
+"    -M  HTTP Method to use when using the \'http\' module [GET | POST | HEAD | COPY | MOVE] (default: GET)\n"
+"    -r  Report filename (default: \'HOST_MM-DD-YYYY_HOUR-MIN.txt\')\n"
+"    -b  Break after the first vulnerability is found\n"
+"    -q  Quiet mode (doesn\'t print each attempt)\n"
+"    -C  Continue if no data was received from host\n"
+""))
         self.DotDotPwnH3.setText(_translate("MainWindow", "Examples:"))
-        self.DotDotPwnB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.DotDotPwnTab), _translate("MainWindow", "DotDotPwn"))
         self.enum4linuxTitle.setText(_translate("MainWindow", "enum4linux"))
         self.enum4linuxButton.setText(_translate("MainWindow", "./enum4linux"))
         self.enum4linuxH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.enum4linuxB3.setText(_translate("MainWindow", "BODY 3"))
-        self.enum4linuxB1.setText(_translate("MainWindow", "BODY 1"))
+        self.enum4linuxB3.setText(_translate("MainWindow", "root@kali:~# enum4linux -U -o 192.168.1.200\n"
+"Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Sun Aug 17 12:17:32 2014\n"
+"\n"
+" ==========================\n"
+"|    Target Information    |\n"
+" ==========================\n"
+"Target ........... 192.168.1.200\n"
+"RID Range ........ 500-550,1000-1050\n"
+"Username ......... \'\'\n"
+"Password ......... \'\'\n"
+"Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none\n"
+"\n"
+"\n"
+" ======================================================\n"
+"|    Enumerating Workgroup/Domain on 192.168.1.200   |\n"
+" ======================================================\n"
+"[+] Got domain/workgroup name: KALI\n"
+"\n"
+""))
+        self.enum4linuxB1.setText(_translate("MainWindow", "A Linux alternative to enum.exe for enumerating data from Windows and Samba hosts.\n"
+"\n"
+"Overview:\n"
+"\n"
+"Enum4linux is a tool for enumerating information from Windows and Samba systems. It \n"
+"attempts to offer similar functionality to enum.exe formerly available from www.bindview.com.\n"
+"\n"
+"It is written in Perl and is basically a wrapper around the Samba tools smbclient, rpclient, net and \n"
+"nmblookup.\n"
+"\n"
+"The tool usage can be found below followed by examples, previous versions of the tool can be \n"
+"found at the bottom of the page.\n"
+"\n"
+"Key features:\n"
+"•    RID cycling (When RestrictAnonymous is set to 1 on Windows 2000)\n"
+"•    User listing (When RestrictAnonymous is set to 0 on Windows 2000)\n"
+"•    Listing of group membership information\n"
+"•    Share enumeration\n"
+"•    Detecting if host is in a workgroup or a domain\n"
+"•    Identifying the remote operating system\n"
+"•    Password policy retrieval (using polenum)\n"
+"\n"
+"Source: https://labs.portcullis.co.uk/tools/enum4linux/\n"
+"\n"
+"\n"
+""))
         self.enum4linuxH2.setText(_translate("MainWindow", "Usage:"))
         self.enum4linuxH1.setText(_translate("MainWindow", "Description:"))
-        self.enum4linuxB2.setText(_translate("MainWindow", "BODY 2"))
+        self.enum4linuxB2.setText(_translate("MainWindow", "root@kali:~# enum4linux -h\n"
+"enum4linux v0.8.9 (http://labs.portcullis.co.uk/application/enum4linux/)\n"
+"Copyright (C) 2011 Mark Lowe (mrl@portcullis-security.com)\n"
+"\n"
+"Simple wrapper around the tools in the samba package to provide similar\n"
+"functionality to enum.exe (formerly from www.bindview.com).  Some additional\n"
+"features such as RID cycling have also been added for convenience.\n"
+"\n"
+"Usage: ./enum4linux.pl [options] ip\n"
+"\n"
+"Options are (like \"enum\"):\n"
+"    -U        get userlist\n"
+"    -M        get machine list*\n"
+"    -S        get sharelist\n"
+"    -P        get password policy information\n"
+"    -G        get group and member list\n"
+"    -d        be detailed, applies to -U and -S\n"
+"    -u user   specify username to use (default \"\")\n"
+"    -p pass   specify password to use (default \"\")\n"
+"\n"
+"The following options from enum.exe aren\'t implemented: -L, -N, -D, -f\n"
+"\n"
+"Additional options:\n"
+"    -a        Do all simple enumeration (-U -S -G -P -r -o -n -i).\n"
+"              This opion is enabled if you don\'t provide any other options.\n"
+"    -h        Display this help message and exit\n"
+"    -r        enumerate users via RID cycling\n"
+"    -R range  RID ranges to enumerate (default: 500-550,1000-1050, implies -r)\n"
+"    -K n      Keep searching RIDs until n consective RIDs don\'t correspond to\n"
+"              a username.  Impies RID range ends at 999999. Useful\n"
+"          against DCs.\n"
+"    -l        Get some (limited) info via LDAP 389/TCP (for DCs only)\n"
+"    -s file   brute force guessing for share names\n"
+"    -k user   User(s) that exists on remote system (default: administrator,guest,krbtgt,domain admins,root,bin,none)\n"
+"              Used to get sid with \"lookupsid known_username\"\n"
+"              Use commas to try several users: \"-k admin,user1,user2\"\n"
+"    -o        Get OS information\n"
+"    -i        Get printer information\n"
+"    -w wrkg   Specify workgroup manually (usually found automatically)\n"
+"    -n        Do an nmblookup (similar to nbtstat)\n"
+"    -v        Verbose.  Shows full commands being run (net, rpcclient, etc.)\n"
+"\n"
+"RID cycling should extract a list of users from Windows (or Samba) hosts\n"
+"which have RestrictAnonymous set to 1 (Windows NT and 2000), or \"Network\n"
+"access: Allow anonymous SID/Name translation\" enabled (XP, 2003).\n"
+"\n"
+"NB: Samba servers often seem to have RIDs in the range 3000-3050.\n"
+"\n"
+"Dependancy info: You will need to have the samba package installed as this\n"
+"script is basically just a wrapper around rpcclient, net, nmblookup and\n"
+"smbclient.  Polenum from http://labs.portcullis.co.uk/application/polenum/\n"
+"is required to get Password Policy info.\n"
+"\n"
+""))
         self.enum4linuxH3.setText(_translate("MainWindow", "Examples:"))
-        self.enum4linuxB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.enum4linuxTab), _translate("MainWindow", "enum4linux"))
         self.enumIAXTitle.setText(_translate("MainWindow", "enumIAX"))
         self.enumIAXButton.setText(_translate("MainWindow", "./enumIAX"))
         self.enumIAXH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.enumIAXB3.setText(_translate("MainWindow", "BODY 3"))
-        self.enumIAXB1.setText(_translate("MainWindow", "BODY 1"))
+        self.enumIAXB3.setText(_translate("MainWindow", "root@kali:~# enumiax -d /usr/share/wordlists/metasploit/unix_users.txt 192.168.1.1\n"
+"\n"
+""))
+        self.enumIAXB1.setText(_translate("MainWindow", "enumIAX is an Inter Asterisk Exchange protocol username brute-force enumerator. enumIAX \n"
+"may operate in two distinct modes; Sequential Username Guessing or Dictionary Attack.\n"
+"\n"
+"Source: http://enumiax.sourceforge.net/\n"
+"\n"
+"\n"
+""))
         self.enumIAXH2.setText(_translate("MainWindow", "Usage:"))
         self.enumIAXH1.setText(_translate("MainWindow", "Description:"))
-        self.enumIAXB2.setText(_translate("MainWindow", "BODY 2"))
+        self.enumIAXB2.setText(_translate("MainWindow", "root@kali:~# enumiax -h\n"
+"enumIAX 0.4a\n"
+"Dustin D. Trammell <dtrammell@tippingpoint.com>\n"
+"\n"
+"Usage: enumiax [options] target\n"
+"  options:\n"
+"    -d <dict>   Dictionary attack using <dict> file\n"
+"    -i <count>  Interval for auto-save (# of operations, default 1000)\n"
+"    -m #        Minimum username length (in characters)\n"
+"    -M #        Maximum username length (in characters)\n"
+"    -r #        Rate-limit calls (in microseconds)\n"
+"    -s <file>   Read session state from state file\n"
+"    -v          Increase verbosity (repeat for additional verbosity)\n"
+"    -V          Print version information and exit\n"
+"    -h          Print help/usage information and exit\n"
+"\n"
+""))
         self.enumIAXH3.setText(_translate("MainWindow", "Examples:"))
-        self.enumIAXB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.enumIAXTab), _translate("MainWindow", "enumIAX"))
         self.FaradayTitle.setText(_translate("MainWindow", "Faraday"))
         self.FaradayButton.setText(_translate("MainWindow", "./python-faraday"))
         self.FaradayH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.FaradayB3.setText(_translate("MainWindow", "BODY 3"))
-        self.FaradayB1.setText(_translate("MainWindow", "BODY 1"))
+        self.FaradayB3.setText(_translate("MainWindow", ">>> WELCOME TO FARADAY\n"
+"[+] Current Workspace: dev1\n"
+"[+] API: OK\n"
+"[faraday](dev1) kali#  nmap -oX /root/.faraday/data/devel1_Nmap_output-3.46164772371.xml -A 192.168.0.7 2>&1 | tee -a tmp.tu0ldZUG2JgzuHvLOjBYEzBx3Bu7O\n"
+"\n"
+"Starting Nmap 7.40 ( https://nmap.org ) at 2017-03-07 13:46 MST\n"
+"Nmap scan report for pi-hole (192.168.0.7)\n"
+"Host is up (0.0011s latency).\n"
+"Not shown: 995 closed ports\n"
+"PORT    STATE SERVICE    VERSION\n"
+"22/tcp  open  ssh        OpenSSH 6.7p1 Raspbian 5+deb8u3 (protocol 2.0)\n"
+"| ssh-hostkey:\n"
+"|   1024 f7:5d:7c:e2:c5:46:32:19:08:e9:4b:79:5e:80:1c:83 (DSA)\n"
+"|   2048 3c:f9:1d:ce:03:0f:2e:d2:17:05:77:af:81:54:32:fc (RSA)\n"
+"|_  256 ea:20:d1:e0:e1:89:2c:65:9e:0d:d0:d0:e9:8b:9b:28 (ECDSA)\n"
+"53/tcp  open  domain     dnsmasq 2.72\n"
+"| dns-nsid:\n"
+"|_  bind.version: dnsmasq-2.72\n"
+"80/tcp  open  http       lighttpd 1.4.35\n"
+"|_http-server-header: lighttpd/1.4.35\n"
+"|_http-title: Welcome page\n"
+"110/tcp open  tcpwrapped\n"
+"143/tcp open  tcpwrapped\n"
+"Device type: general purpose\n"
+"Running: Linux 2.4.X|3.X\n"
+"OS CPE: cpe:/o:linux:linux_kernel:2.4.37 cpe:/o:linux:linux_kernel:3.2\n"
+"OS details: DD-WRT v24-sp2 (Linux 2.4.37), Linux 3.2\n"
+"Network Distance: 2 hops\n"
+"Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel\n"
+"\n"
+"TRACEROUTE (using port 80/tcp)\n"
+"HOP RTT     ADDRESS\n"
+"1   0.27 ms 172.16.206.2\n"
+"2   0.21 ms pi-hole (192.168.0.7)\n"
+"\n"
+"OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .\n"
+"Nmap done: 1 IP address (1 host up) scanned in 18.41 seconds\n"
+"[faraday](devel1) kali#\n"
+"\n"
+"\n"
+""))
+        self.FaradayB1.setText(_translate("MainWindow", "Faraday introduces a new concept – IPE (Integrated Penetration-Test Environment) a multiuser \n"
+"Penetration test IDE. Designed for distribution, indexation and analysis of the data generated \n"
+"during a security audit.\n"
+"\n"
+"The main purpose of Faraday is to re-use the available tools in the community to take advantage \n"
+"of them in a multiuser way.\n"
+"\n"
+"Designed for simplicity, users should notice no difference between their own terminal \n"
+"application and the one included in Faraday. Developed with a specialized set of functionalities \n"
+"that help users improve their own work. Do you remember yourself programming without an \n"
+"IDE? Well, Faraday does the same as an IDE does for you when programming, but from the \n"
+"perspective of a penetration test.\n"
+"\n"
+"Source: https://github.com/infobyte/faraday\n"
+"\n"
+"\n"
+""))
         self.FaradayH2.setText(_translate("MainWindow", "Usage:"))
         self.FaradayH1.setText(_translate("MainWindow", "Description:"))
-        self.FaradayB2.setText(_translate("MainWindow", "BODY 2"))
+        self.FaradayB2.setText(_translate("MainWindow", "root@kali:~# python-faraday -h\n"
+"usage: faraday.py [-h] [-n HOST] [-px PORT_XMLRPC] [-pr PORT_REST] [-d]\n"
+"                  [--profile] [--profile-output PROFILE_OUTPUT]\n"
+"                  [--profile-depth PROFILE_DEPTH] [--disable-excepthook]\n"
+"                  [--dev-mode] [--ignore-deps] [--update] [--cert CERT_PATH]\n"
+"                  [--gui GUI] [--cli] [-w WORKSPACE] [-r FILENAME]\n"
+"\n"
+"Faraday\'s launcher parser.\n"
+"\n"
+"optional arguments:\n"
+"  -h, --help            show this help message and exit\n"
+"  -d, --debug           Enables debug mode. Default = disabled\n"
+"  --disable-excepthook  Disable the application exception hook that allows to\n"
+"                        send error reports to developers.\n"
+"  --dev-mode            Enable dev mode. This will use the user config and\n"
+"                        plugin folder.\n"
+"  --ignore-deps         Ignore python dependencies resolution.\n"
+"  --update              Update Faraday IDE.\n"
+"  --cert CERT_PATH      Path to the valid CouchDB certificate\n"
+"  --gui GUI             Select interface to start faraday. Supported values\n"
+"                        are gtk and \'no\' (no GUI at all). Defaults to GTK\n"
+"  --cli                 Set this flag to avoid gui and use faraday as a cli.\n"
+"  -w WORKSPACE, --workspace WORKSPACE\n"
+"                        Workspace to be opened\n"
+"  -r FILENAME, --report FILENAME\n"
+"                        Report to be parsed by the cli\n"
+"\n"
+"connection:\n"
+"  -n HOST, --hostname HOST\n"
+"                        The hostname where both server APIs will listen\n"
+"                        (XMLRPC and RESTful). Default = localhost\n"
+"  -px PORT_XMLRPC, --port-xmlrpc PORT_XMLRPC\n"
+"                        Sets the port where the api XMLRPCServer will listen.\n"
+"                        Default = 9876\n"
+"  -pr PORT_REST, --port-rest PORT_REST\n"
+"                        Sets the port where the api RESTful server will\n"
+"                        listen. Default = 9977\n"
+"\n"
+"profiling:\n"
+"  --profile             Enables application profiling. When this option is\n"
+"                        used --profile-output and --profile-depth can also be\n"
+"                        used. Default = disabled\n"
+"  --profile-output PROFILE_OUTPUT\n"
+"                        Sets the profile output filename. If no value is\n"
+"                        provided, standard output will be used\n"
+"  --profile-depth PROFILE_DEPTH\n"
+"                        Sets the profile number of entries (depth). Default =\n"
+"                        500\n"
+"\n"
+"\n"
+""))
         self.FaradayH3.setText(_translate("MainWindow", "Examples:"))
-        self.FaradayB4.setText(_translate("MainWindow", "BODY4"))
+        self.FaradayB4.setText(_translate("MainWindow", "[faraday](devel1) kali#  dirb http://192.168.0.23/commix-testbed -w 2>&1 | tee -a tmp.qNejUxvvrPpbGPVEfwf8OZOuM1F1E\n"
+"\n"
+"-----------------\n"
+"DIRB v2.22    \n"
+"By The Dark Raver\n"
+"-----------------\n"
+"\n"
+"START_TIME: Tue Mar  7 13:58:52 2017\n"
+"URL_BASE: http://192.168.0.23/commix-testbed/\n"
+"WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt\n"
+"OPTION: Not Stoping on warning messages\n"
+"\n"
+"-----------------\n"
+"\n"
+"GENERATED WORDS: 4612                                                              \n"
+"\n"
+"---- Scanning URL: http://192.168.0.23/commix-testbed/ ----\n"
+"                                                                                                                                                         ==> DIRECTORY: http://192.168.0.23/commix-testbed/css/                                                                                                                      \n"
+"==> DIRECTORY: http://192.168.0.23/commix-testbed/fonts/                                                                                                                    \n"
+"==> DIRECTORY: http://192.168.0.23/commix-testbed/img/                                                                                                                      \n"
+"+ http://192.168.0.23/commix-testbed/index.php (CODE:200|SIZE:14346)                                                                                                        \n"
+"==> DIRECTORY: http://192.168.0.23/commix-testbed/js/                                                                                                                        \n"
+"==> DIRECTORY: http://192.168.0.23/commix-testbed/readme/                                                                                                                    \n"
+"                                                                                                                                                                             \n"
+"---- Entering directory: http://192.168.0.23/commix-testbed/css/ ----\n"
+"(!) WARNING: Directory IS LISTABLE. No need to scan it.                        \n"
+"    (Use mode \'-w\' if you want to scan it anyway)\n"
+"                                                                                                                                                                             \n"
+"---- Entering directory: http://192.168.0.23/commix-testbed/fonts/ ----\n"
+"(!) WARNING: Directory IS LISTABLE. No need to scan it.                        \n"
+"    (Use mode \'-w\' if you want to scan it anyway)\n"
+"                                                                                                                                                                             \n"
+"---- Entering directory: http://192.168.0.23/commix-testbed/img/ ----\n"
+"(!) WARNING: Directory IS LISTABLE. No need to scan it.                        \n"
+"    (Use mode \'-w\' if you want to scan it anyway)\n"
+"                                                                                                                                                                             \n"
+"---- Entering directory: http://192.168.0.23/commix-testbed/js/ ----\n"
+"(!) WARNING: Directory IS LISTABLE. No need to scan it.                        \n"
+"    (Use mode \'-w\' if you want to scan it anyway)\n"
+"                                                                                                                                                                             \n"
+"---- Entering directory: http://192.168.0.23/commix-testbed/readme/ ----\n"
+"(!) WARNING: Directory IS LISTABLE. No need to scan it.                        \n"
+"    (Use mode \'-w\' if you want to scan it anyway)\n"
+"                                                                                                                                                                             \n"
+"-----------------\n"
+"END_TIME: Tue Mar  7 14:04:24 2017\n"
+"DOWNLOADED: 27672 - FOUND: 1\n"
+"\n"
+"\n"
+""))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.Faraday), _translate("MainWindow", "Faraday"))
         self.FierceTitle.setText(_translate("MainWindow", "Fierce"))
         self.FierceButton.setText(_translate("MainWindow", "./fierce"))
         self.FierceH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.FierceB3.setText(_translate("MainWindow", "BODY 3"))
-        self.FierceB1.setText(_translate("MainWindow", "BODY 1"))
+        self.FierceB3.setText(_translate("MainWindow", "root@kali:~# fierce -dns example.com\n"
+"DNS Servers for example.com:\n"
+"    b.iana-servers.net\n"
+"    a.iana-servers.net\n"
+"\n"
+"Trying zone transfer first...\n"
+"    Testing b.iana-servers.net\n"
+"        Request timed out or transfer not allowed.\n"
+"    Testing a.iana-servers.net\n"
+"        Request timed out or transfer not allowed.\n"
+"\n"
+"Unsuccessful in zone transfer (it was worth a shot)\n"
+"Okay, trying the good old fashioned way... brute force\n"
+"\n"
+"Checking for wildcard DNS...\n"
+"Nope. Good.\n"
+"Now performing 2280 test(s)...\n"
+"\n"
+"\n"
+""))
+        self.FierceB1.setText(_translate("MainWindow", "First what Fierce is not. Fierce is not an IP scanner, it is not a DDoS tool, it is not designed to \n"
+"scan the whole Internet or perform any un-targeted attacks. It is meant specifically to locate \n"
+"likely targets both inside and outside a corporate network. Only those targets are listed (unless \n"
+"the -nopattern switch is used). No exploitation is performed (unless you do something \n"
+"intentionally malicious with the -connect switch). Fierce is a reconnaissance tool. Fierce is a \n"
+"PERL script that quickly scans domains (usually in just a few minutes, assuming no network lag) \n"
+"using several tactics.\n"
+"\n"
+"Source: http://ha.ckers.org/fierce/\n"
+"\n"
+"\n"
+"\n"
+""))
         self.FierceH2.setText(_translate("MainWindow", "Usage:"))
         self.FierceH1.setText(_translate("MainWindow", "Description:"))
-        self.FierceB2.setText(_translate("MainWindow", "BODY 2"))
+        self.FierceB2.setText(_translate("MainWindow", "root@kali:~# fierce -h\n"
+"fierce.pl (C) Copywrite 2006,2007 - By RSnake at http://ha.ckers.org/fierce/\n"
+"\n"
+"    Usage: perl fierce.pl [-dns example.com] [OPTIONS]\n"
+"\n"
+"Overview:\n"
+"    Fierce is a semi-lightweight scanner that helps locate non-contiguous\n"
+"    IP space and hostnames against specified domains.  It\'s really meant\n"
+"    as a pre-cursor to nmap, unicornscan, nessus, nikto, etc, since all\n"
+"    of those require that you already know what IP space you are looking\n"
+"    for.  This does not perform exploitation and does not scan the whole\n"
+"    internet indiscriminately.  It is meant specifically to locate likely\n"
+"    targets both inside and outside a corporate network.  Because it uses\n"
+"    DNS primarily you will often find mis-configured networks that leak\n"
+"    internal address space. That\'s especially useful in targeted malware.\n"
+"\n"
+"Options:\n"
+"    -connect    Attempt to make http connections to any non RFC1918\n"
+"        (public) addresses.  This will output the return headers but\n"
+"        be warned, this could take a long time against a company with\n"
+"        many targets, depending on network/machine lag.  I wouldn\'t\n"
+"        recommend doing this unless it\'s a small company or you have a\n"
+"        lot of free time on your hands (could take hours-days).\n"
+"        Inside the file specified the text \"Host:\n"
+"\" will be replaced\n"
+"        by the host specified. Usage:\n"
+"\n"
+"    perl fierce.pl -dns example.com -connect headers.txt\n"
+"\n"
+"    -delay      The number of seconds to wait between lookups.\n"
+"    -dns        The domain you would like scanned.\n"
+"    -dnsfile    Use DNS servers provided by a file (one per line) for\n"
+"                reverse lookups (brute force).\n"
+"    -dnsserver  Use a particular DNS server for reverse lookups\n"
+"        (probably should be the DNS server of the target).  Fierce\n"
+"        uses your DNS server for the initial SOA query and then uses\n"
+"        the target\'s DNS server for all additional queries by default.\n"
+"    -file       A file you would like to output to be logged to.\n"
+"    -fulloutput When combined with -connect this will output everything\n"
+"        the webserver sends back, not just the HTTP headers.\n"
+"    -help       This screen.\n"
+"    -nopattern  Don\'t use a search pattern when looking for nearby\n"
+"        hosts.  Instead dump everything.  This is really noisy but\n"
+"        is useful for finding other domains that spammers might be\n"
+"        using.  It will also give you lots of false positives,\n"
+"        especially on large domains.\n"
+"    -range      Scan an internal IP range (must be combined with\n"
+"        -dnsserver).  Note, that this does not support a pattern\n"
+"        and will simply output anything it finds.  Usage:\n"
+"\n"
+"    perl fierce.pl -range 111.222.333.0-255 -dnsserver ns1.example.co\n"
+"\n"
+"    -search     Search list.  When fierce attempts to traverse up and\n"
+"        down ipspace it may encounter other servers within other\n"
+"        domains that may belong to the same company.  If you supply a\n"
+"        comma delimited list to fierce it will report anything found.\n"
+"        This is especially useful if the corporate servers are named\n"
+"        different from the public facing website.  Usage:\n"
+"\n"
+"    perl fierce.pl -dns examplecompany.com -search corpcompany,blahcompany\n"
+"\n"
+"        Note that using search could also greatly expand the number of\n"
+"        hosts found, as it will continue to traverse once it locates\n"
+"        servers that you specified in your search list.  The more the\n"
+"        better.\n"
+"    -suppress   Suppress all TTY output (when combined with -file).\n"
+"    -tcptimeout Specify a different timeout (default 10 seconds).  You\n"
+"        may want to increase this if the DNS server you are querying\n"
+"        is slow or has a lot of network lag.\n"
+"    -threads  Specify how many threads to use while scanning (default\n"
+"      is single threaded).\n"
+"    -traverse   Specify a number of IPs above and below whatever IP you\n"
+"        have found to look for nearby IPs.  Default is 5 above and\n"
+"        below.  Traverse will not move into other C blocks.\n"
+"    -version    Output the version number.\n"
+"    -wide       Scan the entire class C after finding any matching\n"
+"        hostnames in that class C.  This generates a lot more traffic\n"
+"        but can uncover a lot more information.\n"
+"    -wordlist   Use a seperate wordlist (one word per line).  Usage:\n"
+"\n"
+"    perl fierce.pl -dns examplecompany.com -wordlist dictionary.txt\n"
+"\n"
+"\n"
+""))
         self.FierceH3.setText(_translate("MainWindow", "Examples:"))
-        self.FierceB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.FierceTab), _translate("MainWindow", "Fierce"))
         self.FireWalkTitle.setText(_translate("MainWindow", "Firewalk"))
         self.FireWalkButton.setText(_translate("MainWindow", "./firewalk"))
         self.FireWalkH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.FireWalkB3.setText(_translate("MainWindow", "BODY 3"))
-        self.FireWalkB1.setText(_translate("MainWindow", "BODY 1"))
+        self.FireWalkB3.setText(_translate("MainWindow", "root@kali:~# firewalk -S8079-8081  -i eth0 -n -pTCP 192.168.1.1 192.168.0.1\n"
+"Firewalk 5.0 [gateway ACL scanner]\n"
+"Firewalk state initialization completed successfully.\n"
+"TCP-based scan.\n"
+"Ramping phase source port: 53, destination port: 33434\n"
+"Hotfoot through 192.168.1.1 using 192.168.0.1 as a metric.\n"
+"Ramping Phase:\n"
+" 1 (TTL  1): expired [192.168.1.1]\n"
+"Binding host reached.\n"
+"Scan bound at 2 hops.\n"
+"Scanning Phase:\n"
+"port 8079: *no response*\n"
+"port 8080: A! open (port not listen) [192.168.0.1]\n"
+"port 8081: *no response*\n"
+"\n"
+"Scan completed successfully.\n"
+"\n"
+"Total packets sent:                4\n"
+"Total packet errors:               0\n"
+"Total packets caught               2\n"
+"Total packets caught of interest   2\n"
+"Total ports scanned                3\n"
+"Total ports open:                  1\n"
+"Total ports unknown:               0\n"
+"\n"
+"\n"
+""))
+        self.FireWalkB1.setText(_translate("MainWindow", "Firewalk is an active reconnaissance network security tool that attempts to determine what layer \n"
+"4 protocols a given IP forwarding device will pass. Firewalk works by sending out TCP or UDP \n"
+"packets with a TTL one greater than the targeted gateway. If the gateway allows the traffic, it \n"
+"will forward the packets to the next hop where they will expire and elicit an \n"
+"ICMP_TIME_EXCEEDED message. If the gateway hostdoes not allow the traffic, it will likely \n"
+"drop the packets on the floor and we will see no response.\n"
+"\n"
+"To get the correct IP TTL that will result in expired packets one beyond the gateway we need to \n"
+"ramp up hop-counts. We do this in the same manner that traceroute works. Once we have the \n"
+"gateway hopcount (at that point the scan is said to be `bound`) we can begin our scan.\n"
+"\n"
+"It is significant to note the fact that the ultimate destination host does not have to be reached. It \n"
+"just needs to be somewhere downstream, on the other side of the gateway, from the scanning \n"
+"host.\n"
+"\n"
+"Source: http://packetfactory.openwall.net/projects/firewalk/\n"
+"\n"
+"\n"
+"\n"
+""))
         self.FireWalkH2.setText(_translate("MainWindow", "Usage:"))
         self.FireWalkH1.setText(_translate("MainWindow", "Description:"))
-        self.FireWalkB2.setText(_translate("MainWindow", "BODY 2"))
+        self.FireWalkB2.setText(_translate("MainWindow", "root@kali:~# firewalk -h\n"
+"Firewalk 5.0 [gateway ACL scanner]\n"
+"Usage : firewalk [options] target_gateway metric\n"
+"           [-d 0 - 65535] destination port to use (ramping phase)\n"
+"           [-h] program help\n"
+"           [-i device] interface\n"
+"           [-n] do not resolve IP addresses into hostnames\n"
+"           [-p TCP | UDP] firewalk protocol\n"
+"           [-r] strict RFC adherence\n"
+"           [-S x - y, z] port range to scan\n"
+"           [-s 0 - 65535] source port\n"
+"           [-T 1 - 1000] packet read timeout in ms\n"
+"           [-t 1 - 25] IP time to live\n"
+"           [-v] program version\n"
+"           [-x 1 - 8] expire vector\n"
+"\n"
+"\n"
+""))
         self.FireWalkH3.setText(_translate("MainWindow", "Examples:"))
-        self.FireWalkB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.FireWalkTab), _translate("MainWindow", "Firewalk"))
         self.fragRouteTitle.setText(_translate("MainWindow", "fragroute"))
         self.fragRouteButton.setText(_translate("MainWindow", "./fragroute"))
         self.fragRouteH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.fragRouteB3.setText(_translate("MainWindow", "BODY 3"))
-        self.fragRouteB1.setText(_translate("MainWindow", "BODY 1"))
+        self.fragRouteB3.setText(_translate("MainWindow", "root@kali:~# fragroute 192.168.1.123\n"
+"fragroute: tcp_seg -> ip_frag -> ip_chaff -> order -> print\n"
+"172.16.79.182.53735 > 192.168.1.123.80: S 617662291:617662291(0) win 29200\n"
+"\n"
+""))
+        self.fragRouteB1.setText(_translate("MainWindow", "fragroute intercepts, modifies, and rewrites egress traffic destined for a specified host, \n"
+"implementing most of the attacks described in the Secure Networks “Insertion, Evasion, and \n"
+"Denial of Service: Eluding Network Intrusion Detection” paper of January 1998.\n"
+"\n"
+"It features a simple ruleset language to delay, duplicate, drop, fragment, overlap, print, reorder, \n"
+"segment, source-route, or otherwise monkey with all outbound packets destined for a target host, \n"
+"with minimal support for randomized or probabilistic behaviour.\n"
+"\n"
+"This tool was written in good faith to aid in the testing of network intrusion detection systems, \n"
+"firewalls, and basic TCP/IP stack behaviour. Please do not abuse this software.\n"
+"\n"
+"Source: http://www.monkey.org/~dugsong/fragroute/\n"
+"\n"
+"\n"
+"\n"
+""))
         self.fragRouteH2.setText(_translate("MainWindow", "Usage:"))
         self.fragRouteH1.setText(_translate("MainWindow", "Description:"))
-        self.fragRouteB2.setText(_translate("MainWindow", "BODY 2"))
+        self.fragRouteB2.setText(_translate("MainWindow", "root@kali:~# fragroute\n"
+"Usage: fragroute [-f file] dst\n"
+"Rules:\n"
+"       delay first|last|random <ms>\n"
+"       drop first|last|random <prob-%>\n"
+"       dup first|last|random <prob-%>\n"
+"       echo <string> ...\n"
+"       ip_chaff dup|opt|<ttl>\n"
+"       ip_frag <size> [old|new]\n"
+"       ip_opt lsrr|ssrr <ptr> <ip-addr> ...\n"
+"       ip_ttl <ttl>\n"
+"       ip_tos <tos>\n"
+"       order random|reverse\n"
+"       print\n"
+"       tcp_chaff cksum|null|paws|rexmit|seq|syn|<ttl>\n"
+"       tcp_opt mss|wscale <size>\n"
+"       tcp_seg <size> [old|new]\n"
+"\n"
+"root@kali:~# fragtest\n"
+"Usage: fragtest TESTS ... <host>\n"
+"\n"
+"  where TESTS is any combination of the following (or \"all\"):\n"
+"\n"
+"  ping      prerequisite for all tests\n"
+"  ip-opt    determine supported IP options (BROKEN)\n"
+"  ip-tracert    determine path to target\n"
+"  frag      try 8-byte IP fragments\n"
+"  frag-new  try 8-byte fwd-overlapping IP fragments, favoring new data (BROKEN)\n"
+"  frag-old  try 8-byte fwd-overlapping IP fragments, favoring old data\n"
+"  frag-timeout  determine IP fragment reassembly timeout (BROKEN)\n"
+"\n"
+"\n"
+""))
         self.fragRouteH3.setText(_translate("MainWindow", "Examples:"))
-        self.fragRouteB4.setText(_translate("MainWindow", "BODY4"))
+        self.fragRouteB4.setText(_translate("MainWindow", "root@kali:~# fragtest ip-tracert frag-new 192.168.1.123\n"
+"ip-tracert: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n"
+"\n"
+"\n"
+""))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.fragRouteTab), _translate("MainWindow", "fragroute"))
         self.fragRouterTitle.setText(_translate("MainWindow", "fragrouter"))
         self.fragRouterButton.setText(_translate("MainWindow", "./fragrouter"))
         self.fragRouterH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.fragRouterB3.setText(_translate("MainWindow", "BODY 3"))
-        self.fragRouterB1.setText(_translate("MainWindow", "BODY 1"))
+        self.fragRouterB3.setText(_translate("MainWindow", "root@kali:~# fragrouter -i eth0 -F1\n"
+"fragrouter: frag-1: ordered 8-byte IP fragments\n"
+"\n"
+"\n"
+""))
+        self.fragRouterB1.setText(_translate("MainWindow", "Fragrouter is a network intrusion detection evasion toolkit. It implements most of the attacks \n"
+"described in the Secure Networks “Insertion, Evasion, and Denial of Service: Eluding Network \n"
+"Intrusion Detection” paper of January 1998.\n"
+"\n"
+"This program was written in the hopes that a more precise testing methodology might be applied \n"
+"to the area of network intrusion detection, which is still a black art at best.\n"
+"\n"
+"Conceptually, fragrouter is just a one-way fragmenting router – IP packets get sent from the \n"
+"attacker to the fragrouter, which transforms them into a fragmented data stream to forward to the \n"
+"victim.\n"
+"\n"
+"Source: fragrouter README\n"
+"\n"
+"\n"
+""))
         self.fragRouterH2.setText(_translate("MainWindow", "Usage:"))
         self.fragRouterH1.setText(_translate("MainWindow", "Description:"))
-        self.fragRouterB2.setText(_translate("MainWindow", "BODY 2"))
+        self.fragRouterB2.setText(_translate("MainWindow", "root@kali:~# fragrouter\n"
+"Version 1.6\n"
+"Usage: fragrouter [-i interface] [-p] [-g hop] [-G hopcount] ATTACK\n"
+"\n"
+"where ATTACK is one of the following:\n"
+"\n"
+"-B1: base-1: normal IP forwarding\n"
+"-F1: frag-1: ordered 8-byte IP fragments\n"
+"-F2: frag-2: ordered 24-byte IP fragments\n"
+"-F3: frag-3: ordered 8-byte IP fragments, one out of order\n"
+"-F4: frag-4: ordered 8-byte IP fragments, one duplicate\n"
+"-F5: frag-5: out of order 8-byte fragments, one duplicate\n"
+"-F6: frag-6: ordered 8-byte fragments, marked last frag first\n"
+"-F7: frag-7: ordered 16-byte fragments, fwd-overwriting\n"
+"-T1: tcp-1: 3-whs, bad TCP checksum FIN/RST, ordered 1-byte segments\n"
+"-T3: tcp-3: 3-whs, ordered 1-byte segments, one duplicate\n"
+"-T4: tcp-4: 3-whs, ordered 1-byte segments, one overwriting\n"
+"-T5: tcp-5: 3-whs, ordered 2-byte segments, fwd-overwriting\n"
+"-T7: tcp-7: 3-whs, ordered 1-byte segments, interleaved null segments\n"
+"-T8: tcp-8: 3-whs, ordered 1-byte segments, one out of order\n"
+"-T9: tcp-9: 3-whs, out of order 1-byte segments\n"
+"-C2: tcbc-2: 3-whs, ordered 1-byte segments, interleaved SYNs\n"
+"-C3: tcbc-3: ordered 1-byte null segments, 3-whs, ordered 1-byte segments\n"
+"-R1: tcbt-1: 3-whs, RST, 3-whs, ordered 1-byte segments\n"
+"-I2: ins-2: 3-whs, ordered 1-byte segments, bad TCP checksums\n"
+"-I3: ins-3: 3-whs, ordered 1-byte segments, no ACK set\n"
+"-M1: misc-1: Windows NT 4 SP2 - http://www.dataprotect.com/ntfrag/\n"
+"-M2: misc-2: Linux IP chains - http://www.dataprotect.com/ipchains/\n"
+"\n"
+"\n"
+""))
         self.fragRouterH3.setText(_translate("MainWindow", "Examples:"))
-        self.fragRouterB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.fragRouterTab), _translate("MainWindow", "fragrouter"))
         self.GhostPhisherTitle.setText(_translate("MainWindow", "Ghost Phisher"))
         self.GhostPhisherButton.setText(_translate("MainWindow", "./ghost-phisher"))
         self.GhostPhisherH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
         self.GhostPhisherB3.setText(_translate("MainWindow", "BODY 3"))
-        self.GhostPhisherB1.setText(_translate("MainWindow", "BODY 1"))
+        self.GhostPhisherB1.setText(_translate("MainWindow", "Ghost Phisher is a Wireless and Ethernet security auditing and attack software program written \n"
+"using the Python Programming Language and the Python Qt GUI library, the program is able to \n"
+"emulate access points and deploy.\n"
+"\n"
+"Ghost Phisher currently supports the following features:\n"
+"•    HTTP Server\n"
+"•    Inbuilt RFC 1035 DNS Server\n"
+"•    Inbuilt RFC 2131 DHCP Server\n"
+"•    Webpage Hosting and Credential Logger (Phishing)\n"
+"•    Wifi Access point Emulator\n"
+"•    Session Hijacking (Passive and Ethernet Modes)\n"
+"•    ARP Cache Poisoning (MITM and DOS Attacks)\n"
+"•    Penetration using Metasploit Bindings\n"
+"•    Automatic credential logging using SQlite Database\n"
+"•    Update Support\n"
+"\n"
+"Source: https://code.google.com/p/ghost-phisher/\n"
+"\n"
+"\n"
+"\n"
+""))
         self.GhostPhisherH2.setText(_translate("MainWindow", "Usage:"))
         self.GhostPhisherH1.setText(_translate("MainWindow", "Description:"))
-        self.GhostPhisherB2.setText(_translate("MainWindow", "BODY 2"))
+        self.GhostPhisherB2.setText(_translate("MainWindow", "root@kali:~# ghost-phisher"))
         self.GhostPhisherH3.setText(_translate("MainWindow", "Examples:"))
         self.GhostPhisherB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.GhostPhisherTab), _translate("MainWindow", "Ghost Phisher"))
         self.GoLismeroTitle.setText(_translate("MainWindow", "GoLismero"))
         self.GoLismeroButton.setText(_translate("MainWindow", "./golismero"))
         self.GoLismeroH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.GoLismeroB3.setText(_translate("MainWindow", "BODY 3"))
-        self.GoLismeroB1.setText(_translate("MainWindow", "BODY 1"))
+        self.GoLismeroB3.setText(_translate("MainWindow", "root@kali:~# golismero scan -i /root/port80.xml -o sub1-port80.html\n"
+"\n"
+"\n"
+""))
+        self.GoLismeroB1.setText(_translate("MainWindow", "GoLismero is an open source framework for security testing. It’s currently geared towards web \n"
+"security, but it can easily be expanded to other kinds of scans.\n"
+"\n"
+"The most interesting features of the framework are:\n"
+"•    Real platform independence. Tested on Windows, Linux, *BSD and OS X.\n"
+"•    No native library dependencies. All of the framework has been written in pure Python.\n"
+"•    Good performance when compared with other frameworks written in Python and other scripting languages.\n"
+"•    Very easy to use.\n"
+"•    Plugin development is extremely simple.\n"
+"•    The framework also collects and unifies the results of well known tools: sqlmap, xsser, openvas, dnsrecon, theharvester\n"
+"•    Integration with standards: CWE, CVE and OWASP.\n"
+"•    Designed for cluster deployment in mind (not available yet).\n"
+"\n"
+"Source: https://github.com/golismero/golismero\n"
+"\n"
+"\n"
+"\n"
+""))
         self.GoLismeroH2.setText(_translate("MainWindow", "Usage:"))
         self.GoLismeroH1.setText(_translate("MainWindow", "Description:"))
-        self.GoLismeroB2.setText(_translate("MainWindow", "BODY 2"))
+        self.GoLismeroB2.setText(_translate("MainWindow", "root@kali:~# golismero -h\n"
+"\n"
+"/---------------------------------------------- \n"
+"| GoLismero 2.0.0b3 - The Web Knife            |\n"
+"| Contact: golismero.project<@>gmail.com       |\n"
+"|                                              |\n"
+"| Daniel Garcia Garcia a.k.a cr0hn (@ggdaniel) |\n"
+"| Mario Vilas (@Mario_Vilas)                   |\n"
+"----------------------------------------------/\n"
+"\n"
+"usage: golismero.py COMMAND [TARGETS...] [--options]\n"
+"\n"
+"  SCAN:\n"
+"    Perform a vulnerability scan on the given targets. Optionally import\n"
+"    results from other tools and write a report. The arguments that follow may\n"
+"    be domain names, IP addresses or web pages.\n"
+"\n"
+"  PROFILES:\n"
+"    Show a list of available config profiles. This command takes no arguments.\n"
+"\n"
+"  PLUGINS:\n"
+"    Show a list of available plugins. This command takes no arguments.\n"
+"\n"
+"  INFO:\n"
+"    Show detailed information on a given plugin. The arguments that follow are\n"
+"    the plugin IDs. You can use glob-style wildcards.\n"
+"\n"
+"  REPORT:\n"
+"    Write a report from an earlier scan. This command takes no arguments.\n"
+"    To specify output files use the -o switch.\n"
+"\n"
+"  IMPORT:\n"
+"    Import results from other tools and optionally write a report, but don\'t\n"
+"    scan the targets. This command takes no arguments. To specify input files\n"
+"    use the -i switch.\n"
+"\n"
+"  DUMP:\n"
+"    Dump the database from an earlier scan in SQL format. This command takes no\n"
+"    arguments. To specify output files use the -o switch.\n"
+"\n"
+"  UPDATE:\n"
+"    Update GoLismero to the latest version. Requires Git to be installed and\n"
+"    available in the PATH. This command takes no arguments.\n"
+"\n"
+"examples:\n"
+"\n"
+"  scan a website and show the results on screen:\n"
+"    golismero.py scan http://www.example.com\n"
+"\n"
+"  grab Nmap results, scan all hosts found and write an HTML report:\n"
+"    golismero.py scan -i nmap_output.xml -o report.html\n"
+"\n"
+"  grab results from OpenVAS and show them on screen, but don\'t scan anything:\n"
+"    golismero.py import -i openvas_output.xml\n"
+"\n"
+"  show a list of all available configuration profiles:\n"
+"    golismero.py profiles\n"
+"\n"
+"  show a list of all available plugins:\n"
+"    golismero.py plugins\n"
+"\n"
+"  show information on all bruteforcer plugins:\n"
+"    golismero.py info brute_*\n"
+"\n"
+"  dump the database from a previous scan:\n"
+"    golismero.py dump -db example.db -o dump.sql\n"
+"\n"
+"\n"
+""))
         self.GoLismeroH3.setText(_translate("MainWindow", "Examples:"))
-        self.GoLismeroB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.GoLismeroTab), _translate("MainWindow", "GoLismero"))
         self.goofileTitle.setText(_translate("MainWindow", "goofile"))
         self.goofileButton.setText(_translate("MainWindow", "./goofile"))
         self.goofileH4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.goofileB3.setText(_translate("MainWindow", "BODY 3"))
-        self.goofileB1.setText(_translate("MainWindow", "BODY 1"))
+        self.goofileB3.setText(_translate("MainWindow", "root@kali:~# goofile -d kali.org -f pdf\n"
+"\n"
+"-------------------------------------\n"
+"|Goofile v1.5                       |\n"
+"|Coded by Thomas (G13) Richards     |\n"
+"|www.g13net.com                     |\n"
+"|code.google.com/p/goofile          |\n"
+"-------------------------------------\n"
+"\n"
+"\n"
+"Searching in kali.org for pdf\n"
+"========================================\n"
+"\n"
+"Files found:\n"
+"====================\n"
+"\n"
+"docs.kali.org/pdf/kali-book-fr.pdf\n"
+"docs.kali.org/pdf/kali-book-es.pdf\n"
+"docs.kali.org/pdf/kali-book-id.pdf\n"
+"docs.kali.org/pdf/kali-book-de.pdf\n"
+"docs.kali.org/pdf/kali-book-it.pdf\n"
+"docs.kali.org/pdf/kali-book-ar.pdf\n"
+"docs.kali.org/pdf/kali-book-ja.pdf\n"
+"docs.kali.org/pdf/kali-book-nl.pdf\n"
+"docs.kali.org/pdf/kali-book-ru.pdf\n"
+"docs.kali.org/pdf/kali-book-en.pdf\n"
+"docs.kali.org/pdf/kali-book-pt-br.pdf\n"
+"docs.kali.org/pdf/kali-book-zh-hans.pdf\n"
+"docs.kali.org/pdf/kali-book-sw.pdf\n"
+"docs.kali.org/pdf/articles/kali-linux-live-usb-install-en.pdf\n"
+"====================\n"
+"\n"
+"\n"
+""))
+        self.goofileB1.setText(_translate("MainWindow", "Use this tool to search for a specific file type in a given domain.\n"
+"\n"
+"\n"
+""))
         self.goofileH2.setText(_translate("MainWindow", "Usage:"))
         self.goofileH1.setText(_translate("MainWindow", "Description:"))
-        self.goofileB2.setText(_translate("MainWindow", "BODY 2"))
+        self.goofileB2.setText(_translate("MainWindow", "root@kali:~# goofile\n"
+"\n"
+"-------------------------------------\n"
+"|Goofile v1.5                       |\n"
+"|Coded by Thomas (G13) Richards     |\n"
+"|www.g13net.com                     |\n"
+"|code.google.com/p/goofile          |\n"
+"-------------------------------------\n"
+"\n"
+"\n"
+"Goofile 1.5\n"
+"\n"
+"usage: goofile options\n"
+"\n"
+"       -d: domain to search\n"
+"\n"
+"       -f: filetype (ex. pdf)\n"
+"\n"
+"example:./goofile.py -d test.com -f txt\n"
+"\n"
+"\n"
+""))
         self.goofileH3.setText(_translate("MainWindow", "Examples:"))
-        self.goofileB4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.goofileTab), _translate("MainWindow", "goofile"))
         self.hping3Title.setText(_translate("MainWindow", "hping3"))
         self.hping3Button.setText(_translate("MainWindow", "./hping3"))
         self.hping3H4.setText(_translate("MainWindow", "RUN ON TERMINAL :"))
-        self.hping3B3.setText(_translate("MainWindow", "BODY 3"))
-        self.hping3B1.setText(_translate("MainWindow", "BODY 1"))
+        self.hping3B3.setText(_translate("MainWindow", "root@kali:~# hping3 --traceroute -V -1 www.example.com\n"
+"using eth0, addr: 192.168.1.15, MTU: 1500\n"
+"HPING www.example.com (eth0 93.184.216.119): icmp mode set, 28 headers + 0 data bytes\n"
+"hop=1 TTL 0 during transit from ip=192.168.1.1 name=UNKNOWN\n"
+"hop=1 hoprtt=0.3 ms\n"
+"hop=2 TTL 0 during transit from ip=192.168.0.1 name=UNKNOWN\n"
+"hop=2 hoprtt=3.3 ms\n"
+"\n"
+"\n"
+""))
+        self.hping3B1.setText(_translate("MainWindow", "hping is a command-line oriented TCP/IP packet assembler/analyzer. The interface is inspired to \n"
+"the ping(8) unix command, but hping isn’t only able to send ICMP echo requests. It supports \n"
+"TCP, UDP, ICMP and RAW-IP protocols, has a traceroute mode, the ability to send files \n"
+"between a covered channel, and many other features.\n"
+"\n"
+"While hping was mainly used as a security tool in the past, it can be used in many ways by \n"
+"people that don’t care about security to test networks and hosts. A subset of the stuff you can do \n"
+"using hping:\n"
+"•    Firewall testing\n"
+"•    Advanced port scanning\n"
+"•    Network testing, using different protocols, TOS, fragmentation\n"
+"•    Manual path MTU discovery\n"
+"•    Advanced traceroute, under all the supported protocols\n"
+"•    Remote OS fingerprinting\n"
+"•    Remote uptime guessing\n"
+"•    TCP/IP stacks auditing\n"
+"•    hping can also be useful to students that are learning TCP/IP.\n"
+"\n"
+"Source: http://www.hping.org/\n"
+"\n"
+"\n"
+"\n"
+""))
         self.hping3H2.setText(_translate("MainWindow", "Usage:"))
         self.hping3H1.setText(_translate("MainWindow", "Description:"))
-        self.hping3B2.setText(_translate("MainWindow", "BODY 2"))
+        self.hping3B2.setText(_translate("MainWindow", "root@kali:~# hping3 -h\n"
+"usage: hping3 host [options]\n"
+"  -h  --help      show this help\n"
+"  -v  --version   show version\n"
+"  -c  --count     packet count\n"
+"  -i  --interval  wait (uX for X microseconds, for example -i u1000)\n"
+"      --fast      alias for -i u10000 (10 packets for second)\n"
+"      --faster    alias for -i u1000 (100 packets for second)\n"
+"      --flood      sent packets as fast as possible. Don\'t show replies.\n"
+"  -n  --numeric   numeric output\n"
+"  -q  --quiet     quiet\n"
+"  -I  --interface interface name (otherwise default routing interface)\n"
+"  -V  --verbose   verbose mode\n"
+"  -D  --debug     debugging info\n"
+"  -z  --bind      bind ctrl+z to ttl           (default to dst port)\n"
+"  -Z  --unbind    unbind ctrl+z\n"
+"      --beep      beep for every matching packet received\n"
+"Mode\n"
+"  default mode     TCP\n"
+"  -0  --rawip      RAW IP mode\n"
+"  -1  --icmp       ICMP mode\n"
+"  -2  --udp        UDP mode\n"
+"  -8  --scan       SCAN mode.\n"
+"                   Example: hping --scan 1-30,70-90 -S www.target.host\n"
+"  -9  --listen     listen mode\n"
+"IP\n"
+"  -a  --spoof      spoof source address\n"
+"  --rand-dest      random destionation address mode. see the man.\n"
+"  --rand-source    random source address mode. see the man.\n"
+"  -t  --ttl        ttl (default 64)\n"
+"  -N  --id         id (default random)\n"
+"  -W  --winid      use win* id byte ordering\n"
+"  -r  --rel        relativize id field          (to estimate host traffic)\n"
+"  -f  --frag       split packets in more frag.  (may pass weak acl)\n"
+"  -x  --morefrag   set more fragments flag\n"
+"  -y  --dontfrag   set don\'t fragment flag\n"
+"  -g  --fragoff    set the fragment offset\n"
+"  -m  --mtu        set virtual mtu, implies --frag if packet size > mtu\n"
+"  -o  --tos        type of service (default 0x00), try --tos help\n"
+"  -G  --rroute     includes RECORD_ROUTE option and display the route buffer\n"
+"  --lsrr           loose source routing and record route\n"
+"  --ssrr           strict source routing and record route\n"
+"  -H  --ipproto    set the IP protocol field, only in RAW IP mode\n"
+"ICMP\n"
+"  -C  --icmptype   icmp type (default echo request)\n"
+"  -K  --icmpcode   icmp code (default 0)\n"
+"      --force-icmp send all icmp types (default send only supported types)\n"
+"      --icmp-gw    set gateway address for ICMP redirect (default 0.0.0.0)\n"
+"      --icmp-ts    Alias for --icmp --icmptype 13 (ICMP timestamp)\n"
+"      --icmp-addr  Alias for --icmp --icmptype 17 (ICMP address subnet mask)\n"
+"      --icmp-help  display help for others icmp options\n"
+"UDP/TCP\n"
+"  -s  --baseport   base source port             (default random)\n"
+"  -p  --destport   [+][+]<port> destination port(default 0) ctrl+z inc/dec\n"
+"  -k  --keep       keep still source port\n"
+"  -w  --win        winsize (default 64)\n"
+"  -O  --tcpoff     set fake tcp data offset     (instead of tcphdrlen / 4)\n"
+"  -Q  --seqnum     shows only tcp sequence number\n"
+"  -b  --badcksum   (try to) send packets with a bad IP checksum\n"
+"                   many systems will fix the IP checksum sending the packet\n"
+"                   so you\'ll get bad UDP/TCP checksum instead.\n"
+"  -M  --setseq     set TCP sequence number\n"
+"  -L  --setack     set TCP ack\n"
+"  -F  --fin        set FIN flag\n"
+"  -S  --syn        set SYN flag\n"
+"  -R  --rst        set RST flag\n"
+"  -P  --push       set PUSH flag\n"
+"  -A  --ack        set ACK flag\n"
+"  -U  --urg        set URG flag\n"
+"  -X  --xmas       set X unused flag (0x40)\n"
+"  -Y  --ymas       set Y unused flag (0x80)\n"
+"  --tcpexitcode    use last tcp->th_flags as exit code\n"
+"  --tcp-mss        enable the TCP MSS option with the given value\n"
+"  --tcp-timestamp  enable the TCP timestamp option to guess the HZ/uptime\n"
+"Common\n"
+"  -d  --data       data size                    (default is 0)\n"
+"  -E  --file       data from file\n"
+"  -e  --sign       add \'signature\'\n"
+"  -j  --dump       dump packets in hex\n"
+"  -J  --print      dump printable characters\n"
+"  -B  --safe       enable \'safe\' protocol\n"
+"  -u  --end        tell you when --file reached EOF and prevent rewind\n"
+"  -T  --traceroute traceroute mode              (implies --bind and --ttl 1)\n"
+"  --tr-stop        Exit when receive the first not ICMP in traceroute mode\n"
+"  --tr-keep-ttl    Keep the source TTL fixed, useful to monitor just one hop\n"
+"  --tr-no-rtt       Don\'t calculate/show RTT information in traceroute mode\n"
+"ARS packet description (new, unstable)\n"
+"  --apd-send       Send the packet described with APD (see docs/APD.txt)\n"
+"\n"
+"\n"
+""))
         self.hping3H3.setText(_translate("MainWindow", "Examples:"))
-        self.hping3B4.setText(_translate("MainWindow", "BODY4"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.hping3Tab), _translate("MainWindow", "hping3"))
         self.ToolNameTitle.setText(_translate("MainWindow", "ToolName"))
         self.toolButton.setText(_translate("MainWindow", "Button"))

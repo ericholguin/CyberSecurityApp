@@ -1796,7 +1796,7 @@
 </string>
       </property>
       <property name="currentIndex">
-       <number>13</number>
+       <number>31</number>
       </property>
       <widget class="QWidget" name="welcomeTab">
        <attribute name="title">
@@ -3793,7 +3793,7 @@ Source: http://paterva.com/web6/products/casefile.php
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>-549</y>
+             <y>0</y>
              <width>508</width>
              <height>915</height>
             </rect>
@@ -3980,7 +3980,7 @@ cdpsnarf -i &lt;dev&gt; [-h] [-w savefile] [-r dumpfile] [-d]
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>-1099</y>
+             <y>0</y>
              <width>522</width>
              <height>1448</height>
             </rect>
@@ -4208,7 +4208,7 @@ examples:   cisco-torch -A 10.10.0.0/16
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>-386</y>
+             <y>0</y>
              <width>508</width>
              <height>752</height>
             </rect>
@@ -4388,7 +4388,7 @@ java -jar CookieCadger.jar
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>-282</y>
+             <y>0</y>
              <width>508</width>
              <height>674</height>
             </rect>
@@ -4562,7 +4562,7 @@ Make sure a TFTP server is set up, preferably running from /tmp !
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>-568</y>
+             <y>0</y>
              <width>508</width>
              <height>934</height>
             </rect>
@@ -4756,9 +4756,9 @@ Gathered Inet-whois information for 93.184.216.119
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-159</y>
+             <width>820</width>
+             <height>1571</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
@@ -4802,14 +4802,43 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="5" column="0">
              <widget class="QLabel" name="dnmapB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# echo &quot;nmap -F 192.168.1.0/24 -v -n -oA sub1&quot; &gt;&gt; dnmap.txt
+root@kali:~# echo &quot;nmap -F 192.168.0.0/24 -v -n -oA sub0&quot; &gt;&gt; dnmap.txt
+root@kali:~# dnmap_server -f dnmap.txt
++-----------------------------------------------------------------------------------------------+
+| dnmap_server Version 0.6						|
+| This program is free software; you can redistribute it and/or modify 		|
+| it under the terms of the GNU General Public License as published by 	|
+| the Free Software Foundation; either version 2 of the License, or    		|
+| (at your option) any later version.                                  			|
+|                                                                      				|
+| Author: Garcia Sebastian, eldraco@gmail.com                          		|
+| www.mateslab.com.ar                                                  			|
++-----------------------------------------------------------------------------------------------+
+
+=| MET:0:00:00.000544 | Amount of Online clients: 0 |=
+
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="dnmapB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>dnmap is a framework to distribute nmap scans among several clients. It reads an already created 
+file with nmap commands and send those commands to each client connected to it.
+
+The framework use a client/server architecture. The server knows what to do and the clients do 
+it. All the logic and statistics are managed in the server. Nmap output is stored on both server and 
+client. 
+
+Usually you would want this if you have to scan a large group of hosts and you have several 
+different internet connections (or friends that want to help you).
+
+Source: http://mateslab.weebly.com/dnmap-the-distributed-nmap.html
+
+</string>
               </property>
              </widget>
             </item>
@@ -4844,7 +4873,56 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="dnmapB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# dnmap_client -h
+
++-----------------------------------------------------------------------------------------------+
+| dnmap Client Version 0.6						|
+| This program is free software; you can redistribute it and/or modify		|
+| it under the terms of the GNU General Public License as published by		|
+| the Free Software Foundation; either version 2 of the License, or		|
+| (at your option) any later version.					|
+|								|
+| Author: Garcia Sebastian, eldraco@gmail.com				|
+| www.mateslab.com.ar						|
++-----------------------------------------------------------------------------------------------+
+
+usage: /usr/bin/dnmap_client &lt;options&gt;
+options:
+  -s, --server-ip        IP address of dnmap server.
+  -p, --server-port      Port of dnmap server. Dnmap port defaults to 46001
+  -a, --alias      Your name alias so we can give credit to you for your help. Optional
+  -d, --debug      Debuging.
+  -m, --max-rate      Force nmaps commands to use at most this rate. Useful to slow nmap down. 
+Adds the --max-rate parameter.
+
+
+
+root@kali:~# dnmap_server -h
++-----------------------------------------------------------------------------------------------+
+| dnmap_server Version 0.6                                           			|
+| This program is free software; you can redistribute it and/or modify 		|
+| it under the terms of the GNU General Public License as published by 	|
+| the Free Software Foundation; either version 2 of the License, or    		|
+| (at your option) any later version.                                  			|
+|                                                                      				|
+| Author: Garcia Sebastian, eldraco@gmail.com                          		|
+| www.mateslab.com.ar                                                  			|
++-----------------------------------------------------------------------------------------------+
+
+usage: /usr/bin/dnmap_server &lt;options&gt;
+options:
+  -f, --nmap-commands        Nmap commands file
+  -p, --port        TCP port where we listen for connections.
+  -L, --log-file        Log file. Defaults to /var/log/dnmap_server.conf.
+  -l, --log-level       Log level. Defaults to info.
+  -v, --verbose_level         Verbose level. Give a number between 1 and 5. Defaults to 1. Level 0 means be quiet.
+  -t, --client-timeout         How many time should we wait before marking a client Offline. We still remember its values just in case it cames back.
+  -s, --sort            Field to sort the statical value. You can choose from: Alias, #Commands, UpTime, RunCmdXMin, AvrCmdXMin, Status
+  -P, --pem-file         pem file to use for TLS connection. By default we use the server.pem file provided with the server in the current directory.
+
+dnmap_server uses a '&lt;nmap-commands-file-name&gt;.dnmaptrace' file to know where it must continue reading the nmap commands file. If you want to start over again,
+just delete the '&lt;nmap-commands-file-name&gt;.dnmaptrace' file
+</string>
               </property>
              </widget>
             </item>
@@ -4865,7 +4943,25 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="6" column="0">
              <widget class="QLabel" name="dnmapB4">
               <property name="text">
-               <string>BODY4</string>
+               <string>root@kali:~# dnmap_client -s 192.168.1.15 -a dnmap-client1
++----------------------------------------------------------------------------------------------+
+| dnmap Client Version 0.6                                             			|
+| This program is free software; you can redistribute it and/or modify 		|
+| it under the terms of the GNU General Public License as published by 	|
+| the Free Software Foundation; either version 2 of the License, or    		|
+| (at your option) any later version.                                  			|
+|                                                                      				|
+| Author: Garcia Sebastian, eldraco@gmail.com                          		|
+| www.mateslab.com.ar                                                  			|
++----------------------------------------------------------------------------------------------+
+
+Client Started...
+Nmap output files stored in 'nmap_output' directory...
+Starting connection...
+Client connected succesfully...
+Waiting for more commands....
+        Command Executed: nmap -F 192.168.1.0/24 -v -n -oA sub1
+</string>
               </property>
              </widget>
             </item>
@@ -4903,20 +4999,20 @@ Gathered Inet-whois information for 93.184.216.119
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-895</y>
+             <width>638</width>
+             <height>1253</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
-            <item row="8" column="0">
+            <item row="7" column="0">
              <widget class="QPushButton" name="dnsenumButton">
               <property name="text">
                <string>./dnsenum</string>
               </property>
              </widget>
             </item>
-            <item row="9" column="0">
+            <item row="8" column="0">
              <spacer name="dnsenumVSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
@@ -4932,7 +5028,7 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
              </spacer>
             </item>
-            <item row="7" column="0">
+            <item row="6" column="0">
              <widget class="QLabel" name="dnsenumH4">
               <property name="font">
                <font>
@@ -4949,14 +5045,50 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="5" column="0">
              <widget class="QLabel" name="dnsenumB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# dnsenum --noreverse -o mydomain.xml example.com
+dnsenum.pl VERSION:1.2.3
+
+-----   example.com   -----
+
+
+Host's addresses:
+__________________
+
+example.com.                             392      IN    A        93.184.216.119
+
+
+Name Servers:
+______________
+
+b.iana-servers.net.                      122      IN    A        199.43.133.53
+a.iana-servers.net.                      122      IN    A        199.43.132.53
+
+
+Mail (MX) Servers:
+___________________</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="dnsenumB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>Multithreaded perl script to enumerate DNS information of a domain and to discover non-
+contiguous ip blocks.
+
+OPERATIONS:
+•	Get the host’s addresse (A record).
+•	Get the namservers (threaded).
+•	Get the MX record (threaded).
+•	Perform axfr queries on nameservers and get BIND VERSION (threaded).
+•	Get extra names and subdomains via google scraping (google query = “allinurl: -www site:domain”).
+•	Brute force subdomains from file, can also perform recursion on subdomain that have NS records (all threaded).
+•	Calculate C class domain network ranges and perform whois queries on them (threaded).
+•	Perform reverse lookups on netranges ( C class or/and whois netranges) (threaded).
+•	Write to domain_ips.txt file ip-blocks.
+
+Source: https://github.com/fwaeytens/dnsenum
+
+</string>
               </property>
              </widget>
             </item>
@@ -4991,7 +5123,44 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="dnsenumB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# dnsenum -h
+dnsenum.pl VERSION:1.2.3
+Usage: dnsenum.pl [Options] &lt;domain&gt;
+[Options]:
+Note: the brute force -f switch is obligatory.
+GENERAL OPTIONS:
+  --dnsserver   &lt;server&gt;
+            Use this DNS server for A, NS and MX queries.
+  --enum        Shortcut option equivalent to --threads 5 -s 15 -w.
+  -h, --help        Print this help message.
+  --noreverse       Skip the reverse lookup operations.
+  --private     Show and save private ips at the end of the file domain_ips.txt.
+  --subfile &lt;file&gt;  Write all valid subdomains to this file.
+  -t, --timeout &lt;value&gt; The tcp and udp timeout values in seconds (default: 10s).
+  --threads &lt;value&gt; The number of threads that will perform different queries.
+  -v, --verbose     Be verbose: show all the progress and all the error messages.
+GOOGLE SCRAPING OPTIONS:
+  -p, --pages &lt;value&gt;   The number of google search pages to process when scraping names,
+            the default is 5 pages, the -s switch must be specified.
+  -s, --scrap &lt;value&gt;   The maximum number of subdomains that will be scraped from Google (default 15).
+BRUTE FORCE OPTIONS:
+  -f, --file &lt;file&gt; Read subdomains from this file to perform brute force.
+  -u, --update  &lt;a|g|r|z&gt;
+            Update the file specified with the -f switch with valid subdomains.
+    a (all)     Update using all results.
+    g       Update using only google scraping results.
+    r       Update using only reverse lookup results.
+    z       Update using only zonetransfer results.
+  -r, --recursion   Recursion on subdomains, brute force all discovred subdomains that have an NS record.
+WHOIS NETRANGE OPTIONS:
+  -d, --delay &lt;value&gt;   The maximum value of seconds to wait between whois queries, the value is defined randomly, default: 3s.
+  -w, --whois       Perform the whois queries on c class network ranges.
+             **Warning**: this can generate very large netranges and it will take lot of time to performe reverse lookups.
+REVERSE LOOKUP OPTIONS:
+  -e, --exclude &lt;regexp&gt;
+            Exclude PTR records that match the regexp expression from reverse lookup results, useful on invalid hostnames.
+OUTPUT OPTIONS:
+  -o --output &lt;file&gt;    Output in XML format. Can be imported in MagicTree (www.gremwell.com)</string>
               </property>
              </widget>
             </item>
@@ -5006,13 +5175,6 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
               <property name="text">
                <string>Examples:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="0">
-             <widget class="QLabel" name="dnsenumB4">
-              <property name="text">
-               <string>BODY4</string>
               </property>
              </widget>
             </item>
@@ -5051,8 +5213,8 @@ Gathered Inet-whois information for 93.184.216.119
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <width>508</width>
+             <height>999</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
@@ -5096,14 +5258,35 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="5" column="0">
              <widget class="QLabel" name="dnsmapB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# dnsmap example.com -w /usr/share/wordlists/dnsmap.txt
+dnsmap 0.30 - DNS Network Mapper by pagvac (gnucitizen.org)
+
+[+] searching (sub)domains for example.com using /usr/share/wordlists/dnsmap.txt
+[+] using maximum random delay of 10 millisecond(s) between requests
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="dnsmapB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>dnsmap was originally released back in 2006 and was inspired by the fictional story “The Thief 
+No One Saw” by Paul Craig, which can be found in the book “Stealing the Network – How to 
+0wn the Box”.
+
+dnsmap is mainly meant to be used by pentesters during the information gathering/enumeration 
+phase of infrastructure security assessments. During the enumeration stage, the security 
+consultant would typically discover the target company’s IP netblocks, domain names, phone 
+numbers, etc …
+
+Subdomain brute-forcing is another technique that should be used in the enumeration stage, as 
+it’s especially useful when other domain enumeration techniques such as zone transfers don’t 
+work (I rarely see zone transfers being publicly allowed these days by the way).
+
+Source: http://code.google.com/p/dnsmap/
+
+</string>
               </property>
              </widget>
             </item>
@@ -5138,7 +5321,30 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="dnsmapB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# dnsmap
+dnsmap 0.30 - DNS Network Mapper by pagvac (gnucitizen.org)
+
+usage: dnsmap &lt;target-domain&gt; [options]
+options:
+-w &lt;wordlist-file&gt;
+-r &lt;regular-results-file&gt;
+-c &lt;csv-results-file&gt;
+-d &lt;delay-millisecs&gt;
+-i &lt;ips-to-ignore&gt; (useful if you're obtaining false positives)
+
+e.g.:
+dnsmap target-domain.foo
+dnsmap target-domain.foo -w yourwordlist.txt -r /tmp/domainbf_results.txt
+dnsmap target-fomain.foo -r /tmp/ -d 3000
+dnsmap target-fomain.foo -r ./domainbf_results.txt
+
+
+root@kali:~# dnsmap-bulk.sh
+usage: dnsmap-bulk.sh &lt;domains-file&gt; [results-path]
+e.g.:
+dnsmap-bulk.sh domains.txt
+dnsmap-bulk.sh domains.txt /tmp/
+</string>
               </property>
              </widget>
             </item>
@@ -5159,7 +5365,15 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="6" column="0">
              <widget class="QLabel" name="dnsmapB4">
               <property name="text">
-               <string>BODY4</string>
+               <string>root@kali:~# echo &quot;example.com&quot; &gt;&gt; domains.txt
+root@kali:~# echo &quot;example.org&quot; &gt;&gt; domains.txt
+root@kali:~# dnsmap-bulk.sh domains.txt
+dnsmap 0.30 - DNS Network Mapper by pagvac (gnucitizen.org)
+
+[+] searching (sub)domains for example.com using built-in wordlist
+[+] using maximum random delay of 10 millisecond(s) between requests
+
+</string>
               </property>
              </widget>
             </item>
@@ -5197,20 +5411,20 @@ Gathered Inet-whois information for 93.184.216.119
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-898</y>
+             <width>652</width>
+             <height>1305</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
-            <item row="8" column="0">
+            <item row="7" column="0">
              <widget class="QPushButton" name="DNSReconButton">
               <property name="text">
                <string>./dnsrecon</string>
               </property>
              </widget>
             </item>
-            <item row="9" column="0">
+            <item row="8" column="0">
              <spacer name="DNSReconVSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
@@ -5226,7 +5440,7 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
              </spacer>
             </item>
-            <item row="7" column="0">
+            <item row="6" column="0">
              <widget class="QLabel" name="DNSReconH4">
               <property name="font">
                <font>
@@ -5243,14 +5457,32 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="5" column="0">
              <widget class="QLabel" name="DNSReconB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# dnsrecon -d example.com -D /usr/share/wordlists/dnsmap.txt -t std --xml dnsrecon.xml
+[*] Performing General Enumeration of Domain:
+[*] DNSSEC is configured for example.com
+[*] DNSKEYs:
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="DNSReconB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>DNSRecon provides the ability to perform:
+
+•	Check all NS Records for Zone Transfers
+•	Enumerate General DNS Records for a given Domain (MX, SOA, NS, A, AAAA, SPF and TXT)
+•	Perform common SRV Record Enumeration. Top Level Domain (TLD) Expansion
+•	Check for Wildcard Resolution
+•	Brute Force subdomain and host A and AAAA records given a domain and a wordlist
+•	Perform a PTR Record lookup for a given IP Range or CIDR
+•	Check a DNS Server Cached records for A, AAAA and CNAME Records provided a list of host records in a text file to check
+•	Enumerate Common mDNS records in the Local Network Enumerate Hosts and Subdomains using Google
+
+Source: DNSRecon README
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -5285,7 +5517,66 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="DNSReconB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# dnsrecon -h
+Version: 0.8.7
+Usage: dnsrecon.py
+
+Options:
+-h, --help Show this help message and exit
+-d, --domain Domain to Target for enumeration.
+-r, --range IP Range for reverse look-up brute force in formats (first-last)
+or in (range/bitmask).
+-n, --name_server Domain server to use, if none is given the SOA of the
+target will be used
+-D, --dictionary Dictionary file of sub-domain and hostnames to use for
+brute force.
+-f Filter out of Brute Force Domain lookup records that resolve to
+the wildcard defined IP Address when saving records.
+-t, --type Specify the type of enumeration to perform:
+std To Enumerate general record types, enumerates.
+SOA, NS, A, AAAA, MX and SRV if AXRF on the
+NS Servers fail.
+
+rvl To Reverse Look Up a given CIDR IP range.
+
+brt To Brute force Domains and Hosts using a given
+dictionary.
+
+srv To Enumerate common SRV Records for a given
+
+domain.
+
+axfr Test all NS Servers in a domain for misconfigured
+zone transfers.
+
+goo Perform Google search for sub-domains and hosts.
+
+snoop To Perform a Cache Snooping against all NS
+servers for a given domain, testing all with
+file containing the domains, file given with -D
+option.
+
+tld Will remove the TLD of given domain and test against
+all TLD's registered in IANA
+
+zonewalk Will perform a DNSSEC Zone Walk using NSEC Records.
+
+-a Perform AXFR with the standard enumeration.
+-s Perform Reverse Look-up of ipv4 ranges in the SPF Record of the
+targeted domain with the standard enumeration.
+-g Perform Google enumeration with the standard enumeration.
+-w Do deep whois record analysis and reverse look-up of IP
+ranges found thru whois when doing standard query.
+-z Performs a DNSSEC Zone Walk with the standard enumeration.
+--threads Number of threads to use in Range Reverse Look-up, Forward
+Look-up Brute force and SRV Record Enumeration
+--lifetime Time to wait for a server to response to a query.
+--db SQLite 3 file to save found records.
+--xml XML File to save found records.
+--iw Continua bruteforcing a domain even if a wildcard record resolution is discovered.
+-c, --csv Comma separated value file.
+-v Show attempts in the bruteforce modes.
+</string>
               </property>
              </widget>
             </item>
@@ -5300,13 +5591,6 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
               <property name="text">
                <string>Examples:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="0">
-             <widget class="QLabel" name="DNSReconB4">
-              <property name="text">
-               <string>BODY4</string>
               </property>
              </widget>
             </item>
@@ -5344,20 +5628,20 @@ Gathered Inet-whois information for 93.184.216.119
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-230</y>
+             <width>508</width>
+             <height>655</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
-            <item row="8" column="0">
+            <item row="7" column="0">
              <widget class="QPushButton" name="dnstracerButton">
               <property name="text">
                <string>./dnstracer</string>
               </property>
              </widget>
             </item>
-            <item row="9" column="0">
+            <item row="8" column="0">
              <spacer name="dnstracerVSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
@@ -5373,7 +5657,7 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
              </spacer>
             </item>
-            <item row="7" column="0">
+            <item row="6" column="0">
              <widget class="QLabel" name="dnstracerH4">
               <property name="font">
                <font>
@@ -5390,14 +5674,26 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="5" column="0">
              <widget class="QLabel" name="dnstracerB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# dnstracer -r 3 -v example.com
+Tracing to example.com[a] via 192.168.1.1, maximum of 3 retries
+192.168.1.1 (192.168.1.1) IP HEADER
+- Destination address:  192.168.1.1
+DNS HEADER (send)
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="dnstracerB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>dnstracer determines where a given Domain Name Server (DNS) gets its information from for a 
+given hostname, and follows the chain of DNS servers back to the authoritative answer.
+
+Source: http://www.mavetju.org/unix/general.php
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -5432,7 +5728,22 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="dnstracerB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# dnstracer
+DNSTRACER version 1.8.1 - (c) Edwin Groothuis - http://www.mavetju.org
+Usage: dnstracer [options] [host]
+    -c: disable local caching, default enabled
+    -C: enable negative caching, default disabled
+    -o: enable overview of received answers, default disabled
+    -q &lt;querytype&gt;: query-type to use for the DNS requests, default A
+    -r &lt;retries&gt;: amount of retries for DNS requests, default 3
+    -s &lt;server&gt;: use this server for the initial request, default localhost
+                 If . is specified, A.ROOT-SERVERS.NET will be used.
+    -t &lt;maximum timeout&gt;: Limit time to wait per try
+    -v: verbose
+    -S &lt;ip address&gt;: use this source address.
+    -4: don't query IPv6 servers
+
+</string>
               </property>
              </widget>
             </item>
@@ -5447,13 +5758,6 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
               <property name="text">
                <string>Examples:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="0">
-             <widget class="QLabel" name="dnstracerB4">
-              <property name="text">
-               <string>BODY4</string>
               </property>
              </widget>
             </item>
@@ -5491,9 +5795,9 @@ Gathered Inet-whois information for 93.184.216.119
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-455</y>
+             <width>768</width>
+             <height>804</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
@@ -5537,14 +5841,23 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="5" column="0">
              <widget class="QLabel" name="dnswalkB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# dnswalk example.com.
+Checking example.com.
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="dnswalkB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>dnswalk is a DNS debugger. It performs zone transfers of specified domains, and checks the 
+database in numerous ways for internal consistency, as well as accuracy.
+
+Source: http://sourceforge.net/projects/dnswalk/
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -5579,7 +5892,32 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="dnswalkB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# dnswalk --help
+
+Usage: dnswalk [-OPTIONS [-MORE_OPTIONS]] [--] [PROGRAM_ARG1 ...]
+
+The following single-character options are accepted:
+With arguments: -D
+Boolean (without arguments): -r -f -i -a -d -m -F -l
+
+Options may be merged together. -- stops processing of options.
+Space is not required between options and their arguments.
+[Now continuing due to backward compatibility and excessive paranoia.
+See ``perldoc Getopt::Std'' about $Getopt::Std::STANDARD_HELP_VERSION.]
+Usage: dnswalk domain
+domain MUST end with a '.'
+
+
+-r     Recursively descend sub-domains of the specified domain.
+-a     Turn on warning of duplicate A records.
+-d     Print debugging and 'status' information to stderr.  (Use only if redirecting stdout).
+-m     Perform checks only if the zone has been modified since the previous run.
+-F     Perform  &quot;fascist&quot;  checking.  When checking an A record, compare the PTR name for each IP address with the forward name and report mismatches.
+-i     Suppress check for invalid characters in a domain name.
+-l     Perform  &quot;lame  delegation&quot;  checking.   For every NS record, check to see that the listed host is  indeed returning authoritative answers for this domain.
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -5600,7 +5938,10 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="6" column="0">
              <widget class="QLabel" name="dnswalkB4">
               <property name="text">
-               <string>BODY4</string>
+               <string>root@kali:~# dnswalk -r -d example.com.
+Checking example.com.
+
+</string>
               </property>
              </widget>
             </item>
@@ -5638,20 +5979,20 @@ Gathered Inet-whois information for 93.184.216.119
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-1411</y>
+             <width>666</width>
+             <height>1760</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
-            <item row="8" column="0">
+            <item row="7" column="0">
              <widget class="QPushButton" name="DotDotPwnButton">
               <property name="text">
                <string>./dotdotpwn.pl</string>
               </property>
              </widget>
             </item>
-            <item row="9" column="0">
+            <item row="8" column="0">
              <spacer name="DotDotPwnVSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
@@ -5667,7 +6008,7 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
              </spacer>
             </item>
-            <item row="7" column="0">
+            <item row="6" column="0">
              <widget class="QLabel" name="DotDotPwnH4">
               <property name="font">
                <font>
@@ -5684,14 +6025,78 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="5" column="0">
              <widget class="QLabel" name="DotDotPwnB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# dotdotpwn.pl -m http -h 192.168.1.1 -M GET
+#################################################################################
+#                                                                               #
+#  CubilFelino                                                       Chatsubo   #
+#  Security Research Lab              and            [(in)Security Dark] Labs   #
+#  chr1x.sectester.net                             chatsubo-labs.blogspot.com   #
+#                                                                               #
+#                               pr0udly present:                                #
+#                                                                               #
+#  ________            __  ________            __  __________                   #
+#  ______     ____ _/  |_______     ____ _/  |_______   __  _  __ ____    #
+#   |    |    /  _ \   __|    |    /  _ \   __|     ___/ / / //       #
+#   |    `   (  &lt;_&gt; )|  |  |    `   (  &lt;_&gt; )|  |  |    |          /|   |    #
+#  /_______  / ____/ |__| /_______  / ____/ |__|  |____|      /_/ |___|  /  #
+#          /                      /                                      /   #
+#                               - DotDotPwn v3.0 -                              #
+#                         The Directory Traversal Fuzzer                        #
+#                         http://dotdotpwn.sectester.net                        #
+#                            dotdotpwn@sectester.net                            #
+#                                                                               #
+#                               by chr1x &amp; nitr0us                              #
+#################################################################################
+
+[+] Report name: Reports/192.168.1.1_05-20-2014_08-41.txt
+
+[========== TARGET INFORMATION ==========]
+[+] Hostname: 192.168.1.1
+[+] Protocol: http
+[+] Port: 80
+
+[=========== TRAVERSAL ENGINE ===========]
+[+] Creating Traversal patterns (mix of dots and slashes)
+[+] Multiplying 6 times the traversal patterns (-d switch)
+[+] Creating the Special Traversal patterns
+[+] Translating (back)slashes in the filenames
+[+] Adapting the filenames according to the OS type detected (generic)
+[+] Including Special sufixes
+[+] Traversal Engine DONE ! - Total traversal tests created: 19680
+
+[=========== TESTING RESULTS ============]
+[+] Ready to launch 3.33 traversals per second
+[+] Press Enter to start the testing (You can stop it pressing Ctrl + C)
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="DotDotPwnB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>It’s a very flexible intelligent fuzzer to discover traversal directory vulnerabilities in software 
+such as HTTP/FTP/TFTP servers, Web platforms such as CMSs, ERPs, Blogs, etc. 
+
+Also, it has a protocol-independent module to send the desired payload to the host and port 
+specified. On the other hand, it also could be used in a scripting way using the STDOUT module.
+
+It’s written in perl programming language and can be run either under *NIX or Windows 
+platforms. It’s the first Mexican tool included in BackTrack Linux (BT4 R2).
+
+Fuzzing modules supported in this version: 
+•	HTTP
+•	HTTP URL
+•	FTP
+•	TFTP
+•	Payload (Protocol independent)
+•	STDOUT
+
+Source: https://github.com/wireghoul/dotdotpwn
+
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -5726,7 +6131,55 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="DotDotPwnB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# dotdotpwn.pl
+#################################################################################
+#                                                                               #
+#  CubilFelino                                                       Chatsubo   #
+#  Security Research Lab              and            [(in)Security Dark] Labs   #
+#  chr1x.sectester.net                             chatsubo-labs.blogspot.com   #
+#                                                                               #
+#                               pr0udly present:                                #
+#                                                                               #
+#  ________            __  ________            __  __________                   #
+#  ______     ____ _/  |_______     ____ _/  |_______   __  _  __ ____    #
+#   |    |    /  _ \   __|    |    /  _ \   __|     ___/ / / //       #
+#   |    `   (  &lt;_&gt; )|  |  |    `   (  &lt;_&gt; )|  |  |    |          /|   |    #
+#  /_______  / ____/ |__| /_______  / ____/ |__|  |____|      /_/ |___|  /  #
+#          /                      /                                      /   #
+#                               - DotDotPwn v3.0 -                              #
+#                         The Directory Traversal Fuzzer                        #
+#                         http://dotdotpwn.sectester.net                        #
+#                            dotdotpwn@sectester.net                            #
+#                                                                               #
+#                               by chr1x &amp; nitr0us                              #
+#################################################################################
+
+Usage: ./dotdotpwn.pl -m &lt;module&gt; -h &lt;host&gt; [OPTIONS]
+    Available options:
+    -m  Module [http | http-url | ftp | tftp | payload | stdout]
+    -h  Hostname
+    -O  Operating System detection for intelligent fuzzing (nmap)
+    -o  Operating System type if known (&quot;windows&quot;, &quot;unix&quot; or &quot;generic&quot;)
+    -s  Service version detection (banner grabber)
+    -d  Depth of traversals (e.g. deepness 3 equals to ../../../; default: 6)
+    -f  Specific filename (e.g. /etc/motd; default: according to OS detected, defaults in TraversalEngine.pm)
+    -E  Add @Extra_files in TraversalEngine.pm (e.g. web.config, httpd.conf, etc.)
+    -S  Use SSL - for HTTP and Payload module (use https:// for in url for http-uri)
+    -u  URL with the part to be fuzzed marked as TRAVERSAL (e.g. http://foo:8080/id.php?x=TRAVERSAL&amp;y=31337)
+    -k  Text pattern to match in the response (http-url &amp; payload modules - e.g. &quot;root:&quot; if trying /etc/passwd)
+    -p  Filename with the payload to be sent and the part to be fuzzed marked with the TRAVERSAL keyword
+    -x  Port to connect (default: HTTP=80; FTP=21; TFTP=69)
+    -t  Time in milliseconds between each test (default: 300 (.3 second))
+    -X  Use the Bisection Algorithm to detect the exact deepness once a vulnerability has been found
+    -e  File extension appended at the end of each fuzz string (e.g. &quot;.php&quot;, &quot;.jpg&quot;, &quot;.inc&quot;)
+    -U  Username (default: 'anonymous')
+    -P  Password (default: 'dot@dot.pwn')
+    -M  HTTP Method to use when using the 'http' module [GET | POST | HEAD | COPY | MOVE] (default: GET)
+    -r  Report filename (default: 'HOST_MM-DD-YYYY_HOUR-MIN.txt')
+    -b  Break after the first vulnerability is found
+    -q  Quiet mode (doesn't print each attempt)
+    -C  Continue if no data was received from host
+</string>
               </property>
              </widget>
             </item>
@@ -5741,13 +6194,6 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
               <property name="text">
                <string>Examples:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="0">
-             <widget class="QLabel" name="DotDotPwnB4">
-              <property name="text">
-               <string>BODY4</string>
               </property>
              </widget>
             </item>
@@ -5785,20 +6231,20 @@ Gathered Inet-whois information for 93.184.216.119
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-1090</y>
+             <width>573</width>
+             <height>1552</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
-            <item row="8" column="0">
+            <item row="7" column="0">
              <widget class="QPushButton" name="enum4linuxButton">
               <property name="text">
                <string>./enum4linux</string>
               </property>
              </widget>
             </item>
-            <item row="9" column="0">
+            <item row="8" column="0">
              <spacer name="enum4linuxVSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
@@ -5814,7 +6260,7 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
              </spacer>
             </item>
-            <item row="7" column="0">
+            <item row="6" column="0">
              <widget class="QLabel" name="enum4linuxH4">
               <property name="font">
                <font>
@@ -5831,14 +6277,57 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="5" column="0">
              <widget class="QLabel" name="enum4linuxB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# enum4linux -U -o 192.168.1.200
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Sun Aug 17 12:17:32 2014
+
+ ==========================
+|    Target Information    |
+ ==========================
+Target ........... 192.168.1.200
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ ======================================================
+|    Enumerating Workgroup/Domain on 192.168.1.200   |
+ ======================================================
+[+] Got domain/workgroup name: KALI
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="enum4linuxB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>A Linux alternative to enum.exe for enumerating data from Windows and Samba hosts.
+
+Overview:
+
+Enum4linux is a tool for enumerating information from Windows and Samba systems. It 
+attempts to offer similar functionality to enum.exe formerly available from www.bindview.com.
+
+It is written in Perl and is basically a wrapper around the Samba tools smbclient, rpclient, net and 
+nmblookup.
+
+The tool usage can be found below followed by examples, previous versions of the tool can be 
+found at the bottom of the page.
+
+Key features:
+•	RID cycling (When RestrictAnonymous is set to 1 on Windows 2000)
+•	User listing (When RestrictAnonymous is set to 0 on Windows 2000)
+•	Listing of group membership information
+•	Share enumeration
+•	Detecting if host is in a workgroup or a domain
+•	Identifying the remote operating system
+•	Password policy retrieval (using polenum)
+
+Source: https://labs.portcullis.co.uk/tools/enum4linux/
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -5873,7 +6362,60 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="enum4linuxB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# enum4linux -h
+enum4linux v0.8.9 (http://labs.portcullis.co.uk/application/enum4linux/)
+Copyright (C) 2011 Mark Lowe (mrl@portcullis-security.com)
+
+Simple wrapper around the tools in the samba package to provide similar
+functionality to enum.exe (formerly from www.bindview.com).  Some additional
+features such as RID cycling have also been added for convenience.
+
+Usage: ./enum4linux.pl [options] ip
+
+Options are (like &quot;enum&quot;):
+    -U        get userlist
+    -M        get machine list*
+    -S        get sharelist
+    -P        get password policy information
+    -G        get group and member list
+    -d        be detailed, applies to -U and -S
+    -u user   specify username to use (default &quot;&quot;)
+    -p pass   specify password to use (default &quot;&quot;)
+
+The following options from enum.exe aren't implemented: -L, -N, -D, -f
+
+Additional options:
+    -a        Do all simple enumeration (-U -S -G -P -r -o -n -i).
+              This opion is enabled if you don't provide any other options.
+    -h        Display this help message and exit
+    -r        enumerate users via RID cycling
+    -R range  RID ranges to enumerate (default: 500-550,1000-1050, implies -r)
+    -K n      Keep searching RIDs until n consective RIDs don't correspond to
+              a username.  Impies RID range ends at 999999. Useful
+          against DCs.
+    -l        Get some (limited) info via LDAP 389/TCP (for DCs only)
+    -s file   brute force guessing for share names
+    -k user   User(s) that exists on remote system (default: administrator,guest,krbtgt,domain admins,root,bin,none)
+              Used to get sid with &quot;lookupsid known_username&quot;
+              Use commas to try several users: &quot;-k admin,user1,user2&quot;
+    -o        Get OS information
+    -i        Get printer information
+    -w wrkg   Specify workgroup manually (usually found automatically)
+    -n        Do an nmblookup (similar to nbtstat)
+    -v        Verbose.  Shows full commands being run (net, rpcclient, etc.)
+
+RID cycling should extract a list of users from Windows (or Samba) hosts
+which have RestrictAnonymous set to 1 (Windows NT and 2000), or &quot;Network
+access: Allow anonymous SID/Name translation&quot; enabled (XP, 2003).
+
+NB: Samba servers often seem to have RIDs in the range 3000-3050.
+
+Dependancy info: You will need to have the samba package installed as this
+script is basically just a wrapper around rpcclient, net, nmblookup and
+smbclient.  Polenum from http://labs.portcullis.co.uk/application/polenum/
+is required to get Password Policy info.
+
+</string>
               </property>
              </widget>
             </item>
@@ -5888,13 +6430,6 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
               <property name="text">
                <string>Examples:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="0">
-             <widget class="QLabel" name="enum4linuxB4">
-              <property name="text">
-               <string>BODY4</string>
               </property>
              </widget>
             </item>
@@ -5932,20 +6467,20 @@ Gathered Inet-whois information for 93.184.216.119
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-243</y>
+             <width>508</width>
+             <height>616</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
-            <item row="8" column="0">
+            <item row="7" column="0">
              <widget class="QPushButton" name="enumIAXButton">
               <property name="text">
                <string>./enumIAX</string>
               </property>
              </widget>
             </item>
-            <item row="9" column="0">
+            <item row="8" column="0">
              <spacer name="enumIAXVSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
@@ -5961,7 +6496,7 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
              </spacer>
             </item>
-            <item row="7" column="0">
+            <item row="6" column="0">
              <widget class="QLabel" name="enumIAXH4">
               <property name="font">
                <font>
@@ -5978,14 +6513,22 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="5" column="0">
              <widget class="QLabel" name="enumIAXB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# enumiax -d /usr/share/wordlists/metasploit/unix_users.txt 192.168.1.1
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="enumIAXB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>enumIAX is an Inter Asterisk Exchange protocol username brute-force enumerator. enumIAX 
+may operate in two distinct modes; Sequential Username Guessing or Dictionary Attack.
+
+Source: http://enumiax.sourceforge.net/
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -6020,7 +6563,23 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="enumIAXB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# enumiax -h
+enumIAX 0.4a
+Dustin D. Trammell &lt;dtrammell@tippingpoint.com&gt;
+
+Usage: enumiax [options] target
+  options:
+    -d &lt;dict&gt;   Dictionary attack using &lt;dict&gt; file
+    -i &lt;count&gt;  Interval for auto-save (# of operations, default 1000)
+    -m #        Minimum username length (in characters)
+    -M #        Maximum username length (in characters)
+    -r #        Rate-limit calls (in microseconds)
+    -s &lt;file&gt;   Read session state from state file
+    -v          Increase verbosity (repeat for additional verbosity)
+    -V          Print version information and exit
+    -h          Print help/usage information and exit
+
+</string>
               </property>
              </widget>
             </item>
@@ -6035,13 +6594,6 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
               <property name="text">
                <string>Examples:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="0">
-             <widget class="QLabel" name="enumIAXB4">
-              <property name="text">
-               <string>BODY4</string>
               </property>
              </widget>
             </item>
@@ -6079,9 +6631,9 @@ Gathered Inet-whois information for 93.184.216.119
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-1989</y>
+             <width>818</width>
+             <height>2338</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
@@ -6125,14 +6677,70 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="5" column="0">
              <widget class="QLabel" name="FaradayB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>&gt;&gt;&gt; WELCOME TO FARADAY
+[+] Current Workspace: dev1
+[+] API: OK
+[faraday](dev1) kali#  nmap -oX /root/.faraday/data/devel1_Nmap_output-3.46164772371.xml -A 192.168.0.7 2&gt;&amp;1 | tee -a tmp.tu0ldZUG2JgzuHvLOjBYEzBx3Bu7O
+
+Starting Nmap 7.40 ( https://nmap.org ) at 2017-03-07 13:46 MST
+Nmap scan report for pi-hole (192.168.0.7)
+Host is up (0.0011s latency).
+Not shown: 995 closed ports
+PORT    STATE SERVICE    VERSION
+22/tcp  open  ssh        OpenSSH 6.7p1 Raspbian 5+deb8u3 (protocol 2.0)
+| ssh-hostkey:
+|   1024 f7:5d:7c:e2:c5:46:32:19:08:e9:4b:79:5e:80:1c:83 (DSA)
+|   2048 3c:f9:1d:ce:03:0f:2e:d2:17:05:77:af:81:54:32:fc (RSA)
+|_  256 ea:20:d1:e0:e1:89:2c:65:9e:0d:d0:d0:e9:8b:9b:28 (ECDSA)
+53/tcp  open  domain     dnsmasq 2.72
+| dns-nsid:
+|_  bind.version: dnsmasq-2.72
+80/tcp  open  http       lighttpd 1.4.35
+|_http-server-header: lighttpd/1.4.35
+|_http-title: Welcome page
+110/tcp open  tcpwrapped
+143/tcp open  tcpwrapped
+Device type: general purpose
+Running: Linux 2.4.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.4.37 cpe:/o:linux:linux_kernel:3.2
+OS details: DD-WRT v24-sp2 (Linux 2.4.37), Linux 3.2
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.27 ms 172.16.206.2
+2   0.21 ms pi-hole (192.168.0.7)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 18.41 seconds
+[faraday](devel1) kali#
+
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="FaradayB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>Faraday introduces a new concept – IPE (Integrated Penetration-Test Environment) a multiuser 
+Penetration test IDE. Designed for distribution, indexation and analysis of the data generated 
+during a security audit.
+
+The main purpose of Faraday is to re-use the available tools in the community to take advantage 
+of them in a multiuser way.
+
+Designed for simplicity, users should notice no difference between their own terminal 
+application and the one included in Faraday. Developed with a specialized set of functionalities 
+that help users improve their own work. Do you remember yourself programming without an 
+IDE? Well, Faraday does the same as an IDE does for you when programming, but from the 
+perspective of a penetration test.
+
+Source: https://github.com/infobyte/faraday
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -6167,7 +6775,57 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="FaradayB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# python-faraday -h
+usage: faraday.py [-h] [-n HOST] [-px PORT_XMLRPC] [-pr PORT_REST] [-d]
+                  [--profile] [--profile-output PROFILE_OUTPUT]
+                  [--profile-depth PROFILE_DEPTH] [--disable-excepthook]
+                  [--dev-mode] [--ignore-deps] [--update] [--cert CERT_PATH]
+                  [--gui GUI] [--cli] [-w WORKSPACE] [-r FILENAME]
+
+Faraday's launcher parser.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d, --debug           Enables debug mode. Default = disabled
+  --disable-excepthook  Disable the application exception hook that allows to
+                        send error reports to developers.
+  --dev-mode            Enable dev mode. This will use the user config and
+                        plugin folder.
+  --ignore-deps         Ignore python dependencies resolution.
+  --update              Update Faraday IDE.
+  --cert CERT_PATH      Path to the valid CouchDB certificate
+  --gui GUI             Select interface to start faraday. Supported values
+                        are gtk and 'no' (no GUI at all). Defaults to GTK
+  --cli                 Set this flag to avoid gui and use faraday as a cli.
+  -w WORKSPACE, --workspace WORKSPACE
+                        Workspace to be opened
+  -r FILENAME, --report FILENAME
+                        Report to be parsed by the cli
+
+connection:
+  -n HOST, --hostname HOST
+                        The hostname where both server APIs will listen
+                        (XMLRPC and RESTful). Default = localhost
+  -px PORT_XMLRPC, --port-xmlrpc PORT_XMLRPC
+                        Sets the port where the api XMLRPCServer will listen.
+                        Default = 9876
+  -pr PORT_REST, --port-rest PORT_REST
+                        Sets the port where the api RESTful server will
+                        listen. Default = 9977
+
+profiling:
+  --profile             Enables application profiling. When this option is
+                        used --profile-output and --profile-depth can also be
+                        used. Default = disabled
+  --profile-output PROFILE_OUTPUT
+                        Sets the profile output filename. If no value is
+                        provided, standard output will be used
+  --profile-depth PROFILE_DEPTH
+                        Sets the profile number of entries (depth). Default =
+                        500
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -6188,7 +6846,56 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="6" column="0">
              <widget class="QLabel" name="FaradayB4">
               <property name="text">
-               <string>BODY4</string>
+               <string>[faraday](devel1) kali#  dirb http://192.168.0.23/commix-testbed -w 2&gt;&amp;1 | tee -a tmp.qNejUxvvrPpbGPVEfwf8OZOuM1F1E
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Tue Mar  7 13:58:52 2017
+URL_BASE: http://192.168.0.23/commix-testbed/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Stoping on warning messages
+
+-----------------
+
+GENERATED WORDS: 4612                                                              
+
+---- Scanning URL: http://192.168.0.23/commix-testbed/ ----
+                                                                                                                                                         ==&gt; DIRECTORY: http://192.168.0.23/commix-testbed/css/                                                                                                                      
+==&gt; DIRECTORY: http://192.168.0.23/commix-testbed/fonts/                                                                                                                    
+==&gt; DIRECTORY: http://192.168.0.23/commix-testbed/img/                                                                                                                      
++ http://192.168.0.23/commix-testbed/index.php (CODE:200|SIZE:14346)                                                                                                        
+==&gt; DIRECTORY: http://192.168.0.23/commix-testbed/js/                                                                                                                        
+==&gt; DIRECTORY: http://192.168.0.23/commix-testbed/readme/                                                                                                                    
+                                                                                                                                                                             
+---- Entering directory: http://192.168.0.23/commix-testbed/css/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                             
+---- Entering directory: http://192.168.0.23/commix-testbed/fonts/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                             
+---- Entering directory: http://192.168.0.23/commix-testbed/img/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                             
+---- Entering directory: http://192.168.0.23/commix-testbed/js/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                             
+---- Entering directory: http://192.168.0.23/commix-testbed/readme/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                             
+-----------------
+END_TIME: Tue Mar  7 14:04:24 2017
+DOWNLOADED: 27672 - FOUND: 1
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -6226,20 +6933,20 @@ Gathered Inet-whois information for 93.184.216.119
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-1243</y>
+             <width>508</width>
+             <height>1786</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
-            <item row="8" column="0">
+            <item row="7" column="0">
              <widget class="QPushButton" name="FierceButton">
               <property name="text">
                <string>./fierce</string>
               </property>
              </widget>
             </item>
-            <item row="9" column="0">
+            <item row="8" column="0">
              <spacer name="FierceVSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
@@ -6255,7 +6962,7 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
              </spacer>
             </item>
-            <item row="7" column="0">
+            <item row="6" column="0">
              <widget class="QLabel" name="FierceH4">
               <property name="font">
                <font>
@@ -6272,14 +6979,45 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="5" column="0">
              <widget class="QLabel" name="FierceB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# fierce -dns example.com
+DNS Servers for example.com:
+    b.iana-servers.net
+    a.iana-servers.net
+
+Trying zone transfer first...
+    Testing b.iana-servers.net
+        Request timed out or transfer not allowed.
+    Testing a.iana-servers.net
+        Request timed out or transfer not allowed.
+
+Unsuccessful in zone transfer (it was worth a shot)
+Okay, trying the good old fashioned way... brute force
+
+Checking for wildcard DNS...
+Nope. Good.
+Now performing 2280 test(s)...
+
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="FierceB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>First what Fierce is not. Fierce is not an IP scanner, it is not a DDoS tool, it is not designed to 
+scan the whole Internet or perform any un-targeted attacks. It is meant specifically to locate 
+likely targets both inside and outside a corporate network. Only those targets are listed (unless 
+the -nopattern switch is used). No exploitation is performed (unless you do something 
+intentionally malicious with the -connect switch). Fierce is a reconnaissance tool. Fierce is a 
+PERL script that quickly scans domains (usually in just a few minutes, assuming no network lag) 
+using several tactics.
+
+Source: http://ha.ckers.org/fierce/
+
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -6314,7 +7052,90 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="FierceB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# fierce -h
+fierce.pl (C) Copywrite 2006,2007 - By RSnake at http://ha.ckers.org/fierce/
+
+    Usage: perl fierce.pl [-dns example.com] [OPTIONS]
+
+Overview:
+    Fierce is a semi-lightweight scanner that helps locate non-contiguous
+    IP space and hostnames against specified domains.  It's really meant
+    as a pre-cursor to nmap, unicornscan, nessus, nikto, etc, since all
+    of those require that you already know what IP space you are looking
+    for.  This does not perform exploitation and does not scan the whole
+    internet indiscriminately.  It is meant specifically to locate likely
+    targets both inside and outside a corporate network.  Because it uses
+    DNS primarily you will often find mis-configured networks that leak
+    internal address space. That's especially useful in targeted malware.
+
+Options:
+    -connect    Attempt to make http connections to any non RFC1918
+        (public) addresses.  This will output the return headers but
+        be warned, this could take a long time against a company with
+        many targets, depending on network/machine lag.  I wouldn't
+        recommend doing this unless it's a small company or you have a
+        lot of free time on your hands (could take hours-days).
+        Inside the file specified the text &quot;Host:
+&quot; will be replaced
+        by the host specified. Usage:
+
+    perl fierce.pl -dns example.com -connect headers.txt
+
+    -delay      The number of seconds to wait between lookups.
+    -dns        The domain you would like scanned.
+    -dnsfile    Use DNS servers provided by a file (one per line) for
+                reverse lookups (brute force).
+    -dnsserver  Use a particular DNS server for reverse lookups
+        (probably should be the DNS server of the target).  Fierce
+        uses your DNS server for the initial SOA query and then uses
+        the target's DNS server for all additional queries by default.
+    -file       A file you would like to output to be logged to.
+    -fulloutput When combined with -connect this will output everything
+        the webserver sends back, not just the HTTP headers.
+    -help       This screen.
+    -nopattern  Don't use a search pattern when looking for nearby
+        hosts.  Instead dump everything.  This is really noisy but
+        is useful for finding other domains that spammers might be
+        using.  It will also give you lots of false positives,
+        especially on large domains.
+    -range      Scan an internal IP range (must be combined with
+        -dnsserver).  Note, that this does not support a pattern
+        and will simply output anything it finds.  Usage:
+
+    perl fierce.pl -range 111.222.333.0-255 -dnsserver ns1.example.co
+
+    -search     Search list.  When fierce attempts to traverse up and
+        down ipspace it may encounter other servers within other
+        domains that may belong to the same company.  If you supply a
+        comma delimited list to fierce it will report anything found.
+        This is especially useful if the corporate servers are named
+        different from the public facing website.  Usage:
+
+    perl fierce.pl -dns examplecompany.com -search corpcompany,blahcompany
+
+        Note that using search could also greatly expand the number of
+        hosts found, as it will continue to traverse once it locates
+        servers that you specified in your search list.  The more the
+        better.
+    -suppress   Suppress all TTY output (when combined with -file).
+    -tcptimeout Specify a different timeout (default 10 seconds).  You
+        may want to increase this if the DNS server you are querying
+        is slow or has a lot of network lag.
+    -threads  Specify how many threads to use while scanning (default
+      is single threaded).
+    -traverse   Specify a number of IPs above and below whatever IP you
+        have found to look for nearby IPs.  Default is 5 above and
+        below.  Traverse will not move into other C blocks.
+    -version    Output the version number.
+    -wide       Scan the entire class C after finding any matching
+        hostnames in that class C.  This generates a lot more traffic
+        but can uncover a lot more information.
+    -wordlist   Use a seperate wordlist (one word per line).  Usage:
+
+    perl fierce.pl -dns examplecompany.com -wordlist dictionary.txt
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -6329,13 +7150,6 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
               <property name="text">
                <string>Examples:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="0">
-             <widget class="QLabel" name="FierceB4">
-              <property name="text">
-               <string>BODY4</string>
               </property>
              </widget>
             </item>
@@ -6373,20 +7187,20 @@ Gathered Inet-whois information for 93.184.216.119
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-744</y>
+             <width>508</width>
+             <height>1110</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
-            <item row="8" column="0">
+            <item row="7" column="0">
              <widget class="QPushButton" name="FireWalkButton">
               <property name="text">
                <string>./firewalk</string>
               </property>
              </widget>
             </item>
-            <item row="9" column="0">
+            <item row="8" column="0">
              <spacer name="FireWalkVSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
@@ -6402,7 +7216,7 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
              </spacer>
             </item>
-            <item row="7" column="0">
+            <item row="6" column="0">
              <widget class="QLabel" name="FireWalkH4">
               <property name="font">
                <font>
@@ -6419,14 +7233,59 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="5" column="0">
              <widget class="QLabel" name="FireWalkB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# firewalk -S8079-8081  -i eth0 -n -pTCP 192.168.1.1 192.168.0.1
+Firewalk 5.0 [gateway ACL scanner]
+Firewalk state initialization completed successfully.
+TCP-based scan.
+Ramping phase source port: 53, destination port: 33434
+Hotfoot through 192.168.1.1 using 192.168.0.1 as a metric.
+Ramping Phase:
+ 1 (TTL  1): expired [192.168.1.1]
+Binding host reached.
+Scan bound at 2 hops.
+Scanning Phase:
+port 8079: *no response*
+port 8080: A! open (port not listen) [192.168.0.1]
+port 8081: *no response*
+
+Scan completed successfully.
+
+Total packets sent:                4
+Total packet errors:               0
+Total packets caught               2
+Total packets caught of interest   2
+Total ports scanned                3
+Total ports open:                  1
+Total ports unknown:               0
+
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="FireWalkB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>Firewalk is an active reconnaissance network security tool that attempts to determine what layer 
+4 protocols a given IP forwarding device will pass. Firewalk works by sending out TCP or UDP 
+packets with a TTL one greater than the targeted gateway. If the gateway allows the traffic, it 
+will forward the packets to the next hop where they will expire and elicit an 
+ICMP_TIME_EXCEEDED message. If the gateway hostdoes not allow the traffic, it will likely 
+drop the packets on the floor and we will see no response.
+
+To get the correct IP TTL that will result in expired packets one beyond the gateway we need to 
+ramp up hop-counts. We do this in the same manner that traceroute works. Once we have the 
+gateway hopcount (at that point the scan is said to be `bound`) we can begin our scan.
+
+It is significant to note the fact that the ultimate destination host does not have to be reached. It 
+just needs to be somewhere downstream, on the other side of the gateway, from the scanning 
+host.
+
+Source: http://packetfactory.openwall.net/projects/firewalk/
+
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -6461,7 +7320,24 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="FireWalkB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# firewalk -h
+Firewalk 5.0 [gateway ACL scanner]
+Usage : firewalk [options] target_gateway metric
+           [-d 0 - 65535] destination port to use (ramping phase)
+           [-h] program help
+           [-i device] interface
+           [-n] do not resolve IP addresses into hostnames
+           [-p TCP | UDP] firewalk protocol
+           [-r] strict RFC adherence
+           [-S x - y, z] port range to scan
+           [-s 0 - 65535] source port
+           [-T 1 - 1000] packet read timeout in ms
+           [-t 1 - 25] IP time to live
+           [-v] program version
+           [-x 1 - 8] expire vector
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -6476,13 +7352,6 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
               <property name="text">
                <string>Examples:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="0">
-             <widget class="QLabel" name="FireWalkB4">
-              <property name="text">
-               <string>BODY4</string>
               </property>
              </widget>
             </item>
@@ -6520,9 +7389,9 @@ Gathered Inet-whois information for 93.184.216.119
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-672</y>
+             <width>508</width>
+             <height>1038</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
@@ -6566,14 +7435,33 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="5" column="0">
              <widget class="QLabel" name="fragRouteB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# fragroute 192.168.1.123
+fragroute: tcp_seg -&gt; ip_frag -&gt; ip_chaff -&gt; order -&gt; print
+172.16.79.182.53735 &gt; 192.168.1.123.80: S 617662291:617662291(0) win 29200
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="fragRouteB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>fragroute intercepts, modifies, and rewrites egress traffic destined for a specified host, 
+implementing most of the attacks described in the Secure Networks “Insertion, Evasion, and 
+Denial of Service: Eluding Network Intrusion Detection” paper of January 1998.
+
+It features a simple ruleset language to delay, duplicate, drop, fragment, overlap, print, reorder, 
+segment, source-route, or otherwise monkey with all outbound packets destined for a target host, 
+with minimal support for randomized or probabilistic behaviour.
+
+This tool was written in good faith to aid in the testing of network intrusion detection systems, 
+firewalls, and basic TCP/IP stack behaviour. Please do not abuse this software.
+
+Source: http://www.monkey.org/~dugsong/fragroute/
+
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -6608,7 +7496,39 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="fragRouteB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# fragroute
+Usage: fragroute [-f file] dst
+Rules:
+       delay first|last|random &lt;ms&gt;
+       drop first|last|random &lt;prob-%&gt;
+       dup first|last|random &lt;prob-%&gt;
+       echo &lt;string&gt; ...
+       ip_chaff dup|opt|&lt;ttl&gt;
+       ip_frag &lt;size&gt; [old|new]
+       ip_opt lsrr|ssrr &lt;ptr&gt; &lt;ip-addr&gt; ...
+       ip_ttl &lt;ttl&gt;
+       ip_tos &lt;tos&gt;
+       order random|reverse
+       print
+       tcp_chaff cksum|null|paws|rexmit|seq|syn|&lt;ttl&gt;
+       tcp_opt mss|wscale &lt;size&gt;
+       tcp_seg &lt;size&gt; [old|new]
+
+root@kali:~# fragtest
+Usage: fragtest TESTS ... &lt;host&gt;
+
+  where TESTS is any combination of the following (or &quot;all&quot;):
+
+  ping      prerequisite for all tests
+  ip-opt    determine supported IP options (BROKEN)
+  ip-tracert    determine path to target
+  frag      try 8-byte IP fragments
+  frag-new  try 8-byte fwd-overlapping IP fragments, favoring new data (BROKEN)
+  frag-old  try 8-byte fwd-overlapping IP fragments, favoring old data
+  frag-timeout  determine IP fragment reassembly timeout (BROKEN)
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -6629,7 +7549,11 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="6" column="0">
              <widget class="QLabel" name="fragRouteB4">
               <property name="text">
-               <string>BODY4</string>
+               <string>root@kali:~# fragtest ip-tracert frag-new 192.168.1.123
+ip-tracert: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -6667,20 +7591,20 @@ Gathered Inet-whois information for 93.184.216.119
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-529</y>
+             <width>508</width>
+             <height>928</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
-            <item row="8" column="0">
+            <item row="7" column="0">
              <widget class="QPushButton" name="fragRouterButton">
               <property name="text">
                <string>./fragrouter</string>
               </property>
              </widget>
             </item>
-            <item row="9" column="0">
+            <item row="8" column="0">
              <spacer name="fragRouterVSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
@@ -6696,7 +7620,7 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
              </spacer>
             </item>
-            <item row="7" column="0">
+            <item row="6" column="0">
              <widget class="QLabel" name="fragRouterH4">
               <property name="font">
                <font>
@@ -6713,14 +7637,32 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="5" column="0">
              <widget class="QLabel" name="fragRouterB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# fragrouter -i eth0 -F1
+fragrouter: frag-1: ordered 8-byte IP fragments
+
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="fragRouterB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>Fragrouter is a network intrusion detection evasion toolkit. It implements most of the attacks 
+described in the Secure Networks “Insertion, Evasion, and Denial of Service: Eluding Network 
+Intrusion Detection” paper of January 1998.
+
+This program was written in the hopes that a more precise testing methodology might be applied 
+to the area of network intrusion detection, which is still a black art at best.
+
+Conceptually, fragrouter is just a one-way fragmenting router – IP packets get sent from the 
+attacker to the fragrouter, which transforms them into a fragmented data stream to forward to the 
+victim.
+
+Source: fragrouter README
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -6755,7 +7697,37 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="fragRouterB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# fragrouter
+Version 1.6
+Usage: fragrouter [-i interface] [-p] [-g hop] [-G hopcount] ATTACK
+
+where ATTACK is one of the following:
+
+-B1: base-1: normal IP forwarding
+-F1: frag-1: ordered 8-byte IP fragments
+-F2: frag-2: ordered 24-byte IP fragments
+-F3: frag-3: ordered 8-byte IP fragments, one out of order
+-F4: frag-4: ordered 8-byte IP fragments, one duplicate
+-F5: frag-5: out of order 8-byte fragments, one duplicate
+-F6: frag-6: ordered 8-byte fragments, marked last frag first
+-F7: frag-7: ordered 16-byte fragments, fwd-overwriting
+-T1: tcp-1: 3-whs, bad TCP checksum FIN/RST, ordered 1-byte segments
+-T3: tcp-3: 3-whs, ordered 1-byte segments, one duplicate
+-T4: tcp-4: 3-whs, ordered 1-byte segments, one overwriting
+-T5: tcp-5: 3-whs, ordered 2-byte segments, fwd-overwriting
+-T7: tcp-7: 3-whs, ordered 1-byte segments, interleaved null segments
+-T8: tcp-8: 3-whs, ordered 1-byte segments, one out of order
+-T9: tcp-9: 3-whs, out of order 1-byte segments
+-C2: tcbc-2: 3-whs, ordered 1-byte segments, interleaved SYNs
+-C3: tcbc-3: ordered 1-byte null segments, 3-whs, ordered 1-byte segments
+-R1: tcbt-1: 3-whs, RST, 3-whs, ordered 1-byte segments
+-I2: ins-2: 3-whs, ordered 1-byte segments, bad TCP checksums
+-I3: ins-3: 3-whs, ordered 1-byte segments, no ACK set
+-M1: misc-1: Windows NT 4 SP2 - http://www.dataprotect.com/ntfrag/
+-M2: misc-2: Linux IP chains - http://www.dataprotect.com/ipchains/
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -6770,13 +7742,6 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
               <property name="text">
                <string>Examples:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="0">
-             <widget class="QLabel" name="fragRouterB4">
-              <property name="text">
-               <string>BODY4</string>
               </property>
              </widget>
             </item>
@@ -6814,9 +7779,9 @@ Gathered Inet-whois information for 93.184.216.119
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-152</y>
+             <width>508</width>
+             <height>583</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
@@ -6867,7 +7832,27 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="1" column="0">
              <widget class="QLabel" name="GhostPhisherB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>Ghost Phisher is a Wireless and Ethernet security auditing and attack software program written 
+using the Python Programming Language and the Python Qt GUI library, the program is able to 
+emulate access points and deploy.
+
+Ghost Phisher currently supports the following features:
+•	HTTP Server
+•	Inbuilt RFC 1035 DNS Server
+•	Inbuilt RFC 2131 DHCP Server
+•	Webpage Hosting and Credential Logger (Phishing)
+•	Wifi Access point Emulator
+•	Session Hijacking (Passive and Ethernet Modes)
+•	ARP Cache Poisoning (MITM and DOS Attacks)
+•	Penetration using Metasploit Bindings
+•	Automatic credential logging using SQlite Database
+•	Update Support
+
+Source: https://code.google.com/p/ghost-phisher/
+
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -6902,7 +7887,7 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="GhostPhisherB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# ghost-phisher</string>
               </property>
              </widget>
             </item>
@@ -6961,20 +7946,20 @@ Gathered Inet-whois information for 93.184.216.119
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-1079</y>
+             <width>643</width>
+             <height>1448</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
-            <item row="8" column="0">
+            <item row="7" column="0">
              <widget class="QPushButton" name="GoLismeroButton">
               <property name="text">
                <string>./golismero</string>
               </property>
              </widget>
             </item>
-            <item row="9" column="0">
+            <item row="8" column="0">
              <spacer name="GoLismeroVSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
@@ -6990,7 +7975,7 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
              </spacer>
             </item>
-            <item row="7" column="0">
+            <item row="6" column="0">
              <widget class="QLabel" name="GoLismeroH4">
               <property name="font">
                <font>
@@ -7007,14 +7992,34 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="5" column="0">
              <widget class="QLabel" name="GoLismeroB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# golismero scan -i /root/port80.xml -o sub1-port80.html
+
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="GoLismeroB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>GoLismero is an open source framework for security testing. It’s currently geared towards web 
+security, but it can easily be expanded to other kinds of scans.
+
+The most interesting features of the framework are:
+•	Real platform independence. Tested on Windows, Linux, *BSD and OS X.
+•	No native library dependencies. All of the framework has been written in pure Python.
+•	Good performance when compared with other frameworks written in Python and other scripting languages.
+•	Very easy to use.
+•	Plugin development is extremely simple.
+•	The framework also collects and unifies the results of well known tools: sqlmap, xsser, openvas, dnsrecon, theharvester
+•	Integration with standards: CWE, CVE and OWASP.
+•	Designed for cluster deployment in mind (not available yet).
+
+Source: https://github.com/golismero/golismero
+
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -7049,7 +8054,75 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="GoLismeroB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# golismero -h
+
+/---------------------------------------------- 
+| GoLismero 2.0.0b3 - The Web Knife            |
+| Contact: golismero.project&lt;@&gt;gmail.com       |
+|                                              |
+| Daniel Garcia Garcia a.k.a cr0hn (@ggdaniel) |
+| Mario Vilas (@Mario_Vilas)                   |
+----------------------------------------------/
+
+usage: golismero.py COMMAND [TARGETS...] [--options]
+
+  SCAN:
+    Perform a vulnerability scan on the given targets. Optionally import
+    results from other tools and write a report. The arguments that follow may
+    be domain names, IP addresses or web pages.
+
+  PROFILES:
+    Show a list of available config profiles. This command takes no arguments.
+
+  PLUGINS:
+    Show a list of available plugins. This command takes no arguments.
+
+  INFO:
+    Show detailed information on a given plugin. The arguments that follow are
+    the plugin IDs. You can use glob-style wildcards.
+
+  REPORT:
+    Write a report from an earlier scan. This command takes no arguments.
+    To specify output files use the -o switch.
+
+  IMPORT:
+    Import results from other tools and optionally write a report, but don't
+    scan the targets. This command takes no arguments. To specify input files
+    use the -i switch.
+
+  DUMP:
+    Dump the database from an earlier scan in SQL format. This command takes no
+    arguments. To specify output files use the -o switch.
+
+  UPDATE:
+    Update GoLismero to the latest version. Requires Git to be installed and
+    available in the PATH. This command takes no arguments.
+
+examples:
+
+  scan a website and show the results on screen:
+    golismero.py scan http://www.example.com
+
+  grab Nmap results, scan all hosts found and write an HTML report:
+    golismero.py scan -i nmap_output.xml -o report.html
+
+  grab results from OpenVAS and show them on screen, but don't scan anything:
+    golismero.py import -i openvas_output.xml
+
+  show a list of all available configuration profiles:
+    golismero.py profiles
+
+  show a list of all available plugins:
+    golismero.py plugins
+
+  show information on all bruteforcer plugins:
+    golismero.py info brute_*
+
+  dump the database from a previous scan:
+    golismero.py dump -db example.db -o dump.sql
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -7064,13 +8137,6 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
               <property name="text">
                <string>Examples:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="0">
-             <widget class="QLabel" name="GoLismeroB4">
-              <property name="text">
-               <string>BODY4</string>
               </property>
              </widget>
             </item>
@@ -7108,20 +8174,20 @@ Gathered Inet-whois information for 93.184.216.119
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-679</y>
+             <width>508</width>
+             <height>1045</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
-            <item row="8" column="0">
+            <item row="7" column="0">
              <widget class="QPushButton" name="goofileButton">
               <property name="text">
                <string>./goofile</string>
               </property>
              </widget>
             </item>
-            <item row="9" column="0">
+            <item row="8" column="0">
              <spacer name="goofileVSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
@@ -7137,7 +8203,7 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
              </spacer>
             </item>
-            <item row="7" column="0">
+            <item row="6" column="0">
              <widget class="QLabel" name="goofileH4">
               <property name="font">
                <font>
@@ -7154,14 +8220,50 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="5" column="0">
              <widget class="QLabel" name="goofileB3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# goofile -d kali.org -f pdf
+
+-------------------------------------
+|Goofile v1.5                       |
+|Coded by Thomas (G13) Richards     |
+|www.g13net.com                     |
+|code.google.com/p/goofile          |
+-------------------------------------
+
+
+Searching in kali.org for pdf
+========================================
+
+Files found:
+====================
+
+docs.kali.org/pdf/kali-book-fr.pdf
+docs.kali.org/pdf/kali-book-es.pdf
+docs.kali.org/pdf/kali-book-id.pdf
+docs.kali.org/pdf/kali-book-de.pdf
+docs.kali.org/pdf/kali-book-it.pdf
+docs.kali.org/pdf/kali-book-ar.pdf
+docs.kali.org/pdf/kali-book-ja.pdf
+docs.kali.org/pdf/kali-book-nl.pdf
+docs.kali.org/pdf/kali-book-ru.pdf
+docs.kali.org/pdf/kali-book-en.pdf
+docs.kali.org/pdf/kali-book-pt-br.pdf
+docs.kali.org/pdf/kali-book-zh-hans.pdf
+docs.kali.org/pdf/kali-book-sw.pdf
+docs.kali.org/pdf/articles/kali-linux-live-usb-install-en.pdf
+====================
+
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="goofileB1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>Use this tool to search for a specific file type in a given domain.
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -7196,7 +8298,28 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="goofileB2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# goofile
+
+-------------------------------------
+|Goofile v1.5                       |
+|Coded by Thomas (G13) Richards     |
+|www.g13net.com                     |
+|code.google.com/p/goofile          |
+-------------------------------------
+
+
+Goofile 1.5
+
+usage: goofile options
+
+       -d: domain to search
+
+       -f: filetype (ex. pdf)
+
+example:./goofile.py -d test.com -f txt
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -7211,13 +8334,6 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
               <property name="text">
                <string>Examples:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="0">
-             <widget class="QLabel" name="goofileB4">
-              <property name="text">
-               <string>BODY4</string>
               </property>
              </widget>
             </item>
@@ -7255,20 +8371,20 @@ Gathered Inet-whois information for 93.184.216.119
            <property name="geometry">
             <rect>
              <x>0</x>
-             <y>0</y>
-             <width>525</width>
-             <height>366</height>
+             <y>-6</y>
+             <width>508</width>
+             <height>1877</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_7">
-            <item row="8" column="0">
+            <item row="7" column="0">
              <widget class="QPushButton" name="hping3Button">
               <property name="text">
                <string>./hping3</string>
               </property>
              </widget>
             </item>
-            <item row="9" column="0">
+            <item row="8" column="0">
              <spacer name="hping3VSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
@@ -7284,7 +8400,7 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
              </spacer>
             </item>
-            <item row="7" column="0">
+            <item row="6" column="0">
              <widget class="QLabel" name="hping3H4">
               <property name="font">
                <font>
@@ -7301,14 +8417,45 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="5" column="0">
              <widget class="QLabel" name="hping3B3">
               <property name="text">
-               <string>BODY 3</string>
+               <string>root@kali:~# hping3 --traceroute -V -1 www.example.com
+using eth0, addr: 192.168.1.15, MTU: 1500
+HPING www.example.com (eth0 93.184.216.119): icmp mode set, 28 headers + 0 data bytes
+hop=1 TTL 0 during transit from ip=192.168.1.1 name=UNKNOWN
+hop=1 hoprtt=0.3 ms
+hop=2 TTL 0 during transit from ip=192.168.0.1 name=UNKNOWN
+hop=2 hoprtt=3.3 ms
+
+
+</string>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
              <widget class="QLabel" name="hping3B1">
               <property name="text">
-               <string>BODY 1</string>
+               <string>hping is a command-line oriented TCP/IP packet assembler/analyzer. The interface is inspired to 
+the ping(8) unix command, but hping isn’t only able to send ICMP echo requests. It supports 
+TCP, UDP, ICMP and RAW-IP protocols, has a traceroute mode, the ability to send files 
+between a covered channel, and many other features.
+
+While hping was mainly used as a security tool in the past, it can be used in many ways by 
+people that don’t care about security to test networks and hosts. A subset of the stuff you can do 
+using hping:
+•	Firewall testing
+•	Advanced port scanning
+•	Network testing, using different protocols, TOS, fragmentation
+•	Manual path MTU discovery
+•	Advanced traceroute, under all the supported protocols
+•	Remote OS fingerprinting
+•	Remote uptime guessing
+•	TCP/IP stacks auditing
+•	hping can also be useful to students that are learning TCP/IP.
+
+Source: http://www.hping.org/
+
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -7343,7 +8490,97 @@ Gathered Inet-whois information for 93.184.216.119
             <item row="3" column="0">
              <widget class="QLabel" name="hping3B2">
               <property name="text">
-               <string>BODY 2</string>
+               <string>root@kali:~# hping3 -h
+usage: hping3 host [options]
+  -h  --help      show this help
+  -v  --version   show version
+  -c  --count     packet count
+  -i  --interval  wait (uX for X microseconds, for example -i u1000)
+      --fast      alias for -i u10000 (10 packets for second)
+      --faster    alias for -i u1000 (100 packets for second)
+      --flood      sent packets as fast as possible. Don't show replies.
+  -n  --numeric   numeric output
+  -q  --quiet     quiet
+  -I  --interface interface name (otherwise default routing interface)
+  -V  --verbose   verbose mode
+  -D  --debug     debugging info
+  -z  --bind      bind ctrl+z to ttl           (default to dst port)
+  -Z  --unbind    unbind ctrl+z
+      --beep      beep for every matching packet received
+Mode
+  default mode     TCP
+  -0  --rawip      RAW IP mode
+  -1  --icmp       ICMP mode
+  -2  --udp        UDP mode
+  -8  --scan       SCAN mode.
+                   Example: hping --scan 1-30,70-90 -S www.target.host
+  -9  --listen     listen mode
+IP
+  -a  --spoof      spoof source address
+  --rand-dest      random destionation address mode. see the man.
+  --rand-source    random source address mode. see the man.
+  -t  --ttl        ttl (default 64)
+  -N  --id         id (default random)
+  -W  --winid      use win* id byte ordering
+  -r  --rel        relativize id field          (to estimate host traffic)
+  -f  --frag       split packets in more frag.  (may pass weak acl)
+  -x  --morefrag   set more fragments flag
+  -y  --dontfrag   set don't fragment flag
+  -g  --fragoff    set the fragment offset
+  -m  --mtu        set virtual mtu, implies --frag if packet size &gt; mtu
+  -o  --tos        type of service (default 0x00), try --tos help
+  -G  --rroute     includes RECORD_ROUTE option and display the route buffer
+  --lsrr           loose source routing and record route
+  --ssrr           strict source routing and record route
+  -H  --ipproto    set the IP protocol field, only in RAW IP mode
+ICMP
+  -C  --icmptype   icmp type (default echo request)
+  -K  --icmpcode   icmp code (default 0)
+      --force-icmp send all icmp types (default send only supported types)
+      --icmp-gw    set gateway address for ICMP redirect (default 0.0.0.0)
+      --icmp-ts    Alias for --icmp --icmptype 13 (ICMP timestamp)
+      --icmp-addr  Alias for --icmp --icmptype 17 (ICMP address subnet mask)
+      --icmp-help  display help for others icmp options
+UDP/TCP
+  -s  --baseport   base source port             (default random)
+  -p  --destport   [+][+]&lt;port&gt; destination port(default 0) ctrl+z inc/dec
+  -k  --keep       keep still source port
+  -w  --win        winsize (default 64)
+  -O  --tcpoff     set fake tcp data offset     (instead of tcphdrlen / 4)
+  -Q  --seqnum     shows only tcp sequence number
+  -b  --badcksum   (try to) send packets with a bad IP checksum
+                   many systems will fix the IP checksum sending the packet
+                   so you'll get bad UDP/TCP checksum instead.
+  -M  --setseq     set TCP sequence number
+  -L  --setack     set TCP ack
+  -F  --fin        set FIN flag
+  -S  --syn        set SYN flag
+  -R  --rst        set RST flag
+  -P  --push       set PUSH flag
+  -A  --ack        set ACK flag
+  -U  --urg        set URG flag
+  -X  --xmas       set X unused flag (0x40)
+  -Y  --ymas       set Y unused flag (0x80)
+  --tcpexitcode    use last tcp-&gt;th_flags as exit code
+  --tcp-mss        enable the TCP MSS option with the given value
+  --tcp-timestamp  enable the TCP timestamp option to guess the HZ/uptime
+Common
+  -d  --data       data size                    (default is 0)
+  -E  --file       data from file
+  -e  --sign       add 'signature'
+  -j  --dump       dump packets in hex
+  -J  --print      dump printable characters
+  -B  --safe       enable 'safe' protocol
+  -u  --end        tell you when --file reached EOF and prevent rewind
+  -T  --traceroute traceroute mode              (implies --bind and --ttl 1)
+  --tr-stop        Exit when receive the first not ICMP in traceroute mode
+  --tr-keep-ttl    Keep the source TTL fixed, useful to monitor just one hop
+  --tr-no-rtt       Don't calculate/show RTT information in traceroute mode
+ARS packet description (new, unstable)
+  --apd-send       Send the packet described with APD (see docs/APD.txt)
+
+
+</string>
               </property>
              </widget>
             </item>
@@ -7358,13 +8595,6 @@ Gathered Inet-whois information for 93.184.216.119
               </property>
               <property name="text">
                <string>Examples:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="0">
-             <widget class="QLabel" name="hping3B4">
-              <property name="text">
-               <string>BODY4</string>
               </property>
              </widget>
             </item>
