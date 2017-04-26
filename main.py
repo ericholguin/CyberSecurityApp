@@ -24,11 +24,249 @@ class ExampleApp(QMainWindow, design.Ui_MainWindow):
 
         self.treeWidget.itemSelectionChanged.connect(self.openTab)
 
+        for x in range(61):
+            self.tabWidget.removeTab(1)
 
-
-    
-
-
+        if (self.Click1.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click2.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click3.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click4.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click5.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click6.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click7.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click8.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click9.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click10.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click11.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click12.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click13.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click14.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click15.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click16.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click17.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click18.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click19.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click20.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click21.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click22.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click23.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click24.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click25.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click26.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click27.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click28.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click29.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click30.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click31.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click32.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click33.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click34.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click35.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click36.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click37.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click38.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click39.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click40.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click41.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click42.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click43.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click44.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click45.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click46.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click47.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click48.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click49.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click50.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click51.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click52.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click53.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click54.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click55.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click56.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click57.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click58.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click59.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
+        if (self.Click60.isSelected):
+            {
+                self.tabWidget.addTab(self.acccheckTab, "acccheck")
+            }
 def main():
     #new instance of QApplication
     app = QApplication(sys.argv)
