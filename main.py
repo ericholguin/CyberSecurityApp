@@ -1,3 +1,4 @@
+import os
 import sys  #We need the sys module to pass argv to QApplication
 import design   #Holds the MainWindow and all design related items
 from PyQt5 import QtGui #Importing the PyQt5 module we need
@@ -151,8 +152,13 @@ class ExampleApp(QMainWindow, design.Ui_MainWindow):
             elif (self.Click60.isSelected() == True):
                  self.tabWidget.addTab(self.XplicoTab, "Xplico")
 
+        def commandEvent():
+                os.system("acccheck")
+
         self.treeWidget.itemClicked.connect(openTab)
 
+        self.acccheckButton.clicked.connect(commandEvent)
+        #os.system("xterm -hold -e scipt.sh")
 
 def main():
     #new instance of QApplication
