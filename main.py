@@ -153,12 +153,189 @@ class ExampleApp(QMainWindow, design.Ui_MainWindow):
                  self.tabWidget.addTab(self.XplicoTab, "Xplico")
 
         def commandEvent():
-                os.system("acccheck")
+                    os.system("acccheck")
+        def commandEvent1():
+                    os.system("ace")
+        def commandEvent2():
+                    os.system("amap")
+        def commandEvent3():
+                    os.system("automater")
+        def commandEvent4():
+                    os.system("bing-ip2hosts")
+        def commandEvent5():
+                    os.system("braa")
+        def commandEvent6():
+                    os.system("casefile")
+        def commandEvent7():
+                    os.system("cdpsnarf")
+        def commandEvent8():
+                    os.system("cisco-torch")
+        def commandEvent9():
+                    os.system("cookiecadger")
+        def commandEvent10():
+                    os.system("copy-router-config.pl")
+        def commandEvent11():
+                    os.system("dmitry")
+        def commandEvent12():
+                    os.system("dnmap_client")
+        def commandEvent13():
+                    os.system("dnsenum")
+        def commandEvent14():
+                    os.system("dnsmap")
+        def commandEvent15():
+                    os.system("dnsrecon")
+        def commandEvent16():
+                    os.system("dnstracer")
+        def commandEvent17():
+                    os.system("dnswalk")
+        def commandEvent18():
+                    os.system("dotdotpwn.pl")
+        def commandEvent19():
+                    os.system("enum4linux")
+        def commandEvent20():
+                    os.system("enumiax")
+        def commandEvent21():
+                    os.system("python-faraday")
+        def commandEvent22():
+                    os.system("fierce")
+        def commandEvent23():
+                    os.system("firewalk")
+        def commandEvent24():
+                    os.system("fragroute")
+        def commandEvent25():
+                    os.system("fragrouter")
+        def commandEvent26():
+                    os.system("ghost-phisher")
+        def commandEvent27():
+                    os.system("golismero")
+        def commandEvent28():
+                    os.system("goofile")
+        def commandEvent29():
+                    os.system("hping3")
+        def commandEvent30():
+                    os.system("ident-user-enum")
+        def commandEvent31():
+                    os.system("intrace")
+        def commandEvent32():
+                    os.system("ismtp")
+        def commandEvent33():
+                    os.system("lbd")
+        def commandEvent34():
+                    os.system("cat /opt/Teeth/README.txt")
+        def commandEvent35():
+                    os.system("masscan")
+        def commandEvent36():
+                    os.system("metagoofil")
+        def commandEvent37():
+                    os.system("miranda")
+        def commandEvent38():
+                    os.system("nbtscan-unixwiz")
+        def commandEvent39():
+                    os.system("nmap")
+        def commandEvent40():
+                    os.system("ntop")
+        def commandEvent41():
+                    os.system("p0f")
+        def commandEvent42():
+                    os.system("parsero")
+        def commandEvent43():
+                    os.system("recon-ng")
+        def commandEvent44():
+                    os.system("settoolkit")
+        def commandEvent45():
+                    os.system("smtp-user-enum")
+        def commandEvent46():
+                    os.system("snmp-check")
+        def commandEvent47():
+                    os.system("sparta")
+        def commandEvent48():
+                    os.system("sslcaudit")
+        def commandEvent49():
+                    os.system("sslsplit")
+        def commandEvent50():
+                    os.system("sslstrip")
+        def commandEvent51():
+                    os.system("sslyze")
+        def commandEvent52():
+                    os.system("thc-ipv6")
+        def commandEvent53():
+                    os.system("theharvester")
+        def commandEvent54():
+                    os.system("tlssled")
+        def commandEvent55():
+                    os.system("twofi")
+        def commandEvent56():
+                    os.system("urlcrazy")
+        def commandEvent57():
+                    os.system("wireshark")
+        def commandEvent58():
+                    os.system("wol-e")
+        def commandEvent59():
+                    os.system("xplico")
 
         self.treeWidget.itemClicked.connect(openTab)
 
         self.acccheckButton.clicked.connect(commandEvent)
-        #os.system("xterm -hold -e scipt.sh")
+        self.acevoipButton.clicked.connect(commandEvent1)
+        self.amapButton.clicked.connect(commandEvent2)
+        self.automaterButton.clicked.connect(commandEvent3)
+        self.bingip2hostsButton.clicked.connect(commandEvent4)
+        self.braaButton.clicked.connect(commandEvent5)
+        self.CaseFileButton.clicked.connect(commandEvent6)
+        self.CDPSnarfButton.clicked.connect(commandEvent7)
+        self.ciscoTorchButton.clicked.connect(commandEvent8)
+        self.CookieCadgerButton.clicked.connect(commandEvent9)
+        self.copyRouterConfigButton.clicked.connect(commandEvent10)
+        self.DMitryButton.clicked.connect(commandEvent11)
+        self.dnmapButton.clicked.connect(commandEvent12)
+        self.dnsenumButton.clicked.connect(commandEvent13)
+        self.dnsmapButton.clicked.connect(commandEvent14)
+        self.DNSReconButton.clicked.connect(commandEvent15)
+        self.dnstracerButton.clicked.connect(commandEvent16)
+        self.dnswalkButton.clicked.connect(commandEvent17)
+        self.DotDotPwnButton.clicked.connect(commandEvent18)
+        self.enum4linuxButton.clicked.connect(commandEvent19)
+        self.enumIAXButton.clicked.connect(commandEvent20)
+        self.FaradayButton.clicked.connect(commandEvent21)
+        self.FierceButton.clicked.connect(commandEvent22)
+        self.FireWalkButton.clicked.connect(commandEvent23)
+        self.fragRouteButton.clicked.connect(commandEvent24)
+        self.fragRouterButton.clicked.connect(commandEvent25)
+        self.GhostPhisherButton.clicked.connect(commandEvent26)
+        self.GoLismeroButton.clicked.connect(commandEvent27)
+        self.goofileButton.clicked.connect(commandEvent28)
+        self.hping3Button.clicked.connect(commandEvent29)
+        self.identUserEnumButton.clicked.connect(commandEvent30)
+        self.InTraceButton.clicked.connect(commandEvent31)
+        self.iSMTPButton.clicked.connect(commandEvent32)
+        self.IbdButton.clicked.connect(commandEvent33)
+        self.MaltegoTeethButton.clicked.connect(commandEvent34)
+        self.masscanButton.clicked.connect(commandEvent35)
+        self.MetagoofilButton.clicked.connect(commandEvent36)
+        self.MirandaButton.clicked.connect(commandEvent37)
+        self.nbtscanUnixwizButton.clicked.connect(commandEvent38)
+        self.NmapButton.clicked.connect(commandEvent39)
+        self.ntopButton.clicked.connect(commandEvent40)
+        self.p0fButton.clicked.connect(commandEvent41)
+        self.ParseroButton.clicked.connect(commandEvent42)
+        self.ReconNgButton.clicked.connect(commandEvent43)
+        self.SETButton.clicked.connect(commandEvent44)
+        self.smtpUserEnumButton.clicked.connect(commandEvent45)
+        self.snmpCheckButton.clicked.connect(commandEvent46)
+        self.spartaButton.clicked.connect(commandEvent47)
+        self.sslcauditButton.clicked.connect(commandEvent48)
+        self.SSLsplitButton.clicked.connect(commandEvent49)
+        self.sslstripButton.clicked.connect(commandEvent50)
+        self.SSLyzeButton.clicked.connect(commandEvent51)
+        self.THCIPV6Button.clicked.connect(commandEvent52)
+        self.theHarvesterButton.clicked.connect(commandEvent53)
+        self.TLSSLedButton.clicked.connect(commandEvent54)
+        self.twofiButton.clicked.connect(commandEvent55)
+        self.urlCrazyButton.clicked.connect(commandEvent56)
+        self.WiresharkButton.clicked.connect(commandEvent57)
+        self.WOLEButton.clicked.connect(commandEvent58)
+        self.XplicoButton.clicked.connect(commandEvent59)
+
 
 def main():
     #new instance of QApplication
