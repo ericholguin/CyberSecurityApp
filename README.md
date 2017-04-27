@@ -1,77 +1,76 @@
-# CYBER SECURITY FINAL PROJECT
-## CSCI 4800/5800
-
-## CURRENT TO DO LIST
-- All Tools added to side bar,
-- Used tools listed from Kali web page
-- It seems each tool will need a tab and then we can
-  hide the tabs later when implementing functions
-- Currently 3 options when it comes to filling each tool Documentation
-      1. Web parsing
-            -requires internet
-            -how can we add it to the design?
-      2. Man pages
-            - doesn't require internet
-            - needs to be done in Kali Linux?
-            - How to parse a man page?
-      3. Manually copying information
-            - doesn't require internet
-            - Everything would be done Manually
-            - lots of physical work
-            - easiest option mentally
-- I'm thinking due to simplicity, option 3 should be the way to go
-- Then finish up GUI, and all the button functionality
-- Once all that is done we can just focus and being able to call commands
-  from the program to the command line
-- And finish up with debugging, final touches
+#                      CSCI 4800/5800: CYBER SECURITY FINAL PROJECT
 
 
-## UPDATES:
-- Using a Mac
-- Currently using Python 3.6.0
-- Installed PyQt5 and using that for GUI
 
-- UI needs to be finished
-- Current Application name is Tyrion (Game of Thrones reference)
 
-- Finishing up building GUI through designer and can
-  add implementation last
+#                                     T Y R I O N
 
-## ISSUES:
-- When using PyQt it requires the PyQt modules to be
-  installed onto the system the applictaion will be run on
-- This means we need to change the application so it
-  can run without the modules needing to be installed
-- Python offers a way to deploy the application to the desired
-  operating system, so all should be good
-- We are still able to code using PyQt5 because everything remains the same
-- Need to figure out how we are adding data to each tool?
+##                         Authors: Samuel Carnes, Eric Holguin
 
-### DESCRIPTION:
+    We built Tyrion to create better Graphical User Interface for the available
+tools in Kali Linux. Kali Linux has many of their tools stored away in folders inside
+their app drawer. It is cluttered not very efficient nor accessible. Their website provides some decent information about each tool but this requires that the user access the web and then dig through the webpage to find the selected tool they want to learn about. This isn't very accessible either. This is where Tyrion comes in, and hopefully where the name reference makes sense. Tyrion is the know-it-all-go-to reference for Kali Linux Tools. All the tools are presented for the user within the app. Easy to access, just click, and it’s there, no need for an internet connection. Tyrion also provides a quick link to the command line to run the tool from. Straight from the app, no need to fidget finding that terminal. Hopefully the result is faster access to tools with more efficiency in finding information or to get to hacking without delay.
 
-- Create better Graphical User Interface for the available tools
-   in Kali Linux
-- Reduce the clutter that Kali Linux presents in its folder system
-- Starting specifically with the Information Gathering tools
-- Present an all in one "app" for the user
-- Making available the list of information gathering tools
-  with available descriptions, how-to, commands, in addition
-  to allowing the user run the tools from the GUI itself,
-  which may open the command line
+### GETTING STARTED
 
-#### TOOLS:
+##### Requirements
+In order to use this tool effectively please install on a Kali Linux OS
 
-PyQt
-Text Editor/Pycharm/IDE of choice
-Command line
-Kali Linux OS
+We ran and built this on: 4.9.0-kali3-amd64
 
-### TO DO:
-1. Build GUI
-2. List information tools
-3. Gather Information on each tool
-4. How to get information from Kali site
-5. Place onto GUI
-6. Implementation
-7. Debugging
-8. Presentation
+Any other version we can not guarantee the operation of the app
+*use command* `uname -r` *to check version*
+
+#### Installing/Running
+
+`Download zip file`
+
+`Extract file in desired location`
+
+`Open Tyrion directory`
+
+`Open dist directory`
+
+`Inside the Tyrion directory`
+
+`Open Tyrion executable, located at very bottom`
+
+`Done!`
+
+#### HOW-TO
+Tyrion is really simple to use -
+You are presented with a welcome page and on the side are expandable Tool types.
+
+*As of version 1.0 only the information gathering tool types have been added
+More will be added in the future as well as interface updates.*
+
+When you click the arrow to the left of Information Gathering, a list
+will appear below from which you can scroll to see the many tools that are selectable.
+
+When selecting a tool a tab will open, showing description of the tool, some usage tools
+and some examples if available.
+
+At the very bottom you can click on the button to run that very command on a command line
+This will minimize Tyrion and show you a terminal, the command will have already been Entered
+for you.
+
+To return to Tyrion merely find the app on the app tray and click to maximize.
+
+And thats it. Explore as much as desired. 
+
+##### Built Using
+Python 3.6.0
+PyQt5
+QtDesigner
+
+
+####### Acknowledgments:
+
+Major Thanks To:
+
+Kali Linux Tools website which provided all the information on tools
+*None of which we own*
+<http://tools.kali.org/tools-listing>
+
+Qt website for Qt reference:
+<http://doc.qt.io/qt-5/reference-overview.html>
