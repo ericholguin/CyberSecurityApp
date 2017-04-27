@@ -17,6 +17,8 @@ class ExampleApp(QMainWindow, design.Ui_MainWindow):
         #Defined in the design file, sets up layout and widgets
         self.setupUi(self)
 
+        self.setGeometry(0, 0, 650, 650)
+
         #allow tabs to be closed
         self.tabWidget.setTabsClosable(1)
         #if the tab is closed, remove the tab
