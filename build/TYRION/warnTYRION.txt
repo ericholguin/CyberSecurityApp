@@ -1,0 +1,16 @@
+missing module named 'PyQt5.sip' - imported by /usr/local/lib/python3.5/dist-packages/PyInstaller/loader/rthooks/pyi_rth_qt5plugins.py
+missing module named 'org.python' - imported by pickle, /media/sf_SharedVM/Documents/2016-2017/Spring/Cyber Security/CyberSecurityApplication/CyberSecurityApp/main.py, xml.sax
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, /media/sf_SharedVM/Documents/2016-2017/Spring/Cyber Security/CyberSecurityApplication/CyberSecurityApp/main.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, /media/sf_SharedVM/Documents/2016-2017/Spring/Cyber Security/CyberSecurityApplication/CyberSecurityApp/main.py
+missing module named _winreg - imported by platform, /media/sf_SharedVM/Documents/2016-2017/Spring/Cyber Security/CyberSecurityApplication/CyberSecurityApp/main.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, /media/sf_SharedVM/Documents/2016-2017/Spring/Cyber Security/CyberSecurityApplication/CyberSecurityApp/main.py
+missing module named 'java.lang' - imported by platform, /media/sf_SharedVM/Documents/2016-2017/Spring/Cyber Security/CyberSecurityApplication/CyberSecurityApp/main.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, /media/sf_SharedVM/Documents/2016-2017/Spring/Cyber Security/CyberSecurityApplication/CyberSecurityApp/main.py
+missing module named winreg - imported by platform, mimetypes, /media/sf_SharedVM/Documents/2016-2017/Spring/Cyber Security/CyberSecurityApplication/CyberSecurityApp/main.py, urllib.request
+missing module named org - imported by copy, /media/sf_SharedVM/Documents/2016-2017/Spring/Cyber Security/CyberSecurityApplication/CyberSecurityApp/main.py
+missing module named nt - imported by os, ntpath, shutil, /media/sf_SharedVM/Documents/2016-2017/Spring/Cyber Security/CyberSecurityApplication/CyberSecurityApp/main.py
+missing module named ce - imported by os, /media/sf_SharedVM/Documents/2016-2017/Spring/Cyber Security/CyberSecurityApplication/CyberSecurityApp/main.py
+missing module named msvcrt - imported by subprocess, /media/sf_SharedVM/Documents/2016-2017/Spring/Cyber Security/CyberSecurityApplication/CyberSecurityApp/main.py, getpass
+missing module named _winapi - imported by subprocess, /media/sf_SharedVM/Documents/2016-2017/Spring/Cyber Security/CyberSecurityApplication/CyberSecurityApp/main.py
+missing module named _dummy_threading - imported by dummy_threading, /media/sf_SharedVM/Documents/2016-2017/Spring/Cyber Security/CyberSecurityApplication/CyberSecurityApp/main.py

@@ -11069,4 +11069,3 @@ class Ui_MainWindow(object):
         self.actionSelect_Previous_Tab.setText(_translate("MainWindow", "Select Previous Tab"))
         self.actionHelp.setText(_translate("MainWindow", "Help"))
         self.actionDocumentation.setText(_translate("MainWindow", "Documentation"))
-

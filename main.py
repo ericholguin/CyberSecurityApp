@@ -1,22 +1,20 @@
-import os
+import os   # Used to access terminal commands
 import sys  #We need the sys module to pass argv to QApplication
 import design   #Holds the MainWindow and all design related items
 from PyQt5 import QtGui #Importing the PyQt5 module we need
-from PyQt5.QtCore import *
+from PyQt5.QtCore import * # Importing everything from QtCor module
 from PyQt5.QtWidgets import * #Import QMainWindow, QApplication, QAction, qApp, QWidget
 
 
 
 class ExampleApp(QMainWindow, design.Ui_MainWindow):
-    def openTab(self):
-        self.tabWidget.addTab(self.infoGatheringTab, "Information Gathering")
-
     def __init__(self, parent=None):
         #using super to access variable, methods, etc. in design.py
         super(ExampleApp, self).__init__(parent)
         #Defined in the design file, sets up layout and widgets
         self.setupUi(self)
 
+        #Window Geometry
         self.setGeometry(0, 0, 650, 650)
 
         #allow tabs to be closed
@@ -26,9 +24,11 @@ class ExampleApp(QMainWindow, design.Ui_MainWindow):
         #Welcome Tab is always open
         self.tabWidget.tabBar().setTabButton(0, QTabBar.RightSide, None)
 
+        #For loop to close all tabs
         for x in range(61):
             self.tabWidget.removeTab(1)
 
+        #Function opens tab when the QTreeWidgetItem is clicked and selected
         def openTab():
 
             if (self.item_0.isSelected() == True):
@@ -215,6 +215,8 @@ class ExampleApp(QMainWindow, design.Ui_MainWindow):
                  self.tabWidget.addTab(self.XplicoTab, "Xplico")
                  self.tabWidget.setCurrentWidget(self.XplicoTab)
 
+        #Function definitions for when tool button is clicked
+        #Calls to the terminal, running with entered command
         def commandEvent():
                     self.setWindowState(Qt.WindowMinimized)
                     os.system("acccheck")
@@ -396,8 +398,10 @@ class ExampleApp(QMainWindow, design.Ui_MainWindow):
                     self.setWindowState(Qt.WindowMinimized)
                     os.system("xplico")
 
+        #Tree Widget item clicked action goes to openTab function
         self.treeWidget.itemClicked.connect(openTab)
 
+        #Button clicked goes to command event functions
         self.acccheckButton.clicked.connect(commandEvent)
         self.acevoipButton.clicked.connect(commandEvent1)
         self.amapButton.clicked.connect(commandEvent2)
