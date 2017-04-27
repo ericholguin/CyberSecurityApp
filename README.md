@@ -7,7 +7,7 @@
 
 ##                         Authors: Samuel Carnes, Eric Holguin
 
-    We built Tyrion to create better Graphical User Interface for the available
+We built Tyrion to create better Graphical User Interface for the available
 tools in Kali Linux. Kali Linux has many of their tools stored away in folders inside
 their app drawer. It is cluttered not very efficient nor accessible. Their website provides some decent information about each tool but this requires that the user access the web and then dig through the webpage to find the selected tool they want to learn about. This isn't very accessible either. This is where Tyrion comes in, and hopefully where the name reference makes sense. Tyrion is the know-it-all-go-to reference for Kali Linux Tools. All the tools are presented for the user within the app. Easy to access, just click, and it’s there, no need for an internet connection. Tyrion also provides a quick link to the command line to run the tool from. Straight from the app, no need to fidget finding that terminal. Hopefully the result is faster access to tools with more efficiency in finding information or to get to hacking without delay.
 
@@ -56,7 +56,7 @@ for you.
 
 To return to Tyrion merely find the app on the app tray and click to maximize.
 
-And thats it. Explore as much as desired. 
+And thats it. Explore as much as desired.
 
 ##### Built Using
 Python 3.6.0
