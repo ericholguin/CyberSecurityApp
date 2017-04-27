@@ -13,7 +13,7 @@ their app drawer. It is cluttered not very efficient nor accessible. Their websi
 
 ### GETTING STARTED
 
-##### Requirements
+#### Requirements
 In order to use this tool effectively please install on a Kali Linux OS
 
 We ran and built this on: 4.9.0-kali3-amd64
@@ -58,15 +58,13 @@ To return to Tyrion merely find the app on the app tray and click to maximize.
 
 And thats it. Explore as much as desired.
 
-##### Built Using
+#### Built Using
 Python 3.6.0
 PyQt5
 QtDesigner
+Text Editors
 
-
-####### Acknowledgments:
-
-Major Thanks To:
+##### Acknowledgments:
 
 Kali Linux Tools website which provided all the information on tools
 *None of which we own*
