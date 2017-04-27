@@ -59,10 +59,10 @@ To return to Tyrion merely find the app on the app tray and click to maximize.
 And thats it. Explore as much as desired.
 
 #### Built Using
-Python 3.6.0
-PyQt5
-QtDesigner
-Text Editors
+- Python 3.6.0
+- PyQt5
+- QtDesigner
+- Text Editors
 
 ##### Acknowledgments:
 
